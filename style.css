@@ -254,7 +254,7 @@ cursor: pointer;
   cursor: pointer;
   position: absolute;
   left: 40%;
-  top: 500px;
+  top: 450px;
 }
 
 #product1 .loadmore:hover {
@@ -272,9 +272,9 @@ cursor: pointer;
 }
 
 #product2 {
-  margin: 20px 50px;
+  margin: 10px 50px;
   position: absolute;
-  top: 1350px;
+  top: 1320px;
 }
 
 #product2 .mostpopular{
@@ -335,7 +335,7 @@ cursor: pointer;
   cursor: pointer;
   position: absolute;
   left: 40%;
-  top: 500px;
+  top: 450px;
 }
 
 #product2 .loadmore:hover {
