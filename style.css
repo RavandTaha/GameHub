@@ -357,7 +357,7 @@ cursor: pointer;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 300px 250px;
+  margin: 300px 100px;
   position: absolute;
   padding-top: 1100px;
 }
@@ -379,7 +379,7 @@ cursor: pointer;
    width: 550px;
    height: 305px;
    position: absolute;
-   left: 1050px;
+   left: 850px;
    top: 1020px;
 }
 
