@@ -267,13 +267,17 @@ cursor: pointer;
 
 /* Latest Relase  */
 
-#product2 {
-  margin: 20px 50px;
-  position: absolute;
-  top: 1330px;
+#product2 .star{
+  color: #E55B13
 }
 
-#product2 .latestrel{
+#product2 {
+  margin: 10px 50px;
+  position: absolute;
+  top: 1350px;
+}
+
+#product2 .mostpopular{
   padding-left: 15px;
   padding-top: 20px;
   font-weight: 700;
@@ -335,15 +339,11 @@ cursor: pointer;
 }
 
 #product2 .loadmore:hover {
-  border: 3px solid #FFFFFF;
   width: 190px;
   height: 52px;
   font-size: 22px;
   transition: 0.2s ease;
-}
-
-#product2 .star{
-  color: #E55B13
+  border: 3px solid #FFFFFF;
 }
 
  /* Banner starts here */
