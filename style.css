@@ -397,9 +397,9 @@ cursor: pointer;
 /* Explore Catalog Starts Here */
 
 #catalog {
-  top: 2250px;
-  margin: 150px 250px;
+  margin: 50px 250px;
   position: absolute;
+  top: 2250px;
 }
 
 #catalog img {
@@ -408,8 +408,8 @@ cursor: pointer;
 }
 
 #catalog .pro {
-  width: 80%;
-  min-width: 500px;
+  width: 60%;
+  min-width: 400px;
   cursor: pointer;
   border-radius: 10px;
   transition: 0.2s ease;
