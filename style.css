@@ -342,11 +342,6 @@ cursor: pointer;
   transition: 0.2s ease;
 }
 
-#product2 .gamenametolong{
-  letter-spacing: 1px;
-  word-spacing: 1px;
-}
-
 #product2 .star{
   color: #E55B13
 }
@@ -422,7 +417,7 @@ cursor: pointer;
  position: absolute;
  width: 400px;
  height: 150px;
- left: 600px;
+ left: 700px;
 }
 
 #catalog .pro:hover {
@@ -437,7 +432,7 @@ cursor: pointer;
   line-height: 28px;
   text-transform: capitalize;
   position: absolute;
-  bottom: 350px;
+  bottom: 400px;
   word-spacing: 5px;
   letter-spacing: 1px;
 }
@@ -446,7 +441,7 @@ cursor: pointer;
   font-weight: 200;
   font-size: 17px;
   position: absolute;
-  bottom: 285px;
+  bottom: 335px;
   letter-spacing: 1px;
 }
 
@@ -464,7 +459,7 @@ cursor: pointer;
   font-size: 21px;
   text-transform: uppercase;
   position: absolute;
-  bottom: 215px;
+  bottom: 265px;
   cursor: pointer;
 }
 
