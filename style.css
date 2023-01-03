@@ -134,6 +134,11 @@ body {
   left: 20px;
 }
 
+#mobile {
+  display: none;
+  align-items: center;
+}
+
 /* Home Page */
 
 #hero{
@@ -657,7 +662,15 @@ footer strong {
     background-color: #FFFFFF;
   }
 
+  #mobile {
+    display: flex;
+    align-items: center;
+  }
 
-
+  #mobile i{
+    color: #FFFFFF;
+    font-size: 24px;
+    padding-left: 20px;
+  }
 
 }
