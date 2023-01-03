@@ -190,7 +190,7 @@ cursor: pointer;
   height: 550px;
   position: absolute;
   top: 170px;
-  left: 920px;
+  left: 850px;
   cursor: pointer;
 }
 
@@ -359,7 +359,7 @@ cursor: pointer;
  /* Banner starts here */
 
 #banner {
-  margin: 10px 500px;
+  margin: 10px 300px;
   position: absolute;
   top: 2050px;
   display: flex;
@@ -400,7 +400,7 @@ cursor: pointer;
 /* Explore Catalog Starts Here */
 
 #catalog {
-  margin: 60px 500px;
+  margin: 60px 300px;
   position: absolute;
   top: 2250px;
 }
