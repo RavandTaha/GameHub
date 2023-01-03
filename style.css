@@ -98,6 +98,12 @@ body {
   left: 0;
 }
 
+#close i{
+  color: #FFFFFF;
+  font-size: 24px;
+  padding-left: 20px;
+}
+
 #navbar{
   display: flex;
   align-items: center;
