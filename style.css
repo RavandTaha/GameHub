@@ -190,7 +190,7 @@ cursor: pointer;
   height: 550px;
   position: absolute;
   top: 170px;
-  left: 850px;
+  left: 750px;
   cursor: pointer;
 }
 
@@ -359,7 +359,7 @@ cursor: pointer;
  /* Banner starts here */
 
 #banner {
-  margin: 10px 300px;
+  margin: 10px 200px;
   position: absolute;
   top: 2050px;
   display: flex;
@@ -385,7 +385,7 @@ cursor: pointer;
    width: 550px;
    height: 305px;
    position: absolute;
-   left: 850px;
+   left: 800px;
    bottom: -80px;
 }
 
@@ -551,7 +551,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  top: 2520px;
+  top: 2540px;
   position: relative;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 19.27%, rgba(0, 0, 0, 0.3) 23.96%, rgba(0, 0, 0, 0.3) 29.17%, rgba(0, 0, 0, 0.3) 54.17%, rgba(229, 91, 19, 0.5) 100%);
 }
