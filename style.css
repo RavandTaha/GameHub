@@ -139,18 +139,6 @@ body {
   align-items: center;
 }
 
-#mobile i{
-  color: #FFFFFF;
-  font-size: 24px;
-  padding-left: 20px;
-}
-
-#navbar i{
-  color: #FFFFFF;
-  font-size: 24px;
-  padding-left: 20px;
-}
-
 #close {
   display: none;
 }
@@ -706,11 +694,6 @@ footer strong {
   #lg-bag {
     display: none;
   }
-  
-  #navbar i{
-    color: #FFFFFF;
-    font-size: 24px;
-    padding-left: 20px;
-  }
+
 
 }
