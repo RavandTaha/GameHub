@@ -547,7 +547,7 @@ footer {
   justify-content: space-between;
   top: 2550px;
   position: relative;
-  background: linear-gradient(180deg, rgba(229, 91, 19, 0) 0%, rgba(229, 91, 19, 0.0317255) 19.27%, rgba(229, 91, 19, 0.0400136) 23.96%, rgba(229, 91, 19, 0.0234375) 29.17%, rgba(229, 91, 19, 0.0317255) 54.17%, rgba(229, 91, 19, 0.5) 100%);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 19.27%, rgba(0, 0, 0, 0.3) 23.96%, rgba(0, 0, 0, 0.3) 29.17%, rgba(0, 0, 0, 0.3) 54.17%, rgba(229, 91, 19, 0.5) 100%);
 }
 
 
