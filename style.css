@@ -545,7 +545,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  top: 2400px;
+  top: 2550px;
   position: relative;
   background: linear-gradient(180deg, rgba(229, 91, 19, 0) 0%, rgba(229, 91, 19, 0.0317255) 19.27%, rgba(229, 91, 19, 0.0400136) 23.96%, rgba(229, 91, 19, 0.0234375) 29.17%, rgba(229, 91, 19, 0.0317255) 54.17%, rgba(229, 91, 19, 0.5) 100%);
 }
