@@ -545,7 +545,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  top: 2500px;
+  top: 2520px;
   position: relative;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 19.27%, rgba(0, 0, 0, 0.3) 23.96%, rgba(0, 0, 0, 0.3) 29.17%, rgba(0, 0, 0, 0.3) 54.17%, rgba(229, 91, 19, 0.5) 100%);
 }
@@ -626,4 +626,23 @@ footer .copyright {
 footer strong {
   font-weight: 600;
   letter-spacing: 1px;
+}
+
+/* Media Query Starts Here */
+
+@media (max-width:799px) {
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: 0px;
+    height: 100vh;
+    width: 300px;
+    background-color: #FFFFFF;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 80px 0 0 10px;
+  }
 }
