@@ -46,8 +46,9 @@ h4 {
 }
 
 h5 {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 700;
+  color: white;
 }
 
 p {
@@ -180,7 +181,7 @@ cursor: pointer;
   height: 550px;
   position: absolute;
   top: 170px;
-  left: 950px;
+  left: 920px;
   cursor: pointer;
 }
 
@@ -353,7 +354,7 @@ cursor: pointer;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 300px 250px;
+  margin: 300px 230px;
   position: absolute;
   padding-top: 1100px;
 }
@@ -534,8 +535,95 @@ cursor: pointer;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   right: 110px;
-
 }
 
 
 
+/* Downbar starts here */
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  top: 2400px;
+  position: relative;
+  background: linear-gradient(180deg, rgba(229, 91, 19, 0) 0%, rgba(229, 91, 19, 0.0317255) 19.27%, rgba(229, 91, 19, 0.0400136) 23.96%, rgba(229, 91, 19, 0.0234375) 29.17%, rgba(229, 91, 19, 0.0317255) 54.17%, rgba(229, 91, 19, 0.5) 100%);
+}
+
+
+footer .col{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+footer .col2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+footer .col3{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+footer .logo {
+  margin-bottom: 5px;
+}
+
+footer h5 {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+footer p {
+  font-size: 13px;
+  margin: 0 0 5px 0;
+}
+
+footer a {
+  font-size: 13px;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 5px;
+}
+
+footer .follow {
+  margin-top: 10px;
+}
+
+footer .follow i {
+  color: #FFFFFF;
+  padding-right: 8px;
+  cursor: pointer;
+}
+
+footer .install .row img {
+  border: 1px solid #E55B13;
+  border-radius: 12px;
+
+}
+
+footer .install img {
+  margin: 5px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover {
+  color: #E55B13;
+}
+
+footer .copyright {
+  width: 100%;
+  text-align: center;
+}
+
+footer strong {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
