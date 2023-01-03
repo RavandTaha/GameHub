@@ -98,12 +98,6 @@ body {
   left: 0;
 }
 
-#close i{
-  color: #FFFFFF;
-  font-size: 24px;
-  padding-left: 20px;
-}
-
 #navbar{
   display: flex;
   align-items: center;
@@ -143,6 +137,10 @@ body {
 #mobile {
   display: none;
   align-items: center;
+}
+
+#close {
+  display: none;
 }
 
 /* Home Page */
@@ -685,6 +683,7 @@ footer strong {
   }
 
   #close {
+    display: initial;
     position: absolute;
     top: 30px;
     left: 30px;
@@ -692,10 +691,10 @@ footer strong {
     font-size: 24px;
   }
 
-  #close i{
-    color: #FFFFFF;
-    font-size: 24px;
-    padding-left: 20px;
+  #lg-bag {
+    display: none;
   }
+
+
 
 }
