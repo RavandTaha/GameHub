@@ -110,6 +110,7 @@ body {
   position: relative;
 }
 
+
 #navbar li a{
   text-decoration: none;
   font-size: 22px;
@@ -142,6 +143,11 @@ body {
 #close {
   display: none;
 }
+
+#catalog .ipadcatalogimg {
+  display: none;
+}
+
 
 /* Home Page */
 
@@ -190,7 +196,7 @@ cursor: pointer;
   height: 550px;
   position: absolute;
   top: 170px;
-  left: 800px;
+  left: 750px;
   cursor: pointer;
 }
 
@@ -470,6 +476,10 @@ cursor: pointer;
   cursor: pointer;
 }
 
+#catalog .browseipad {
+  display: none;
+}
+
 #catalog .button:hover {
   border: 3px solid #FFFFFF;
   width: 240px;
@@ -691,6 +701,178 @@ footer strong {
   #lg-bag {
     display: none;
   }
+
+  /* Hero Starts Here */
+
+  #hero{
+    height: 70vh;
+    background-position: top 30% right 30;
+    padding: 20px 80px;
+  }
+
+  #hero h1{
+    font-size: 22px;
+    font-size: 60px;
+    line-height: 60px;
+  }
+  
+  #hero h3{
+    padding-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  #hero .startgaming{
+  color: white;
+  width: 150px;
+  height: 40px;
+  background: #E55B13;
+  border-radius: 80px;
+  font-weight: 600;
+  font-size: 16px;
+  background-repeat: no-repeat;
+  text-transform: uppercase;
+  cursor: pointer;
+  }
+  
+  #hero .startgaming:hover {
+    width: 190px;
+    height: 50px;
+    font-size: 22px;
+    transition: 0.2s ease;
+    border: 3px solid #FFFFFF;
+  }
+  
+  #hero .biglogo {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 195px;
+    left: 325px;
+    cursor: pointer;
+  }
+/* Most Popular Starts Here */
+  #product1 {
+    top: 560px;
+  }
+
+  #product1 .pro {
+    width: 15%;
+    min-width: 210px;
+    padding: 10px 14px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.2s ease;
+    position: relative;
+  }
+
+  #product1 .loadmore {
+    top: 720px;
+    left: 220px;
+  }
+
+  .section-p1 {
+    padding: 50px 10px;
+   }
+
+   /* Latest Relase Starts Here */
+   #product2 {
+    top: 1325px;
+  }
+
+  #product2 .pro {
+    width: 15%;
+    min-width: 210px;
+    padding: 10px 14px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.2s ease;
+    position: relative;
+  }
+
+  #product2 .loadmore {
+    top: 720px;
+    left: 220px;
+  }
+
+  /* Banner Starts Here */
+
+  #banner {
+    margin: 1px 50px;
+    position: absolute;
+    top: 2200px;
+  }
+  
+  #banner .discount {
+    font-weight: 600;
+   font-size: 25px;
+   line-height: 30px;
+   letter-spacing: 0.165em;
+   text-transform: uppercase;
+   text-decoration: none;
+   color: #FFFFFF;
+   font-family: 'Outfit';
+   font-style: normal;
+   transition: 0.2s ease;
+   position: relative;
+   text-align: center;
+   left: 160px;
+   bottom: 40px;
+  }
+  
+  #banner .bannerimg {
+     width: 550px;
+     height: 280px;
+     position: absolute;
+     border-radius: 13px;
+     left: 55px;
+     top: 60px;
+  }
+
+  #catalog {
+    margin: 300px 100px;
+    position: absolute;
+  }
+  #catalog img {
+    display: none;
+  }
+
+  #catalog .ipadcatalogimg {
+    display: initial;
+    position: absolute;
+    width: 750px;
+    left: -85px;
+    padding-top: 40px;
+  }
+
+  #catalog .explore {
+    display: none;
+  }
+
+   #catalog .button{
+    top: 260px;
+    left: -550px;
+    position: absolute;
+   }
+   #catalog .browseipad {
+     display: initial;
+     font-style: normal;
+     font-weight: 100;
+     font-size: 15px;
+     line-height: 15px;
+     text-transform: capitalize;
+     color: white;
+     position: absolute;
+     top: 320px;
+     left: -570px;
+   }
+
+   #catalog .browse {
+    display: none;
+   }
+
+   
+
+
 
 
 }
