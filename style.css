@@ -425,6 +425,9 @@ cursor: pointer;
   position: relative;
   
 }
+#catalog .pro1-2 {
+  display: none;
+}
 
 #catalog .te {
  position: absolute;
@@ -756,6 +759,17 @@ footer strong {
   }
 
   #product1 .pro {
+    width: 15%;
+    min-width: 210px;
+    padding: 10px 14px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.2s ease;
+    position: relative;
+  }
+
+  #product1 .pro1-2 {
+    display: initial;
     width: 15%;
     min-width: 210px;
     padding: 10px 14px;
