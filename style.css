@@ -564,7 +564,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  top: 2600px;
+  top: 2550px;
   position: relative;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 19.27%, rgba(0, 0, 0, 0.3) 23.96%, rgba(0, 0, 0, 0.3) 29.17%, rgba(0, 0, 0, 0.3) 54.17%, rgba(229, 91, 19, 0.5) 100%);
 }
@@ -647,9 +647,11 @@ footer strong {
   letter-spacing: 1px;
 }
 
+
+
+
+
 /* Media Query Starts Here */
-
-
 
 @media (max-width:799px) {
   #navbar {
@@ -759,17 +761,6 @@ footer strong {
   }
 
   #product1 .pro {
-    width: 15%;
-    min-width: 210px;
-    padding: 10px 14px;
-    cursor: pointer;
-    border-radius: 10px;
-    transition: 0.2s ease;
-    position: relative;
-  }
-
-  #product1 .pro1-2 {
-    display: initial;
     width: 15%;
     min-width: 210px;
     padding: 10px 14px;
