@@ -564,7 +564,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  top: 2580px;
+  top: 2575px;
   position: relative;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 19.27%, rgba(0, 0, 0, 0.3) 23.96%, rgba(0, 0, 0, 0.3) 29.17%, rgba(0, 0, 0, 0.3) 54.17%, rgba(229, 91, 19, 0.5) 100%);
 }
@@ -654,6 +654,7 @@ footer strong {
 /* Media Query Starts Here */
 
 @media (max-width:799px) {
+
   #navbar {
     display: flex;
     flex-direction: column;
@@ -663,15 +664,15 @@ footer strong {
     top: 0;
     right: -300px;
     height: 100vh;
-    width: 300px;
-    background: linear-gradient(180deg, rgba(229, 91, 19, 0.5) 0%, rgba(229, 91, 19, 0) 100%);
+    width: 200px;
+    background: #010922;
     box-shadow: 0 5px 0px white;
-    padding: 80px 0 0 10px;
+    padding: 85px 0 0 10px;
     transition: 0.3;
   }
 
   #navbar.active{
-    right: 0px;
+    right: 420px;
   }
 
   #navbar li {
@@ -697,10 +698,8 @@ footer strong {
   #close {
     display: initial;
     position: absolute;
-    top: 30px;
-    left: 30px;
     color: #FFFFFF;
-    font-size: 24px;
+    font-size: 54px;
   }
 
   #lg-bag {
@@ -748,17 +747,22 @@ footer strong {
   }
   
   #hero .biglogo {
-    width: 500px;
-    height: 300px;
+    width: 440px;
+    height: 290px;
     position: absolute;
     top: 195px;
-    left: 325px;
+    left: 340px;
     cursor: pointer;
   }
 /* Most Popular Starts Here */
   #product1 {
     top: 560px;
   }
+
+  #product1 .pro-container{
+    justify-content: center;
+  }
+
 
   #product1 .pro {
     width: 15%;
@@ -792,6 +796,10 @@ footer strong {
     border-radius: 10px;
     transition: 0.2s ease;
     position: relative;
+  }
+
+  #product2 .pro-container{
+    justify-content: center;
   }
 
   #product2 .loadmore {
