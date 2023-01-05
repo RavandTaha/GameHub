@@ -82,6 +82,7 @@ button {
 body {
   width: 100%;
   background-color: #010922;
+  overflow-x: hidden;
  }
 
 /* Header starts here */
@@ -655,6 +656,10 @@ footer strong {
 
 @media (max-width:799px) {
 
+  .section-p1 {
+    padding: 50px 10px;
+   }
+
   #navbar {
     display: flex;
     flex-direction: column;
@@ -672,7 +677,7 @@ footer strong {
   }
 
   #navbar.active{
-    right: 420px;
+    right: 0px;
   }
 
   #navbar li {
@@ -747,11 +752,11 @@ footer strong {
   }
   
   #hero .biglogo {
-    width: 440px;
-    height: 290px;
+    width: 435px;
+    height: 280px;
     position: absolute;
     top: 195px;
-    left: 340px;
+    left: 335px;
     cursor: pointer;
   }
 /* Most Popular Starts Here */
@@ -778,10 +783,6 @@ footer strong {
     top: 720px;
     left: 220px;
   }
-
-  .section-p1 {
-    padding: 50px 10px;
-   }
 
    /* Latest Relase Starts Here */
    #product2 {
@@ -862,8 +863,8 @@ footer strong {
   }
 
    #catalog .button{
-    top: 260px;
-    left: -550px;
+    top: 15px;
+    left: 80px;
     position: absolute;
    }
    #catalog .browseipad {
@@ -875,13 +876,22 @@ footer strong {
      text-transform: capitalize;
      color: white;
      position: absolute;
-     top: 320px;
-     left: -570px;
+     left: 65px;
+     top: 80px;
    }
 
    #catalog .browse {
     display: none;
    }
+
+   #catalog .te{
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    left: 60px;
+    top: 250px;
+   }
+ 
 
    
 
