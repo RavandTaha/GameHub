@@ -714,7 +714,6 @@ footer strong {
   }
 
   #hero h1{
-    font-size: 22px;
     font-size: 60px;
     line-height: 60px;
   }
@@ -931,7 +930,7 @@ footer strong {
 #newsletter button {
   width: 160px;
   height: 65px;
-  left: 459px;
+  left: 458px;
   top: 111.8px;
 }
 
@@ -953,12 +952,16 @@ footer .col{
 
 footer .col2{
   margin-top: -25px;
-  margin-left: 2px;
+  margin-left: 3px;
 }
 
 footer .col3{
   margin-top: -25px;
-  margin-left: 2px;
+  margin-left: 3px;
+}
+
+footer .install {
+  margin-left: 10px;
 }
 
 footer h5 {
@@ -966,40 +969,317 @@ footer h5 {
   padding-bottom: 20px;
 }
 
-footer p {
+ footer p {
   font-size: 11px;
   margin: 0 0 3px 0;
-}
+ }
 
-footer a {
+ footer a {
   font-size: 13px;
   margin-bottom: 8px;
+ }
+
+ footer .install img {
+  width: 40%;
+ }
+
+ footer strong {
+  font-weight: 600;
+  letter-spacing: 2px;
+ }  
 }
 
-footer .install {
+/*          */
+
+@media (max-width: 477px) {
+
+  #header {
+    padding: 10px 20px;
+  }
+
+  #header img {
+    width: 120px;
+    height: 70px;
+  }
+
+  #hero{
+    height: 40vh;
+    background-position: top 30% right 30;
+    padding: 20px 40px;
+  }
+
+  #hero h1{
+    font-size: 30px;
+    line-height: 30px;
+  }
+  
+  #hero h3{
+    padding-bottom: 15px;
+    font-size: 10px;
+    line-height: 10px;
+  }
+  
+  #hero .startgaming{
+  color: white;
+  width: 130px;
+  height: 30px;
+  background: #E55B13;
+  font-weight: 600;
+  font-size: 14px;
+  }
+  
+  #hero .startgaming:hover {
+    width: 190px;
+    height: 50px;
+    font-size: 22px;
+    transition: 0.2s ease;
+    border: 3px solid #FFFFFF;
+  }
+  
+  #hero .biglogo {
+    width: 434px;
+    height: 279px;
+    position: absolute;
+    top: 195px;
+    left: 304px;
+    cursor: pointer;
+  }
+
+/* Most Popular Starts Here */
+   #product1 {
+  top: 560px;
+}
+
+  #product1 .pro {
+  width: 15%;
+  min-width: 210px;
+  padding: 10px 14px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.2s ease;
+  position: relative;
+     }
+
+  #product1 .pro-container{
+  justify-content: center;
+    }
+
+   #product1 .loadmore {
+  top: 720px;
+  left: 220px;
+   }
+
+   /* Latest Relase Starts Here */
+   #product2 {
+    top: 1325px;
+  }
+
+  #product2 .pro {
+    width: 15%;
+    min-width: 210px;
+    padding: 10px 14px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.2s ease;
+    position: relative;
+  }
+
+  #product2 .pro-container{
+    justify-content: center;
+  }
+
+  #product2 .loadmore {
+    top: 720px;
+    left: 220px;
+  }
+
+  /* Banner Starts Here */
+
+  #banner {
+    margin: 10px 38px;
+    position: absolute;
+    top: 2120px;
+  }
+
+  #banner .ad {
+    position: relative;
+    width: 550px;
+    height: 420px;
+    left: 0px;
+    top: 0px;
+  }
+  
+  #banner .discount {
+   font-size: 25px;
+   line-height: 30px;
+   position: absolute;
+   margin-left: 155px;
+   margin-top: 2px;
+  }
+  
+  #banner .bannerimg {
+     width: 550px;
+     height: 280px;
+     position: absolute;
+     border-radius: 13px;
+     left: 60px;
+     margin-top: 115px;
+     
+  }
+
+  /* Catalog Starts Here */
+
+  #catalog .pro {
+    display: none;
+  }
+
+  #catalog .explore {
+    display: none;
+  }
+
+  #catalog .browse {
+    display: none;
+   }
+
+  #catalog {
+    margin: 10px 40px;
+    position: absolute;
+    top: 2570px;
+  }
+
+  #catalog .te{
+    position: relative;
+    width: 590px;
+    height: 450px;
+    left: 40px;
+    top: 0px;
+   }
+
+  #catalog .ipadcatalogimg {
+    display: initial;
+    position: absolute;
+    width: 580px;
+    left: 12px;
+    bottom: 250px;
+    margin-top: 2px;
+  }
+
+  #catalog .button {
+    width: 235px;
+    height: 48px;
+    position: absolute;
+    margin-top: 220px;
+    left: 170px;
+  }
+   
+   #catalog .browseipad {
+     display: initial;
+     font-style: normal;
+     font-weight: 100;
+     font-size: 15px;
+     line-height: 15px;
+     color: white;
+     position: absolute;
+     margin-top: 275px;
+     left: 150px;
+   }
+
+
+/* NewsLetter Starts Here */
+
+  #newsletter {
+  top: 3000px;
+  padding-left: 100px;
+  height: 20vh;
+  width: 100%;
+}
+
+#newsletter .newstext {
+  position: relative;
+  bottom: 25px;
+}
+
+#newsletter h1 {
+  font-size: 30px;
+  line-height: 50px;
+}
+
+#newsletter p {
+  font-size: 18px;
+  font-weight: 600; 
+  color: #FFFFFF;
+}
+
+#newsletter p span {
+  color:#E55B13;
+}
+
+#newsletter .form {
+  display: flex;
+  width: 70%;
+}
+
+#newsletter button {
+  width: 160px;
+  height: 65px;
+  left: 458px;
+  top: 111.8px;
+}
+
+/* footer starst here */
+
+footer .logo {
+  display: none;
+}
+
+footer {
+  top: 2300px;
+}
+
+footer .col{
+  margin-bottom: 5px;
+  margin-top: -25px;
   margin-left: 5px;
 }
 
-footer .install img {
-  width: 40%;
+footer .col2{
+  margin-top: -25px;
+  margin-left: 3px;
 }
 
-footer strong {
+footer .col3{
+  margin-top: -25px;
+  margin-left: 3px;
+}
+
+footer .install {
+  margin-left: 10px;
+}
+
+footer h5 {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+ footer p {
+  font-size: 11px;
+  margin: 0 0 3px 0;
+ }
+
+ footer a {
+  font-size: 13px;
+  margin-bottom: 8px;
+ }
+
+ footer .install img {
+  width: 40%;
+ }
+
+ footer strong {
   font-weight: 600;
   letter-spacing: 2px;
-}
-
+ }
   
-
-  
-  
- 
-
-   
-
-
-
-
 }
 
 
