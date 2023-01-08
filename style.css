@@ -951,14 +951,17 @@ footer {
 footer .col{
   margin-bottom: 5px;
   margin-top: -25px;
+  margin-left: 5px;
 }
 
 footer .col2{
   margin-top: -25px;
+  margin-left: 2px;
 }
 
 footer .col3{
   margin-top: -25px;
+  margin-left: 2px;
 }
 
 footer h5 {
@@ -974,6 +977,10 @@ footer p {
 footer a {
   font-size: 13px;
   margin-bottom: 8px;
+}
+
+footer .install {
+  margin-left: 5px;
 }
 
 footer .install img {
