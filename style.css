@@ -871,6 +871,7 @@ footer strong {
     left: 100px;
     position: absolute;
    }
+   
    #catalog .browseipad {
      display: initial;
      font-style: normal;
@@ -933,8 +934,8 @@ footer strong {
 #newsletter button {
   width: 160px;
   height: 65px;
-  left: 465px;
-  top: 122.4px;
+  left: 470px;
+  top: 112px;
 }
 
 /* footer starst here */
@@ -944,7 +945,7 @@ footer .logo {
 }
 
 footer {
-  top: 2400px;
+  top: 2350px;
 }
 
 footer .col{
