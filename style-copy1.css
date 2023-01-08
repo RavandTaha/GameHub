@@ -228,13 +228,13 @@ cursor: pointer;
 
 #product1 img{
   width: 100%;
-  border-radius: 6px;
+  border-radius: 10px;
 }
 
 #product1 .pro {
   width: 15%;
   min-width: 250px;
-  padding: 8px 12px;
+  padding: 10px 12px;
   cursor: pointer;
   border-radius: 10px;
   transition: 0.2s ease;
@@ -309,13 +309,13 @@ cursor: pointer;
 
 #product2 img{
   width: 100%;
-  border-radius: 6px;
+  border-radius: 10px;
 }
 
 #product2 .pro {
   width: 15%;
   min-width: 250px;
-  padding: 8px 12px;
+  padding: 10px 12px;
   cursor: pointer;
   border-radius: 10px;
   transition: 0.2s ease;
@@ -493,6 +493,7 @@ cursor: pointer;
 }
 
 /* Newsletter starts here */
+
 #newsletter {
   display: flex;
   justify-content: space-between;
@@ -500,7 +501,7 @@ cursor: pointer;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
-  top: 1995px;
+  top: 3000px;
   padding-left: 200px;
   height: 20vh;
   width: 100%;
@@ -564,7 +565,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  top: 2565px;
+  top: 2575px;
   position: relative;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 19.27%, rgba(0, 0, 0, 0.3) 23.96%, rgba(0, 0, 0, 0.3) 29.17%, rgba(0, 0, 0, 0.3) 54.17%, rgba(229, 91, 19, 0.5) 100%);
 }
@@ -899,111 +900,9 @@ footer strong {
 
 /* NewsLetter Starts Here */
 
-  #newsletter {
-  top: 3000px;
-  padding-left: 100px;
-  height: 20vh;
-  width: 100%;
-}
-
-#newsletter .newstext {
-  position: relative;
-  bottom: 25px;
-}
-
-#newsletter h1 {
-  font-size: 30px;
-  line-height: 50px;
-}
-
-#newsletter p {
-  font-size: 18px;
-  font-weight: 600; 
-  color: #FFFFFF;
-}
-
-#newsletter p span {
-  color:#E55B13;
-}
-
-#newsletter .form {
-  display: flex;
-  width: 70%;
-}
-
-#newsletter button {
-  width: 160px;
-  height: 65px;
-  left: 465px;
-  top: 122.4px;
-}
-
-/* footer starst here */
-
-footer .logo {
-  display: none;
-}
-
-footer {
-  top: 2400px;
-}
-
-footer .col{
-  margin-bottom: 5px;
-  margin-top: -30px;
-}
-
-footer .col2{
-  margin-top: -35px;
-}
-
-footer .col3{
-  margin-top: -35px;
-}
-
-footer h5 {
-  font-size: 14px;
-  padding-bottom: 15px;
-}
-
-footer p {
-  font-size: 11px;
-  margin: 0 0 3px 0;
-}
-
-footer a {
-  font-size: 13px;
-  margin-bottom: 8px;
-}
-
-footer .follow {
-  margin-top: 10px;
-}
-
-footer .follow i {
-  padding-right: 8px;
-}
-
-footer .install .row img {
-  border: 1px solid #E55B13;
-  border-radius: 12px;
-}
-
-footer .install img {
-  margin: 5px 0 15px 0;
-  width: 40%;
-}
-
-
-footer .copyright {
-  width: 100%;
-  text-align: center;
-}
-
-footer strong {
-  font-weight: 600;
-  letter-spacing: 2px;
-}
+  #newsletter .form {
+    width: 70%;
+  }
 
   
 
