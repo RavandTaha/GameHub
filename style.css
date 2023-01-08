@@ -656,7 +656,7 @@ footer strong {
 @media (max-width:799px) {
 
   .section-p1 {
-    padding: 50px 10px;
+    padding: 40px 5px;
    }
 
   #navbar {
@@ -765,21 +765,37 @@ footer strong {
 /* Most Popular Starts Here */
   #product1 {
     top: 560px;
+    margin: 5px 2px;
   }
 
-  #product1 .pro-container{
-    justify-content: center;
+  #product1 .mostpopular{
+    padding-left: 35px;
+    font-size: 22px;
   }
 
+  #product1 .pro-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    flex-wrap: wrap;
+  }
 
   #product1 .pro {
     width: 15%;
-    min-width: 210px;
-    padding: 10px 14px;
-    cursor: pointer;
-    border-radius: 10px;
-    transition: 0.2s ease;
-    position: relative;
+    min-width: 200px;
+    padding: 8px 12px;
+  }
+
+  #product1 h4 {
+     font-weight: 600;
+     font-size: 21px;
+     line-height: 20px;
+     letter-spacing: 1px;
+  }
+
+  #product1 .pro .money {
+    right: 25px;
+    bottom: 29px;
   }
 
   #product1 .loadmore {
@@ -820,7 +836,7 @@ footer strong {
   }
   
   #banner .discount {
-    font-weight: 600;
+   font-weight: 600;
    font-size: 25px;
    line-height: 30px;
    letter-spacing: 0.165em;
