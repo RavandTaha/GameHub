@@ -754,11 +754,11 @@ footer strong {
   }
   
   #hero .biglogo {
-    width: 435px;
-    height: 280px;
+    width: 434px;
+    height: 279px;
     position: absolute;
     top: 195px;
-    left: 335px;
+    left: 334px;
     cursor: pointer;
   }
 
