@@ -763,11 +763,11 @@ footer strong {
   }
 
 /* Most Popular Starts Here */
-#product1 {
+   #product1 {
   top: 560px;
 }
 
-#product1 .pro {
+  #product1 .pro {
   width: 15%;
   min-width: 210px;
   padding: 10px 14px;
@@ -775,16 +775,16 @@ footer strong {
   border-radius: 10px;
   transition: 0.2s ease;
   position: relative;
-}
+     }
 
-#product1 .pro-container{
+  #product1 .pro-container{
   justify-content: center;
-}
+    }
 
-#product1 .loadmore {
+   #product1 .loadmore {
   top: 720px;
   left: 220px;
-}
+   }
 
    /* Latest Relase Starts Here */
    #product2 {
