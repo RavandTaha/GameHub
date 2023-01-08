@@ -42,7 +42,6 @@ h4 {
   font-style: normal;
   text-transform: uppercase;
   letter-spacing: 2px;
-  word-spacing: 100px;
 }
 
 h5 {
@@ -215,7 +214,6 @@ cursor: pointer;
 
 #product1 .mostpopular{
   padding-left: 15px;
-  padding-top: 20px;
   font-weight: 700;
   font-size: 25px;
   line-height: 28px;
@@ -762,8 +760,6 @@ footer strong {
   width: 15%;
   min-width: 210px;
   padding: 10px 14px;
-  cursor: pointer;
-  border-radius: 10px;
   transition: 0.2s ease;
   position: relative;
      }
@@ -993,6 +989,10 @@ footer h5 {
 
 @media (max-width: 477px) {
 
+  .section-p1 {
+    padding: 10px 1px;
+   }
+
   #header {
     padding: 10px 20px;
   }
@@ -1002,61 +1002,62 @@ footer h5 {
     height: 70px;
   }
 
+  /*Hero Starts Here */
+
   #hero{
-    height: 40vh;
+    height: 20vh;
     background-position: top 30% right 30;
-    padding: 20px 40px;
+    padding: 20px 30px;
   }
 
   #hero h1{
     font-size: 30px;
     line-height: 30px;
+    padding-bottom: 7px;
   }
   
   #hero h3{
-    padding-bottom: 15px;
     font-size: 10px;
     line-height: 10px;
+    padding-bottom: 8px;
+    letter-spacing: 0.9px;
   }
   
   #hero .startgaming{
-  color: white;
-  width: 130px;
-  height: 30px;
-  background: #E55B13;
-  font-weight: 600;
-  font-size: 14px;
+  width: 90px;
+  height: 25px;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.9px;
   }
   
   #hero .startgaming:hover {
-    width: 190px;
-    height: 50px;
-    font-size: 22px;
+    width: 95px;
+    height: 35px;
+    font-size: 12px;
     transition: 0.2s ease;
     border: 3px solid #FFFFFF;
   }
   
   #hero .biglogo {
-    width: 434px;
-    height: 279px;
+    width: 180px;
+    height: 100px;
     position: absolute;
-    top: 195px;
-    left: 304px;
-    cursor: pointer;
+    top: 110px;
+    left: 195px;
   }
+
 
 /* Most Popular Starts Here */
    #product1 {
-  top: 560px;
+  margin: 10px 10px;
+  top: 260px;
 }
 
   #product1 .pro {
-  width: 15%;
-  min-width: 210px;
-  padding: 10px 14px;
-  cursor: pointer;
-  border-radius: 10px;
-  transition: 0.2s ease;
+  width: 10%;
+  min-width: 90px;
+  padding: 5px 8px;
   position: relative;
      }
 
@@ -1068,6 +1069,31 @@ footer h5 {
   top: 720px;
   left: 220px;
    }
+
+   #product1 .mostpopular{
+    padding-left: 20px;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 1px;
+  }
+
+  #product1 h4 {
+    font-size: 8px;
+    line-height: 8px;
+    letter-spacing: 2px;
+  }
+
+  #product1 .star{
+    font-size: 8px;
+  }
+
+  #product1 .pro .money {
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    font-size: 7px;
+    font-weight: 600;
+  }
 
    /* Latest Relase Starts Here */
    #product2 {
