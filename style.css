@@ -510,7 +510,7 @@ cursor: pointer;
 #newsletter h1 {
   font-size: 32px;
   font-weight: 700; 
-  color: #FFFFFF;
+  color:#FFFFFF;
 }
 
 #newsletter p {
@@ -678,6 +678,7 @@ footer strong {
 
   #navbar.active{
     right: 0px;
+    z-index: 1;
   }
 
   #navbar li {
@@ -704,7 +705,9 @@ footer strong {
     display: initial;
     position: absolute;
     color: #FFFFFF;
-    font-size: 54px;
+    font-size: 24px;
+    top: 30px;
+    left: 30px;
   }
 
   #lg-bag {
@@ -759,6 +762,7 @@ footer strong {
     left: 335px;
     cursor: pointer;
   }
+
 /* Most Popular Starts Here */
   #product1 {
     top: 560px;
@@ -842,6 +846,8 @@ footer strong {
      top: 60px;
   }
 
+  /* Catalog Starts Here */
+
   #catalog {
     margin: 300px 100px;
     position: absolute;
@@ -864,7 +870,7 @@ footer strong {
 
    #catalog .button{
     top: 15px;
-    left: 80px;
+    left: 100px;
     position: absolute;
    }
    #catalog .browseipad {
@@ -876,7 +882,7 @@ footer strong {
      text-transform: capitalize;
      color: white;
      position: absolute;
-     left: 65px;
+     left: 80px;
      top: 80px;
    }
 
@@ -891,6 +897,17 @@ footer strong {
     left: 60px;
     top: 250px;
    }
+
+/* NewsLetter Starts Here */
+
+  #newsletter .form {
+    width: 70%;
+  }
+
+  
+
+  
+  
  
 
    
@@ -899,3 +916,5 @@ footer strong {
 
 
 }
+
+
