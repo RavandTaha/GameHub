@@ -950,20 +950,20 @@ footer {
 
 footer .col{
   margin-bottom: 5px;
-  margin-top: -30px;
+  margin-top: -25px;
 }
 
 footer .col2{
-  margin-top: -30px;
+  margin-top: -25px;
 }
 
 footer .col3{
-  margin-top: -30px;
+  margin-top: -25px;
 }
 
 footer h5 {
   font-size: 14px;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 
 footer p {
@@ -976,28 +976,8 @@ footer a {
   margin-bottom: 8px;
 }
 
-footer .follow {
-  margin-top: 10px;
-}
-
-footer .follow i {
-  padding-right: 8px;
-}
-
-footer .install .row img {
-  border: 1px solid #E55B13;
-  border-radius: 12px;
-}
-
 footer .install img {
-  margin: 5px 0 15px 0;
   width: 40%;
-}
-
-
-footer .copyright {
-  width: 100%;
-  text-align: center;
 }
 
 footer strong {
