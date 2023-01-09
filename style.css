@@ -148,6 +148,10 @@ body {
   display: none;
 }
 
+#navbar .lg-bag {
+  display: none;
+}
+
 
 /* Home Page */
 
@@ -192,11 +196,11 @@ cursor: pointer;
 }
 
 #hero .biglogo {
-  width: 970px;
-  height: 550px;
+  width: 900px;
+  height: 500px;
   position: absolute;
-  top: 170px;
-  left: 750px;
+  top: 220px;
+  left: 850px;
   cursor: pointer;
 }
 
