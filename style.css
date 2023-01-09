@@ -144,10 +144,6 @@ body {
   display: none;
 }
 
-#catalog .ipadcatalogimg {
-  display: none;
-}
-
 #lg-bag {
   display: none;
 }
@@ -370,7 +366,7 @@ cursor: pointer;
 #banner {
   margin: 10px 80px;
   position: absolute;
-  top: 1980px;
+  top: 1850px;
   display: flex;
 }
 
@@ -385,7 +381,7 @@ cursor: pointer;
 #banner .discount {
    font-weight: 600;
    font-size: 55px;
-   line-height: 45px;
+   line-height: 55px;
    letter-spacing: 0.165em;
    text-transform: uppercase;
    text-decoration: none;
@@ -396,7 +392,7 @@ cursor: pointer;
    position: absolute;
    text-align: center;
    margin-left: 2px;
-   margin-top: 85px;
+   margin-top: 100px;
 }
 
 #banner .bannerimg {
@@ -418,55 +414,44 @@ cursor: pointer;
 /* Explore Catalog Starts Here */
 
 #catalog {
-  margin: 60px 300px;
+  margin: 10px 100px;
   position: absolute;
-  top: 2250px;
-}
-
-#catalog img {
-  width: 100%;
-  border-radius: 5px;
-}
-
-#catalog .pro {
-  width: 60%;
-  min-width: 400px;
-  cursor: pointer;
-  border-radius: 10px;
-  transition: 0.2s ease;
-  position: relative;
+  top: 2300px;
 }
 
 #catalog .te {
- position: absolute;
- width: 400px;
- height: 150px;
- left: 700px;
+  position: relative;
+  width: 1500px;
+  height: 300px;
+  left: 0px;
+  top: 0px;
 }
 
-#catalog .pro:hover {
-  box-shadow: 2px 2px 20px 2px white ;
+#catalog .catalogimg {
+   width: 800px;
+   height: 300px;
+   margin-top: 0px;
 }
 
 #catalog .explore {
-  font-family: 'Outfit';
-  font-style: normal;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 50px;
   line-height: 28px;
-  text-transform: capitalize;
   position: absolute;
-  bottom: 400px;
-  word-spacing: 5px;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
+  margin-left: 850px;
+  top: 50px;
 }
 
 #catalog .browse {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 17px;
+  line-height: 28px;
   position: absolute;
-  bottom: 335px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  margin-left: 852px;
+  top: 105px;
+
 }
 
 #catalog .button {
@@ -474,21 +459,13 @@ cursor: pointer;
   align-items: center;
   width: 235px;
   height: 48px;
-  background: #E55B13;
-  border-radius: 80px;
-  color: #FFFFFF;
-  font-family: 'Outfit';
-  font-style: normal;
   font-weight: 600;
   font-size: 21px;
-  text-transform: uppercase;
   position: absolute;
-  cursor: pointer;
+  margin-left: 50px;
+  top: 185px;
 }
 
-#catalog .browseipad {
-  display: none;
-}
 
 #catalog .button:hover {
   border: 3px solid #FFFFFF;
@@ -496,6 +473,10 @@ cursor: pointer;
   height: 52px;
   font-size: 23px;
   transition: 0.2s ease;
+}
+
+#catalog .browseipad {
+  display: none;
 }
 
 /* Newsletter starts here */
@@ -874,7 +855,7 @@ footer strong {
     top: 0px;
    }
 
-  #catalog .ipadcatalogimg {
+  #catalog .catalogimg {
     display: initial;
     position: absolute;
     width: 580px;
@@ -1227,7 +1208,7 @@ footer h5 {
     top: 0px;
    }
 
-  #catalog .ipadcatalogimg {
+  #catalog .catalogimg {
     display: initial;
     position: absolute;
     width: 300px;
