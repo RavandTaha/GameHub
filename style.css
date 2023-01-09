@@ -368,17 +368,17 @@ cursor: pointer;
  /* Banner starts here */
 
 #banner {
-  margin: 10px 50px;
+  margin: 10px 80px;
   position: absolute;
-  top: 2000px;
+  top: 1980px;
   display: flex;
 }
 
 #banner .ad {
   position: relative;
-  width: 1900px;
+  width: 1600px;
   height: 400px;
-  left: 20px;
+  left: 0px;
   top: 0px;
 }
 
@@ -395,7 +395,7 @@ cursor: pointer;
    transition: 0.2s ease;
    position: absolute;
    text-align: center;
-   margin-left: 250px;
+   margin-left: 2px;
    margin-top: 85px;
 }
 
@@ -403,7 +403,7 @@ cursor: pointer;
    width: 700px;
    height: 400px;
    position: absolute;
-   left: 1050px;
+   left: 900px;
    margin-top: 0px;
 }
 
