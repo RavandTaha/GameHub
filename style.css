@@ -374,7 +374,7 @@ cursor: pointer;
   position: relative;
   width: 1600px;
   height: 400px;
-  left: 0px;
+  left: 15px;
   top: 0px;
 }
 
@@ -391,7 +391,7 @@ cursor: pointer;
    transition: 0.2s ease;
    position: absolute;
    text-align: center;
-   margin-left: 2px;
+   margin-left: 8px;
    margin-top: 100px;
 }
 
@@ -416,14 +416,14 @@ cursor: pointer;
 #catalog {
   margin: 10px 100px;
   position: absolute;
-  top: 2300px;
+  top: 2350px;
 }
 
 #catalog .te {
   position: relative;
   width: 1500px;
   height: 300px;
-  left: 0px;
+  left: 20px;
   top: 0px;
 }
 
@@ -439,7 +439,7 @@ cursor: pointer;
   line-height: 28px;
   position: absolute;
   letter-spacing: 3px;
-  margin-left: 850px;
+  margin-left: 880px;
   top: 50px;
 }
 
@@ -449,7 +449,7 @@ cursor: pointer;
   line-height: 28px;
   position: absolute;
   letter-spacing: 2px;
-  margin-left: 852px;
+  margin-left: 882px;
   top: 105px;
 
 }
@@ -462,7 +462,7 @@ cursor: pointer;
   font-weight: 600;
   font-size: 21px;
   position: absolute;
-  margin-left: 50px;
+  margin-left: 80px;
   top: 185px;
 }
 
@@ -476,6 +476,10 @@ cursor: pointer;
 }
 
 #catalog .browseipad {
+  display: none;
+}
+
+#catalog .buttonip {
   display: none;
 }
 
@@ -1197,7 +1201,7 @@ footer h5 {
   #catalog {
     margin: 3px 10px;
     position: absolute;
-    top: 1320px;
+    top: 1315px;
   }
 
   #catalog .te{
@@ -1211,20 +1215,12 @@ footer h5 {
   #catalog .catalogimg {
     display: initial;
     position: absolute;
-    width: 300px;
-    left: 1px;
+    width: 250px;
+    height: 110px;
+    left: 20px;
     top: 0px;
   }
 
-  #catalog .button {
-    font-size: 13px;
-    position: absolute;
-    width: 150px;
-    height: 40px;
-    margin-top: 120px;
-    left: 80px;
-  }
-   
    #catalog .browseipad {
      display: initial;
      font-style: normal;
@@ -1235,6 +1231,22 @@ footer h5 {
      margin-top: 170px;
      left: 69px;
    }
+
+   #catalog .buttonip {
+     display: initial;
+     font-weight: 600;
+     line-height: 28px;
+     font-size: 12px;
+     width: 120px;
+     height: 40px;
+     position: absolute;
+     margin-top: 120px;
+     left: 90px;
+    }
+
+    #catalog .button {
+      display: none;
+    }
 
 
 /* NewsLetter Starts Here */
