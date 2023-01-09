@@ -1102,7 +1102,7 @@ footer h5 {
    /* Latest Relase Starts Here */
    #product2 {
     margin: 10px 10px;
-    top: 680px;
+    top: 670px;
  }
  
    #product2 .pro {
@@ -1155,7 +1155,7 @@ footer h5 {
    #banner {
     margin: 3px 12px;
     position: absolute;
-    top: 1080px;
+    top: 1070px;
   }
 
   #banner .ad {
@@ -1201,7 +1201,7 @@ footer h5 {
   #catalog {
     margin: 3px 10px;
     position: absolute;
-    top: 1330px;
+    top: 1320px;
   }
 
   #catalog .te{
@@ -1244,43 +1244,48 @@ footer h5 {
 /* NewsLetter Starts Here */
 
   #newsletter {
-  top: 1550px;
-  padding-left: 100px;
-  height: 20vh;
-  width: 100%;
-}
+   top: 1500px;
+   padding-left: 50px;
+   height: 17vh;
+   width: 100%;
+  }
 
-#newsletter .newstext {
+  #newsletter .newstext {
   position: relative;
-  bottom: 25px;
-}
+  bottom: 10px;
+  }
 
-#newsletter h1 {
+  #newsletter h1 {
   font-size: 20px;
   line-height: 20px;
-}
+  padding-bottom: 8px;
+  }
 
-#newsletter p {
+  #newsletter p {
   font-size: 10px;
   font-weight: 600; 
   color: #FFFFFF;
-}
+  }
 
-#newsletter p span {
-  color:#E55B13;
-}
-
-#newsletter .form {
+  #newsletter .form {
   display: flex;
-  width: 70%;
-}
+  width: 100%;
+  }  
 
-#newsletter button {
-  width: 120px;
-  height: 45px;
-  left: 458px;
-  top: 111.8px;
-}
+  #newsletter input {
+    height: 1.932rem;
+    padding: 0 0.25em;
+    font-size: 14px;
+    width: 80%;
+  }
+
+  #newsletter button {
+  width: 55px;
+  height: 32.5px;
+  left: 278px;
+  top: 85.2px;
+  font-size: 12px;
+  }
 
 /* footer starst here */
 
@@ -1289,22 +1294,22 @@ footer .logo {
 }
 
 footer {
-  top: 2300px;
+  top: 1500px;
 }
 
 footer .col{
   margin-bottom: 5px;
-  margin-top: -25px;
+  margin-top: 25px;
   margin-left: 5px;
 }
 
 footer .col2{
-  margin-top: -25px;
+  margin-top: 25px;
   margin-left: 3px;
 }
 
 footer .col3{
-  margin-top: -25px;
+  margin-top: 25px;
   margin-left: 3px;
 }
 
