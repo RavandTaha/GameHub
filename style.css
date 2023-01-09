@@ -423,7 +423,7 @@ cursor: pointer;
   position: relative;
   width: 1500px;
   height: 300px;
-  left: 20px;
+  left: 40px;
   top: 0px;
 }
 
@@ -431,6 +431,15 @@ cursor: pointer;
    width: 800px;
    height: 300px;
    margin-top: 0px;
+}
+
+#catalog .catalogimg:hover {
+  background: rgba(0, 0, 0, 0.2);
+  border: 2px solid #E55B13;
+  border-radius: 20px;
+  transition: 0.2s ease;
+  width: 805px;
+  height: 305px;
 }
 
 #catalog .explore {
@@ -466,7 +475,6 @@ cursor: pointer;
   top: 185px;
 }
 
-
 #catalog .button:hover {
   border: 3px solid #FFFFFF;
   width: 240px;
@@ -491,7 +499,7 @@ cursor: pointer;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
-  top: 2995px;
+  top: 2800px;
   padding-left: 200px;
   height: 20vh;
   width: 100%;
@@ -555,7 +563,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  top: 2565px;
+  top: 2367px;
   position: relative;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 19.27%, rgba(0, 0, 0, 0.3) 23.96%, rgba(0, 0, 0, 0.3) 29.17%, rgba(0, 0, 0, 0.3) 54.17%, rgba(229, 91, 19, 0.5) 100%);
 }
@@ -703,12 +711,17 @@ footer strong {
     display: none;
   }
 
+  #header img {
+    width: 200px;
+    height: 110px;
+  }
+
   /* Hero Starts Here */
 
   #hero{
     height: 70vh;
     background-position: top 30% right 30;
-    padding: 20px 80px;
+    padding: 20px 70px;
   }
 
   #hero h1{
@@ -719,6 +732,7 @@ footer strong {
   #hero h3{
     padding-bottom: 15px;
     font-size: 18px;
+    z-index: 1;
   }
   
   #hero .startgaming{
@@ -743,11 +757,11 @@ footer strong {
   }
   
   #hero .biglogo {
-    width: 434px;
-    height: 279px;
+    width: 400px;
+    height: 250px;
     position: absolute;
     top: 195px;
-    left: 304px;
+    left: 350px;
     cursor: pointer;
   }
 
@@ -1044,8 +1058,8 @@ footer h5 {
     width: 180px;
     height: 100px;
     position: absolute;
-    top: 110px;
-    left: 195px;
+    top: 112px;
+    left: 190px;
   }
 
 
