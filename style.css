@@ -1005,9 +1005,9 @@ footer h5 {
   /*Hero Starts Here */
 
   #hero{
-    height: 20vh;
+    height: 21vh;
     background-position: top 30% right 30;
-    padding: 20px 30px;
+    padding: 20px 25px;
   }
 
   #hero h1{
@@ -1050,30 +1050,34 @@ footer h5 {
 
 /* Most Popular Starts Here */
    #product1 {
-  margin: 10px 10px;
-  top: 260px;
+   margin: 10px 10px;
+   top: 270px;
 }
 
   #product1 .pro {
-  width: 10%;
-  min-width: 90px;
-  padding: 5px 8px;
-  position: relative;
+   width: 15%;
+   min-width: 120px;
+   padding: 5px 8px;
+   position: relative;
      }
 
   #product1 .pro-container{
-  justify-content: center;
+     justify-content: center;
+     padding-top: 5px;
     }
 
    #product1 .loadmore {
-  top: 720px;
-  left: 220px;
+    top: 375px;
+    left: 130px;
+    width: 109px;
+    height: 28px;
+    font-size: 13px;
    }
 
    #product1 .mostpopular{
-    padding-left: 20px;
-    font-size: 12px;
-    line-height: 12px;
+    padding-left: 13px;
+    font-size: 13px;
+    line-height: 5px;
     letter-spacing: 1px;
   }
 
@@ -1097,59 +1101,86 @@ footer h5 {
 
    /* Latest Relase Starts Here */
    #product2 {
-    top: 1325px;
-  }
-
-  #product2 .pro {
+    margin: 10px 10px;
+    top: 680px;
+ }
+ 
+   #product2 .pro {
     width: 15%;
-    min-width: 210px;
-    padding: 10px 14px;
-    cursor: pointer;
-    border-radius: 10px;
-    transition: 0.2s ease;
+    min-width: 120px;
+    padding: 5px 8px;
     position: relative;
-  }
+      }
+ 
+   #product2 .pro-container{
+      justify-content: center;
+      padding-top: 5px;
+     }
+ 
+    #product2 .loadmore {
+     top: 375px;
+     left: 130px;
+     width: 109px;
+     height: 28px;
+     font-size: 13px;
+    }
+ 
+    #product2 .mostpopular{
+     padding-left: 13px;
+     font-size: 13px;
+     line-height: 5px;
+     letter-spacing: 1px;
+   }
+ 
+   #product2 h4 {
+     font-size: 8px;
+     line-height: 8px;
+     letter-spacing: 2px;
+   }
+ 
+   #product2 .star{
+     font-size: 8px;
+   }
+ 
+   #product2 .pro .money {
+     position: absolute;
+     right: 10px;
+     bottom: 15px;
+     font-size: 7px;
+     font-weight: 600;
+   }
 
-  #product2 .pro-container{
-    justify-content: center;
-  }
+     /* Banner Starts Here */
 
-  #product2 .loadmore {
-    top: 720px;
-    left: 220px;
-  }
-
-  /* Banner Starts Here */
-
-  #banner {
-    margin: 10px 38px;
+   #banner {
+    margin: 3px 12px;
     position: absolute;
-    top: 2120px;
+    top: 1100px;
   }
 
   #banner .ad {
     position: relative;
-    width: 550px;
-    height: 420px;
+    width: 350px;
+    height: 240px;
     left: 0px;
     top: 0px;
   }
   
   #banner .discount {
-   font-size: 25px;
-   line-height: 30px;
+   font-size: 15px;
+   line-height: 17px;
    position: absolute;
-   margin-left: 155px;
-   margin-top: 2px;
+   margin-left: 75px;
+   margin-top: 10px;
   }
   
   #banner .bannerimg {
-     width: 550px;
-     height: 280px;
+     width: 280px;
+     height: 150px;
      position: absolute;
      border-radius: 13px;
-     left: 60px;
-     margin-top: 115px;
+     left: 35px;
+     margin-top: 75px;
      
   }
 
@@ -1168,53 +1199,52 @@ footer h5 {
    }
 
   #catalog {
-    margin: 10px 40px;
+    margin: 3px 10px;
     position: absolute;
-    top: 2570px;
+    top: 1350px;
   }
 
   #catalog .te{
     position: relative;
-    width: 590px;
-    height: 450px;
-    left: 40px;
+    width: 320px;
+    height: 250px;
+    left: 30px;
     top: 0px;
    }
 
   #catalog .ipadcatalogimg {
     display: initial;
     position: absolute;
-    width: 580px;
-    left: 12px;
-    bottom: 250px;
-    margin-top: 2px;
+    width: 300px;
+    left: 1px;
+    top: 0px;
   }
 
   #catalog .button {
-    width: 235px;
-    height: 48px;
+    font-size: 13px;
     position: absolute;
-    margin-top: 220px;
-    left: 170px;
+    width: 150px;
+    height: 40px;
+    margin-top: 120px;
+    left: 80px;
   }
    
    #catalog .browseipad {
      display: initial;
      font-style: normal;
      font-weight: 100;
-     font-size: 15px;
-     line-height: 15px;
-     color: white;
+     font-size: 10px;
+     line-height: 5px;
      position: absolute;
-     margin-top: 275px;
-     left: 150px;
+     margin-top: 170px;
+     left: 69px;
    }
 
 
 /* NewsLetter Starts Here */
 
   #newsletter {
-  top: 3000px;
+  top: 1550px;
   padding-left: 100px;
   height: 20vh;
   width: 100%;
@@ -1226,12 +1256,12 @@ footer h5 {
 }
 
 #newsletter h1 {
-  font-size: 30px;
-  line-height: 50px;
+  font-size: 20px;
+  line-height: 20px;
 }
 
 #newsletter p {
-  font-size: 18px;
+  font-size: 10px;
   font-weight: 600; 
   color: #FFFFFF;
 }
@@ -1246,8 +1276,8 @@ footer h5 {
 }
 
 #newsletter button {
-  width: 160px;
-  height: 65px;
+  width: 120px;
+  height: 45px;
   left: 458px;
   top: 111.8px;
 }
