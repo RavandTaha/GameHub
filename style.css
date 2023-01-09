@@ -848,7 +848,7 @@ footer strong {
   #catalog {
     margin: 10px 40px;
     position: absolute;
-    top: 2570px;
+    top: 2560px;
   }
 
   #catalog .te{
@@ -863,6 +863,7 @@ footer strong {
     display: initial;
     position: absolute;
     width: 580px;
+    height: 200px;
     left: 12px;
     bottom: 250px;
     margin-top: 2px;
@@ -872,8 +873,8 @@ footer strong {
     width: 235px;
     height: 48px;
     position: absolute;
-    margin-top: 220px;
-    left: 170px;
+    margin-top: 30px;
+    left: 90px;
   }
    
    #catalog .browseipad {
@@ -1206,8 +1207,8 @@ footer h5 {
 
   #catalog .te{
     position: relative;
-    width: 320px;
-    height: 250px;
+    width: 290px;
+    height: 200px;
     left: 30px;
     top: 0px;
    }
@@ -1215,10 +1216,19 @@ footer h5 {
   #catalog .catalogimg {
     display: initial;
     position: absolute;
-    width: 250px;
+    width: 260px;
     height: 110px;
-    left: 20px;
     top: 0px;
+    left: 20px;
+  }
+
+  #catalog .button {
+    width: 135px;
+    height: 40px;
+    font-size: 13px;
+    position: absolute;
+    margin-top: -65px;
+    left: 5px;
   }
 
    #catalog .browseipad {
@@ -1232,21 +1242,6 @@ footer h5 {
      left: 69px;
    }
 
-   #catalog .buttonip {
-     display: initial;
-     font-weight: 600;
-     line-height: 28px;
-     font-size: 12px;
-     width: 120px;
-     height: 40px;
-     position: absolute;
-     margin-top: 120px;
-     left: 90px;
-    }
-
-    #catalog .button {
-      display: none;
-    }
 
 
 /* NewsLetter Starts Here */
