@@ -206,6 +206,157 @@ button {
   transition: 0.2s ease;
 }
 
+/* Banner starts here */
+
+#banners {
+  margin: 2px 5px;
+  position: absolute;
+}
+
+#banners .ban {
+  position: relative;
+  width: 1400px;
+  height: 450px;
+  top: 250px;
+  left: 16%;
+}
+
+#banners .topsellers{
+  position: absolute;
+  width: 400px;
+  height: 408px;
+}
+
+#banners .newreleases{
+  position: absolute;
+  left: 440px;
+}
+
+#banners .comingsoon{
+  position: absolute;
+  left: 880px;
+}
+
+#banners .titles{
+  width: 400px;
+  height: 50px;
+  position: relative;
+  display: flex;
+}
+
+#banners .bantitle {
+  color: white;
+  position: absolute;
+  bottom: 50%;
+}
+
+#banners .viewmore {
+  color: white;
+  position: absolute;
+  bottom: 70%;
+  left: 75%;
+}
+
+#banners .h {
+  position: absolute;
+  width: 1px;
+  height: 408px;
+  border: 0 none;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  left: 105%;
+}
+
+#banners .pro {
+  position: relative;
+  display: block;
+  width: 400px;
+  height: 350px;
+  top: 5px;
+}
+
+#banners .pro1{
+  position: absolute;
+  display: flex;
+  width: 400px;
+  height: 105px;
+}
+
+#banners .pro2{
+  position: absolute;
+  display: flex;
+  width: 400px;
+  height: 105px;
+  margin-top: 120px;
+}
+
+#banners .pro3{
+  position: absolute;
+  display: flex;
+  width: 400px;
+  height: 105px;
+  margin-top: 240px;
+}
+
+#banners .prodt {
+  bottom: 60%;
+  position: absolute;
+  margin-left: 80px;
+  letter-spacing: 1px;
+}
+
+#banners .moneyt{
+  bottom: 15%;
+  position: absolute;
+  margin-left: 81px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+
+#banners img {
+  width: 75px;
+  height: 105px;
+}
+
+#banners h1{
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 0px;
+  letter-spacing: 1px;
+}
+
+#banners h4{
+  font-weight: 400;
+  font-size: 22px;
+}
+
+#banners button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+  width: 98px;
+  height: 24px;
+  font-weight: 100;
+  font-size: 16px;
+  letter-spacing: -0.035em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  background-color: #010922;
+  border: 2px solid #E55B13;
+  border-radius: 10px;
+  line-height: 0px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
