@@ -260,6 +260,8 @@ button {
   height: 21px;
   margin-top: 320px;
   margin-left: 135px;
+  align-items: center;
+  display: inline-flex;
 }
 
 #pro .share {
@@ -273,11 +275,20 @@ button {
   height: 21px;
   margin-top: 320px;
   margin-left: 30px;
+  align-items: center;
+  display: inline-flex;
 }
 
-#pro i{
+#pro button {
+  display: inline-flex;
+}
+
+#pro .i{
   color: #FFFFFF;
-  font-size: 20px;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  padding: 1px 7px;
 }
 
 
@@ -717,10 +728,6 @@ footer strong {
     margin-left: 25px;
   }
 
-  #pro i{
-    font-size: 11px;
-  }
-
 
   /*More Games*/
 
@@ -778,17 +785,17 @@ footer strong {
   
   footer .col{
     margin-bottom: 5px;
-    margin-top: -25px;
+    margin-top: 0px;
     margin-left: 5px;
   }
   
   footer .col2{
-    margin-top: -25px;
+    margin-top: 0px;
     margin-left: 3px;
   }
   
   footer .col3{
-    margin-top: -25px;
+    margin-top: 0px;
     margin-left: 3px;
   }
   
@@ -934,8 +941,9 @@ footer strong {
     margin-top: 95px;
     margin-left: 40px;
 }
-#pro i{
-  font-size: 4px;
+#pro .i{
+  font-size: 6px;
+  padding: 0px 2px;
 }
 
 /*More Games*/
@@ -1085,15 +1093,15 @@ footer {
   }
 
   #pro .rad1 {
-    width: 100px;
-    height: 220px;
-    margin-left: 40px;
+    width: 105px;
+    height: 225px;
+    margin-left: 10px;
     margin-top: 30px;
   }
 
   #pro .bigphoto {
-    width: 100px;
-    height: 120px;
+    width: 150px;
+    height: 200px;
   }
 
   #pro h4 {
@@ -1103,8 +1111,8 @@ footer {
   }
 
   #pro .proinfo {
-    font-size: 3px;
-    width: 95px;
+    font-size: 5px;
+    width: 148px;
     line-height: 6px;
   }
 
@@ -1115,27 +1123,27 @@ footer {
     width: 80px;
     height: 110px;
     margin-top: 40px;
-    margin-left: 180px;
+    margin-left: 185px;
   }
 
   #pro .smallphoto {
     width: 30px;
     height: 30px;
-    margin-left: 20px;
+    margin-left: 30px;
   }
 
   #pro .money {
     font-size: 8px;
     line-height: 10px;
     margin-top: 30px;
-    margin-left: 5px;
+    margin-left: 2px;
   }
 
   #pro .buynow {
   font-size: 10px;
   line-height: 0px;
-  width: 75px;
-  height: 19px;
+  width: 85px;
+  height: 15px;
   margin-top: 45px;
   margin-left: 1px;
   }
@@ -1143,15 +1151,15 @@ footer {
   #pro .addtocart {
     font-size: 9px;
     line-height: 0px;
-    width: 72px;
-    height: 19px;
+    width: 85px;
+    height: 15px;
     margin-top: 70px;
 }
 
   #pro .report {
   font-size: 4px;
   width: 30px;
-  height: 12px;
+  height: 11px;
   margin-top: 95px;
   margin-left: 5px;
 }
@@ -1159,7 +1167,7 @@ footer {
   #pro .share {
     font-size: 4px;
     width: 30px;
-    height: 12px;
+    height: 11px;
     margin-top: 95px;
     margin-left: 40px;
 }
@@ -1172,7 +1180,7 @@ footer {
 #products {
   margin: 5px 2px;
   position: absolute;
-  top: 420px;
+  top: 480px;
   left: 0px;
 }
 
