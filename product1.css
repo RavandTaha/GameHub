@@ -843,39 +843,39 @@ footer strong {
 
 
   #pro {
-    margin: 4px 30px;
+    margin: 4px 20px;
     width: 315px;
-    height: 280px;
+    height: 320px;
   }
 
   #pro .title {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 30px;
-    width: 310px;
+    width: 330px;
   }
 
   #pro .rad1 {
-    width: 100px;
-    height: 220px;
-    margin-left: 40px;
+    width: 140px;
+    height: 280px;
+    margin-left: 15px;
     margin-top: 30px;
   }
 
   #pro .bigphoto {
-    width: 100px;
-    height: 120px;
+    width: 140px;
+    height: 170px;
   }
 
   #pro h4 {
-    font-size: 4px;
+    font-size: 5px;
     line-height: 10px;
     
   }
 
   #pro .proinfo {
-    font-size: 3px;
-    width: 95px;
-    line-height: 6px;
+    font-size: 4px;
+    width: 138px;
+    line-height: 7px;
   }
 
   /*rad 2 */
@@ -885,7 +885,7 @@ footer strong {
     width: 80px;
     height: 110px;
     margin-top: 40px;
-    margin-left: 180px;
+    margin-left: 200px;
   }
 
   #pro .smallphoto {
@@ -904,18 +904,19 @@ footer strong {
   #pro .buynow {
   font-size: 10px;
   line-height: 0px;
-  width: 75px;
-  height: 19px;
+  width: 80px;
+  height: 17px;
   margin-top: 45px;
-  margin-left: 1px;
+  margin-left: 0px;
   }
 
   #pro .addtocart {
     font-size: 9px;
     line-height: 0px;
-    width: 72px;
-    height: 19px;
+    width: 80px;
+    height: 17px;
     margin-top: 70px;
+    margin-left: 0px;
 }
 
   #pro .report {
@@ -942,8 +943,8 @@ footer strong {
 #products {
   margin: 5px 2px;
   position: absolute;
-  top: 420px;
-  left: 30px;
+  top: 460px;
+  left: 25px;
 }
 
 
