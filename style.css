@@ -67,6 +67,7 @@ button {
   cursor: pointer;
   position: absolute;
   border-color: #E55B13;
+  border: none;
 }
 
  .section-p1 {
