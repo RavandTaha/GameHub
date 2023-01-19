@@ -70,6 +70,10 @@ button {
   border: none;
 }
 
+img {
+  cursor: pointer;
+}
+
 .section-p1 {
   padding: 40px 80px;
  }
@@ -242,6 +246,11 @@ button {
 
 #products .pro2 {
   display: none;
+}
+
+#products .addtocart:hover {
+  transition: 0.2s ease;
+  border: 3px solid #FFFFFF;
 }
 
 

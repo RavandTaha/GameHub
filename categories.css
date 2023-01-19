@@ -66,8 +66,11 @@ button {
   text-transform: uppercase;
   cursor: pointer;
   position: absolute;
-  border-color: #E55B13;
   border: none;
+}
+
+img {
+  cursor: pointer;
 }
 
 .section-p1 {
@@ -455,6 +458,11 @@ button {
   position: absolute;
   left: 25%;
   bottom: 3px;
+}
+
+#products .addtocart:hover {
+  transition: 0.2s ease;
+  border: 3px solid #FFFFFF;
 }
 
 #products .allgames{

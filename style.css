@@ -70,6 +70,10 @@ button {
   border: none;
 }
 
+img {
+  cursor: pointer;
+}
+
  .section-p1 {
   padding: 40px 80px;
  }
@@ -351,9 +355,6 @@ cursor: pointer;
 }
 
 #product2 .loadmore:hover {
-  width: 190px;
-  height: 52px;
-  font-size: 22px;
   transition: 0.2s ease;
   border: 3px solid #FFFFFF;
 }
@@ -548,6 +549,11 @@ cursor: pointer;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   right: 110px;
+}
+
+#newsletter button:hover {
+  transition: 0.2s ease;
+  border: 3px solid #FFFFFF;
 }
 
 

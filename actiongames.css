@@ -70,6 +70,10 @@ button {
   border: none;
 }
 
+img {
+  cursor: pointer;
+}
+
 .section-p1 {
   padding: 40px 80px;
  }
@@ -218,6 +222,11 @@ button {
   position: absolute;
   left: 25%;
   bottom: 3px;
+}
+
+#products .addtocart:hover {
+  transition: 0.2s ease;
+  border: 3px solid #FFFFFF;
 }
 
 #products .allgames{
