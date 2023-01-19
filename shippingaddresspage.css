@@ -165,6 +165,7 @@ img {
 }
 
 #menu .cart{
+  background-color: rgba(255, 255, 255, 0.4);
   display: inline-flex;
   align-items: center;
   position: relative;
@@ -175,7 +176,6 @@ img {
 }
 
 #menu .customer{
-  background-color: rgba(255, 255, 255, 0.4);
   display: inline-flex;
   align-items: center;
   position: relative;
@@ -535,7 +535,6 @@ footer strong {
   }
   
   #menu .customer{
-    background-color: rgba(255, 255, 255, 0.4);
     display: inline-flex;
     align-items: center;
     position: relative;
@@ -546,7 +545,6 @@ footer strong {
   }
   
   #menu .delivery{
-    background-color: rgba(255, 255, 255, 0.4);
     display: inline-flex;
     align-items: center;
     position: relative;
@@ -557,7 +555,6 @@ footer strong {
   }
   
   #menu .payment {
-    background-color: rgba(255, 255, 255, 0.4);
     display: inline-flex;
     align-items: center;
     position: relative;
@@ -1172,12 +1169,47 @@ footer {
 }
 
 @media (max-width:375px) {
+
+
+  .section-p1 {
+    padding: 10px 1px;
+   }
+
   #menu {
     margin: 10px 20px;
     display: block;
   }
 
- 
+  #shippingaddress {
+    margin: 0px 1px;
+    position: absolute;
+    top: 250px;
+  }
+
+  .container{
+    padding:10px;
+    height: 450px;
+  }
+
+  .container form{
+    padding:30px 10px;
+    width:350px;
+  }
+
+  #shippingaddress .continuebutton{
+    padding: 0px 10px;
+    font-size: 14px;
+    width: 130px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 200px;
+  }
+
+  #shippingaddress .i {
+    font-size: 20px;
+    padding: 10px 6px;
+  }
+
 
   #summary {
     margin: 20px 20px;
