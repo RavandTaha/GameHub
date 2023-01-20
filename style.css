@@ -1545,7 +1545,7 @@ footer h5 {
 
   #hero{
     height: 150px;
-    padding: 10px 10px;
+    padding: 10px 30px;
   }
 
   #hero h1{
@@ -1581,7 +1581,7 @@ footer h5 {
     height: 90px;
     position: absolute;
     top: 12px;
-    left: 150px;
+    left: 250px;
   }
 
 
@@ -1593,10 +1593,10 @@ footer h5 {
 
   #product1 .pro {
    width: 15%;
-   min-width: 110px;
-   padding: 5px 8px;
+   min-width: 130px;
+   padding: 5px 15px;
    position: relative;
-     }
+  }
 
   #product1 .pro-container{
      justify-content: center;
@@ -1607,12 +1607,12 @@ footer h5 {
     width: 109px;
     height: 28px;
     font-size: 13px;
-    top: 350px;
-    left: 124px;
+    top: 370px;
+    left: 170px;
    }
 
    #product1 .mostpopular{
-    padding-left: 13px;
+    padding-left: 50px;
     font-size: 13px;
     line-height: 5px;
     letter-spacing: 1px;
@@ -1639,15 +1639,16 @@ footer h5 {
    /* Latest Relase Starts Here */
    #product2 {
     margin: 10px 10px;
-    top: 620px;
+    top: 650px;
  }
- 
-   #product2 .pro {
-     width: 15%;
-     min-width: 110px;
-     padding: 5px 8px;
-     position: relative;
-    }
+
+
+ #product2 .pro {
+  width: 15%;
+  min-width: 130px;
+  padding: 5px 15px;
+  position: relative;
+ }
  
    #product2 .pro-container{
       justify-content: center;
@@ -1658,12 +1659,12 @@ footer h5 {
       width: 109px;
       height: 28px;
       font-size: 13px;
-      top: 350px;
-      left: 124px;
+      top: 370px;
+      left: 170px;
     }
  
     #product2 .mostpopular{
-     padding-left: 13px;
+     padding-left: 50px;
      font-size: 13px;
      line-height: 5px;
      letter-spacing: 1px;
@@ -1690,8 +1691,8 @@ footer h5 {
      /* Banner Starts Here */
 
    #banner {
-    margin: 3px 2px;
-    top: 1020px;
+    margin: 3px 10px;
+    top: 1100px;
   }
 
   #banner .ad {
@@ -1733,9 +1734,9 @@ footer h5 {
    }
 
   #catalog {
-    margin: 3px 50px;
+    margin: 3px 100px;
     position: absolute;
-    top: 1280px;
+    top: 1350px;
   }
 
   #catalog .te{
@@ -1783,7 +1784,7 @@ footer h5 {
 /* NewsLetter Starts Here */
 
   #newsletter {
-   top: 1500px;
+   top: 1550px;
    padding-left: 30px;
    height: 100px;
    width: 100%;
@@ -1815,7 +1816,7 @@ footer h5 {
     height: 1.932rem;
     padding: 0 0.25em;
     font-size: 13px;
-    width: 80%;
+    width: 60%;
   }
 
   #newsletter button {
@@ -1840,7 +1841,7 @@ footer .logo {
 }
 
 footer {
-  top: 1398px;
+  top: 1448px;
 }
 
 footer .col{
@@ -2084,7 +2085,21 @@ footer h5 {
 
   #newsletter input {
     font-size: 12px;
+  }
 
+  #newsletter .form {
+    display: flex;
+    width: 100%;
+  }
+
+  #newsletter input {
+    width: 90%;
+  }
+
+  #newsletter button {
+    right: 0px;
+    left: 0px;
+    top: 187px;
   }
 
 

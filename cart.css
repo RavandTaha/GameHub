@@ -145,7 +145,7 @@ img {
 /* Menu Starts Here */
 
 #menu {
-  margin: 10px 220px;
+  margin: 10px 350px;
   position: absolute;
   display: flex;
 }
@@ -169,9 +169,9 @@ img {
   align-items: center;
   position: relative;
   text-decoration: none;
-  font-size: 22px;
-  width: 250px;
-  height: 40px;
+  font-size: 25px;
+  width: 265px;
+  height: 45px;
 }
 
 #menu .customer{
@@ -179,22 +179,10 @@ img {
   display: inline-flex;
   align-items: center;
   position: relative;
-  font-size: 22px;
-  width: 250px;
-  height: 40px;
-  margin-left: 15px;
-}
-
-
-#menu .delivery{
-  background-color: rgba(255, 255, 255, 0.4);
-  display: inline-flex;
-  align-items: center;
-  position: relative;
-  font-size: 22px;
-  width: 250px;
-  height: 40px;
-  margin-left: 15px;
+  font-size: 25px;
+  width: 265px;
+  height: 45px;
+  margin-left: 30px;
 }
 
 #menu .payment {
@@ -203,9 +191,10 @@ img {
   align-items: center;
   position: relative;
   font-size: 22px;
-  width: 250px;
-  height: 40px;
-  margin-left: 15px;
+  font-size: 25px;
+  width: 265px;
+  height: 45px;
+  margin-left: 30px;
 }
 
 #menu .i {
@@ -460,8 +449,6 @@ img {
 
 
 
-
-
 /* Downbar starts here */
 
 footer {
@@ -562,7 +549,7 @@ footer strong {
    }
 
    #menu {
-    margin: 10px 40px;
+    margin: 10px 200px;
     position: absolute;
     display: flex;
   }
@@ -584,9 +571,9 @@ footer strong {
     align-items: center;
     position: relative;
     text-decoration: none;
-    font-size: 22px;
-    width: 250px;
-    height: 40px;
+    font-size: 23px;
+    width: 264px;
+    height: 44px;
   }
   
   #menu .customer{
@@ -594,20 +581,9 @@ footer strong {
     display: inline-flex;
     align-items: center;
     position: relative;
-    font-size: 22px;
-    width: 250px;
-    height: 40px;
-    margin-left: 15px;
-  }
-  
-  #menu .delivery{
-    background-color: rgba(255, 255, 255, 0.4);
-    display: inline-flex;
-    align-items: center;
-    position: relative;
-    font-size: 22px;
-    width: 250px;
-    height: 40px;
+    font-size: 23px;
+    width: 264px;
+    height: 44px;
     margin-left: 15px;
   }
   
@@ -616,9 +592,9 @@ footer strong {
     display: inline-flex;
     align-items: center;
     position: relative;
-    font-size: 22px;
-    width: 250px;
-    height: 40px;
+    font-size: 23px;
+    width: 264px;
+    height: 44px;
     margin-left: 15px;
   }
   
@@ -631,7 +607,7 @@ footer strong {
 /* cartproducts starts here */
 
 #shoppingcart {
-  margin: 0px 210px;
+  margin: 0px 260px;
   position: absolute;
   top: 320px;
   background-color: rgba(255, 255, 255, 0.03) ;
@@ -670,7 +646,7 @@ footer strong {
    /* Product Starts Here */
 
    #menu {
-    margin: 10px 32px;
+    margin: 10px 150px;
   }
   
   #menu .bar {
@@ -689,12 +665,6 @@ footer strong {
     height: 40px;
   }
 
-  #menu .delivery{
-    font-size: 21px;
-    width: 220px;
-    height: 40px;
-  }
-
   #menu .payment{
     font-size: 21px;
     width: 220px;
@@ -705,7 +675,7 @@ footer strong {
   /* cartproducts starts here */ 
 
   #shoppingcart {
-    margin: 0px 80px;
+    margin: 0px 100px;
     top: 270px;
   }
 
@@ -886,13 +856,13 @@ footer {
   /* Product Starts Here */
 
   #menu {
-    margin: 10px 2px;
-    display: block;
+    margin: 10px 40px;
+    display: flex;
   }
 
   #menu .bar {
-    padding: 0px 140px;
-    display: block;
+    padding: 0px 5px;
+    display: flex;
     justify-content: space-between;
   }
 
@@ -909,13 +879,6 @@ footer {
     height: 35px;
   }
 
-  #menu .delivery{
-    font-size: 18px;
-    width: 200px;
-    height: 35px;
-    margin-top: 15px;
-  }
-
   #menu .payment{
     font-size: 18px;
     width: 200px;
@@ -927,7 +890,7 @@ footer {
 
   #shoppingcart {
     margin: 0px 50px;
-    top: 300px;
+    top: 250px;
   }
 
   #shoppingcart .title {
@@ -1168,8 +1131,8 @@ footer {
   /* Product Starts Here */
 
   #menu {
-    margin: 10px 60px;
-    display: block;
+    margin: 10px 1px;
+    display: flex;
   }
 
   #menu .bar {
@@ -1179,37 +1142,24 @@ footer {
   }
 
   #menu .cart{
-    position: absolute;
     font-size: 14px;
-    width: 150px;
+    width: 148px;
     height: 30px;
     margin-left: 0px;
   }
 
   #menu .customer{
-    position: absolute;
     font-size: 14px;
-    width: 150px;
+    width: 148px;
     height: 30px;
-    margin-left: 165px;
-  }
-
-  #menu .delivery{
-    position: absolute;
-    font-size: 14px;
-    width: 150px;
-    height: 30px;
-    margin-left: 0px;
-    margin-top: 50px;
+    margin-left: 8px;
   }
 
   #menu .payment{
-    position: absolute;
     font-size: 14px;
-    width: 150px;
+    width: 148px;
     height: 30px;
-    margin-top: 50px;
-    margin-left: 165px;
+    margin-left: 8px;
   }
 
   /* cartproducts starts here */ 
@@ -1217,7 +1167,7 @@ footer {
 
   #shoppingcart {
     margin: 0px 60px;
-    top: 210px;
+    top: 150px;
   }
 
   #shoppingcart .title {
@@ -1297,21 +1247,21 @@ footer {
       padding: 0 2.5em;
       font-size: 9px;
       width: 90%;
-      margin-left: 20px;
+      margin-left: 0px;
       margin-top: 30px;
     }
 
     #shoppingcart .continuebutton{
-      padding: 0px 10px;
-      font-size: 14px;
-      width: 130px;
-      height: 30px;
+      padding: 0px 13px;
+      font-size: 12px;
+      width: 120px;
+      height: 28px;
       margin-top: 490px;
       margin-left: 170px;
     }
 
     #shoppingcart .i {
-      font-size: 20px;
+      font-size: 18px;
       padding: 10px 6px;
     }
 
@@ -1320,7 +1270,7 @@ footer {
 
   #summary {
     margin: 20px 60px;
-    top: 770px;
+    top: 710px;
     left: 0px;
   }
 
@@ -1451,14 +1401,47 @@ footer {
 
 @media (max-width:375px) {
   #menu {
-    margin: 10px 20px;
+    margin: 10px 1px;
     display: block;
+  }
+
+  #menu .bar {
+    padding: 5px 1px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #menu .cart{
+    position: absolute;
+    font-size: 14px;
+    width: 150px;
+    height: 30px;
+    margin-left: 0px;
+  }
+
+  #menu .customer{
+    position: absolute;
+    font-size: 14px;
+    width: 150px;
+    height: 30px;
+    margin-left: 165px;
+  }
+
+
+  #menu .payment{
+    position: absolute;
+    font-size: 14px;
+    width: 150px;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 0px;
   }
 
   #shoppingcart {
     margin: 0px 20px;
-    top: 210px;
+    top: 200px;
   }
+
 
   #summary {
     margin: 20px 20px;
@@ -1513,22 +1496,14 @@ footer {
     margin-left: 165px;
   }
 
-  #menu .delivery{
-    position: absolute;
-    font-size: 14px;
-    width: 150px;
-    height: 30px;
-    margin-left: 0px;
-    margin-top: 50px;
-  }
 
   #menu .payment{
     position: absolute;
     font-size: 14px;
     width: 150px;
     height: 30px;
-    margin-top: 50px;
-    margin-left: 165px;
+    margin-top: 40px;
+    margin-left: 0px;
   }
 
   /* cartproducts starts here */ 
@@ -1536,7 +1511,7 @@ footer {
 
   #shoppingcart {
     margin: 0px 5px;
-    top: 260px;
+    top: 200px;
   }
 
   #shoppingcart .title {
@@ -1639,7 +1614,7 @@ footer {
 
   #summary {
     margin: 20px 3px;
-    top: 820px;
+    top: 780px;
     left: 0px;
   }
 

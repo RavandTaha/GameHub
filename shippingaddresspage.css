@@ -145,13 +145,13 @@ img {
 /* Menu Starts Here */
 
 #menu {
-  margin: 10px 220px;
+  margin: 10px 420px;
   position: absolute;
   display: flex;
 }
 
 #menu .bar {
-  padding: 5px 110px;
+  padding: 5px 50px;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -170,31 +170,19 @@ img {
   align-items: center;
   position: relative;
   text-decoration: none;
-  font-size: 22px;
-  width: 250px;
-  height: 40px;
+  font-size: 25px;
+  width: 265px;
+  height: 45px;
 }
 
 #menu .customer{
   display: inline-flex;
   align-items: center;
   position: relative;
-  font-size: 22px;
-  width: 250px;
-  height: 40px;
-  margin-left: 15px;
-}
-
-
-#menu .delivery{
-  background-color: rgba(255, 255, 255, 0.4);
-  display: inline-flex;
-  align-items: center;
-  position: relative;
-  font-size: 22px;
-  width: 250px;
-  height: 40px;
-  margin-left: 15px;
+  font-size: 25px;
+  width: 265px;
+  height: 45px;
+  margin-left: 30px;
 }
 
 #menu .payment {
@@ -202,10 +190,10 @@ img {
   display: inline-flex;
   align-items: center;
   position: relative;
-  font-size: 22px;
-  width: 250px;
-  height: 40px;
-  margin-left: 15px;
+  font-size: 25px;
+  width: 265px;
+  height: 45px;
+  margin-left: 30px;
 }
 
 #menu .i {
@@ -225,7 +213,7 @@ img {
 #shippingaddress {
   margin: 0px 300px;
   position: absolute;
-  top: 330px;
+  top: 365px;
 }
 
 .container{
@@ -507,7 +495,7 @@ footer strong {
    }
 
    #menu {
-    margin: 10px 50px;
+    margin: 10px 200px;
     position: absolute;
     display: flex;
   }
@@ -544,16 +532,6 @@ footer strong {
     margin-left: 15px;
   }
   
-  #menu .delivery{
-    display: inline-flex;
-    align-items: center;
-    position: relative;
-    font-size: 22px;
-    width: 250px;
-    height: 40px;
-    margin-left: 15px;
-  }
-  
   #menu .payment {
     display: inline-flex;
     align-items: center;
@@ -573,9 +551,9 @@ footer strong {
 /* shipping info starts here */
 
 #shippingaddress {
-  margin: 0px 210px;
+  margin: 0px 220px;
   position: absolute;
-  top: 330px;
+  top: 340px;
 }
 
 /* Summary starts here */
@@ -586,6 +564,15 @@ footer strong {
   position: absolute;
   top: 850px;
   left: 0px;
+}
+
+#shippingaddress .continuebutton{
+  padding: 0px 21px;
+  font-size: 27px;
+  width: 220px;
+  height: 45px;
+  top: -30px;
+  margin-left: 680px;
 }
 
 /* Downbar starts here */
@@ -611,7 +598,7 @@ footer {
    /* Product Starts Here */
 
    #menu {
-    margin: 10px 32px;
+    margin: 10px 150px;
   }
   
   #menu .bar {
@@ -648,6 +635,15 @@ footer {
   #shippingaddress {
     margin: 0px 20px;
     top: 320px;
+  }
+
+  #shippingaddress .continuebutton{
+    padding: 0px 21px;
+    font-size: 27px;
+    width: 220px;
+    height: 45px;
+    margin-top: 0px;
+    margin-left: 620px;
   }
 
   /* Summary starts here */
@@ -735,12 +731,12 @@ footer {
 
   #menu {
     margin: 10px 2px;
-    display: block;
+    display: flex;
   }
 
   #menu .bar {
-    padding: 0px 140px;
-    display: block;
+    padding: 0px 50px;
+    display: flex;
     justify-content: space-between;
   }
 
@@ -775,7 +771,7 @@ footer {
   #shippingaddress {
     margin: 0px 30px;
     position: absolute;
-    top: 340px;
+    top: 310px;
   }
 
   .container{
@@ -807,7 +803,7 @@ footer {
 
   #summary {
     margin: 20px 170px;
-    top: 850px;
+    top: 810px;
     left: 0px;
   }
 
@@ -976,22 +972,13 @@ footer {
     margin-left: 165px;
   }
 
-  #menu .delivery{
-    position: absolute;
-    font-size: 14px;
-    width: 150px;
-    height: 30px;
-    margin-left: 0px;
-    margin-top: 50px;
-  }
-
   #menu .payment{
     position: absolute;
     font-size: 14px;
     width: 150px;
     height: 30px;
-    margin-top: 50px;
-    margin-left: 165px;
+    margin-top: 40px;
+    margin-left: 0px;
   }
 
 
@@ -1023,7 +1010,7 @@ footer {
   #shippingaddress .continuebutton{
     padding: 0px 10px;
     font-size: 14px;
-    width: 130px;
+    width: 122px;
     height: 30px;
     margin-top: 10px;
     margin-left: 170px;
@@ -1238,12 +1225,12 @@ footer {
   /* Product Starts Here */
 
   #menu {
-    margin: 10px 1px;
+    margin: 10px 2px;
     display: block;
   }
 
   #menu .bar {
-    padding: 5px 1px;
+    padding: 5px 2px;
     display: flex;
     justify-content: space-between;
   }
@@ -1261,16 +1248,7 @@ footer {
     font-size: 14px;
     width: 150px;
     height: 30px;
-    margin-left: 165px;
-  }
-
-  #menu .delivery{
-    position: absolute;
-    font-size: 14px;
-    width: 150px;
-    height: 30px;
-    margin-left: 0px;
-    margin-top: 50px;
+    margin-left: 160px;
   }
 
   #menu .payment{
@@ -1278,8 +1256,8 @@ footer {
     font-size: 14px;
     width: 150px;
     height: 30px;
-    margin-top: 50px;
-    margin-left: 165px;
+    margin-top: 40px;
+    margin-left: 0px;
   }
 
   /* shipping info starts here */ 
@@ -1287,7 +1265,7 @@ footer {
 
   #shippingaddress {
     margin: 0px 5px;
-    top: 350px;
+    top: 330px;
   }
 
   .container{
@@ -1310,7 +1288,7 @@ footer {
   #shippingaddress .continuebutton{
     padding: 0px 10px;
     font-size: 14px;
-    width: 130px;
+    width: 1220px;
     height: 30px;
     margin-top: 10px;
     margin-left: 150px;
