@@ -165,6 +165,7 @@ img {
 }
 
 #menu .cart{
+  background-color: rgba(255, 255, 255, 0.4);
   display: inline-flex;
   align-items: center;
   position: relative;
@@ -198,7 +199,7 @@ img {
 }
 
 #menu .payment {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: #E55B13;
   display: inline-flex;
   align-items: center;
   position: relative;
@@ -220,137 +221,91 @@ img {
 }
 
 
-/* cartproducts starts here */ 
+/* shipping info starts here */ 
 
-#shoppingcart {
-  margin: 0px 200px;
+#shippingaddress {
+  margin: 0px 300px;
   position: absolute;
-  top: 320px;
-  background-color: rgba(255, 255, 255, 0.03) ;
+  top: 330px;
 }
 
-#shoppingcart .title {
-  position: relative;
-  font-size: 50px;
-  line-height: 50px;
-  width: 500px;
-  margin-top: 0px;
-}
-
-#shoppingcart .products {
-  position: relative;
-  display: block;
-  margin-top: 20px;
-  width: 900px;
-  height: 1250px;
-}
-
-#shoppingcart .pro1 {
-  position: absolute;
+.container{
   display: flex;
-  width: 900px;
-  height: 340px;
-}
-
-#shoppingcart .pro2 {
-  position: absolute;
-  top: 350px;
-  display: flex;
-  width: 900px;
-  height: 340px;
-}
-
-#shoppingcart .pro3 {
-  position: absolute;
-  top: 700px;
-  display: flex;
-  width: 900px;
-  height: 340px;
-}
-
-#shoppingcart .h {
-  width: 900px;
-  height: 5px;
-  background-color: #FFFFFF;
-  position: absolute;
-}
-
-#shoppingcart .proimg {
-  position: relative;
-  margin-top: 20px;
-  width: 230px;
-  height: 310px;
-}
-
-#shoppingcart .gamename {
-  letter-spacing: 0.1em;
-  font-size: 28px;
-  font-weight: bold;
-  margin-top: 40px;
-  margin-left: 20px;
-}
-
-#shoppingcart .platform {
-  position: absolute;
-  letter-spacing: 0.045em;
-  font-weight: 50;
-  font-size: 14px;
-  margin-top: 300px;
-  margin-left: 250px;
-}
-
-#shoppingcart .money {
-  position: absolute;
-  font-weight: bold;
-  font-size: 27px;
-  margin-left: 92%;
-  margin-top: 300px;
-} 
-
-
-#shoppingcart .pro:hover {
-  transition: 0.2s ease;
-  background: rgba(0, 0, 0, 0.3);
-}
-
-
-#shoppingcart .pro2:hover {
-  transition: 0.2s ease;
-  background: rgba(0, 0, 0, 0.3);
-}
-
-#shoppingcart .pro3:hover {
-  transition: 0.2s ease;
-  background: rgba(0, 0, 0, 0.3);
-}
-
-
-
-/* bottom of cartproducts starts  here */ 
-
-#shoppingcart .form {
-  display: flex;
-  position: absolute;
-  top: 1050px;
-  width: 40%;
+  justify-content: center;
+  align-items: center;
   margin-left: 0px;
+  padding:25px;
+  height: 450px;
 }
 
-#shoppingcart input {
-  background-color: rgba(255, 255, 255, 0.09);
+.container form{
+  padding:30px 30px;
+  width:900px;
   color: #FFFFFF;
-  border: 1px solid transparent;
-  outline: none;
-  border-radius: 80px;
-  height: 3.932rem;
-  padding: 0 1.25em;
-  font-size: 22px;
-  width: 80%;
-  margin-left: 20px;
-  margin-top: 30px;
+  background: rgba(255, 255, 255, 0.03) ;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
 }
 
-#shoppingcart .continuebutton{
+.container form .row{
+  display: flex;
+  flex-wrap: wrap;
+  gap:15px;
+}
+
+.container form .row .col{
+  flex:1 1 250px;
+}
+
+.container form .row .col .title{
+  font-size: 35px;
+  line-height: 0px;
+  margin-bottom: 25px;
+  color: #FFFFFF;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.container form .row .col .inputBox{
+  margin:10px 0;
+}
+
+.container form .row .col .inputBox span{
+  margin-bottom: 10px;
+  display: block;
+}
+
+.container form .row .col .inputBox img{
+  height: 34px;
+  margin-top: 5px;
+  filter: drop-shadow(0 0 1px #000);
+}
+
+.container form .row .col .inputBox input{
+  width: 100%;
+  border:1px solid #ccc;
+  padding:10px 15px;
+  font-size: 15px;
+  text-transform: none;
+  color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.09);
+}
+
+
+.container form .row .col .inputBox input:focus{
+  border:1px solid #000;
+}
+
+.container form .row .col .flex{
+  display: flex;
+  gap:15px;
+}
+
+.container form .row .col .flex .inputBox{
+  margin-top: 5px;
+}
+
+
+#shippingaddress .continuebutton{
   background-color: #E55B13;
   color: #FFFFFF;
   display: inline-flex;
@@ -360,48 +315,47 @@ img {
   padding: 0px 21px;
   font-size: 30px;
   width: 250px;
-  height: 50px;
-  margin-top: 1200px;
-  margin-left: 610px;
+  height: 55px;
+  margin-top: 0px;
+  margin-left: 600px;
 }
 
-#shoppingcart .i {
+#shippingaddress .i{
   display: inline-flex;
   align-items: center;
   font-size: 35px;
   padding: 0px 2px;
 }
 
-
 /* Summary starts here */
 
 
 
 #summary {
-  margin: 20px 500px;
+  margin: 20px 180px;
   position: absolute;
   top: 285px;
-  left: 650px;
+  left: 1100px;
 }
 
 #summary .sum {
   position: relative;
   display: block;
   background-color:  rgba(0, 0, 0, 0.3); 
-  width: 630px;
-  height: 420px;
+  width: 500px;
+  height: 340px;
 }
 
 #summary .order {
   letter-spacing: 0.095em;
-  font-size: 55px;
+  font-size: 35px;
   margin-left: 10px;
 }
 
 #summary .pro1{
   display: flex;
   position: absolute;
-  width: 600px;
+  width: 500px;
   margin-top: 30px;
   margin-left: 10px;
 }
@@ -409,7 +363,7 @@ img {
 #summary .pro2{
   display: flex;
   position: absolute;
-  width: 600px;
+  width: 500px;
   margin-top: 85px;
   margin-left: 10px;
 }
@@ -417,46 +371,45 @@ img {
 #summary .pro3{
   display: flex;
   position: absolute;
-  width: 600px;
+  width: 500px;
   margin-top: 140px;
   margin-left: 10px;
 }
 
 #summary .proname {
-  font-size: 30px;
+  font-size: 19px;
   text-transform: none;
 }
 
 #summary .promoney {
-  font-size: 28px;
-  margin-left: 300px;
+  font-size: 19px;
+  margin-left: 290px;
 }
 
 #summary .pro2 .promoney {
-  margin-left: 350px;
+  margin-left: 320px;
 }
 
 #summary .pro3 .promoney {
-  margin-left: 392px;
+  margin-left: 345px;
 }
 
 #summary .total {
   display: flex;
   position: absolute;
-  width: 600px;
-  margin-top: 300px;
+  width: 500px;
+  margin-top: 250px;
   margin-left: 10px;
 }
 
 #summary .totaltext {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 #summary .money {
-  font-size: 38px;
-  margin-left: 370px;
+  font-size: 28px;
+  margin-left: 300px;
 }
-
 
 
 
@@ -468,7 +421,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  top: 1600px;
+  top: 850px;
   position: relative;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 19.27%, rgba(0, 0, 0, 0.3) 23.96%, rgba(0, 0, 0, 0.3) 29.17%, rgba(0, 0, 0, 0.3) 54.17%, rgba(229, 91, 19, 0.5) 100%);
 }
@@ -562,7 +515,7 @@ footer strong {
    }
 
    #menu {
-    margin: 10px 40px;
+    margin: 10px 50px;
     position: absolute;
     display: flex;
   }
@@ -590,7 +543,6 @@ footer strong {
   }
   
   #menu .customer{
-    background-color: rgba(255, 255, 255, 0.4);
     display: inline-flex;
     align-items: center;
     position: relative;
@@ -601,7 +553,6 @@ footer strong {
   }
   
   #menu .delivery{
-    background-color: rgba(255, 255, 255, 0.4);
     display: inline-flex;
     align-items: center;
     position: relative;
@@ -612,7 +563,6 @@ footer strong {
   }
   
   #menu .payment {
-    background-color: rgba(255, 255, 255, 0.4);
     display: inline-flex;
     align-items: center;
     position: relative;
@@ -628,31 +578,30 @@ footer strong {
     padding: 2px 10px;
   }
 
-/* cartproducts starts here */
+/* shipping info starts here */
 
-#shoppingcart {
+#shippingaddress {
   margin: 0px 210px;
   position: absolute;
-  top: 320px;
-  background-color: rgba(255, 255, 255, 0.03) ;
+  top: 330px;
 }
 
 /* Summary starts here */
 
 
 #summary {
-  margin: 20px 350px;
+  margin: 20px 450px;
   position: absolute;
-  top: 1700px;
+  top: 850px;
   left: 0px;
 }
 
+/* Downbar starts here */
 
-  /* Footer starts here */
+footer {
+  top: 1150px;
+}
 
-  footer {
-    top: 2050px;
-  }
 
 }
 
@@ -702,113 +651,20 @@ footer strong {
   }
 
 
-  /* cartproducts starts here */ 
+  /* shipping info starts here */ 
 
-  #shoppingcart {
-    margin: 0px 80px;
-    top: 270px;
-  }
-
-  #shoppingcart .title {
-    font-size: 40px;
-    line-height: 30px;
-    width: 350px;
-    margin-top: 5px;
-  }
-
-  #shoppingcart .products {
-    margin-top: 20px;
-    width: 800px;
-    height: 1220px;
-  }
-
-  #shoppingcart .pro1 {
-    width: 800px;
-    height: 340px;
-  }
-
-  #shoppingcart .pro2 {
-    top: 340px;
-    width: 800px;
-    height: 340px;
-  }
-
-  #shoppingcart .pro3 {
-    top: 680px;
-    width: 800px;
-    height: 340px;
-  }
-
-
-  #shoppingcart .h {
-    width: 800px;
-    height: 5px;
-  }
-
-  #shoppingcart .proimg {
-    margin-top: 20px;
-    width: 240px;
-    height: 300px;
-  }
-
-  #shoppingcart .gamename {
-    font-size: 22px;
-    margin-top: 40px;
-    margin-left: 25px;
-  }
-
-  #shoppingcart .platform {
-    font-size: 12px;
-    margin-top: 290px;
-    margin-left: 270px;
-  }
-
-  #shoppingcart .money {
-    font-size: 20px;
-    margin-left: 92%;
-    margin-top: 290px;
-  } 
-
-  /* bottom of cartproducts starts  here */ 
-
-  #shoppingcart .form {
-    top: 1020px;
-    width: 40%;
-    margin-left: 0px;
-  }
-
-  #shoppingcart input {
-    height: 3.932rem;
-    padding: 0 3.25em;
-    font-size: 22px;
-    width: 90%;
-    margin-left: 20px;
-    margin-top: 30px;
-  }
-
-  #shoppingcart .continuebutton{
-    padding: 0px 21px;
-    font-size: 30px;
-    width: 250px;
-    height: 55px;
-    margin-top: 1150px;
-    margin-left: 540px;
+  #shippingaddress {
+    margin: 0px 20px;
+    top: 320px;
   }
 
   /* Summary starts here */
 
 
 #summary {
-  margin: 20px 150px;
-  top: 1620px;
+  margin: 20px 250px;
+  top: 850px;
   left: 0px;
-}
-
-
-  /* footer starts here */
-
-footer {
-  top: 2000px;
 }
 
 }
@@ -922,110 +778,44 @@ footer {
     height: 35px;
   }
 
-  /* cartproducts starts here */ 
+  /* shipping info starts here */ 
 
-
-  #shoppingcart {
-    margin: 0px 50px;
-    top: 300px;
+  #shippingaddress {
+    margin: 0px 30px;
+    position: absolute;
+    top: 340px;
   }
 
-  #shoppingcart .title {
-    font-size: 25px;
-    line-height: 20px;
-    width: 210px;
-    margin-top: 5px;
+  .container{
+    padding:25px;
+    height: 400px;
   }
 
-  #shoppingcart .products {
-    margin-top: 17px;
-    width: 650px;
-    height: 900px;
+  .container form{
+    padding:30px 30px;
+    width:650px;
   }
-
-  #shoppingcart .pro1 {
-    width: 650px;
-    height: 220px;
-  }
-
-  #shoppingcart .pro2 {
-    top: 235px;
-    width: 650px;
-    height: 220px;
-  }
-
-  #shoppingcart .pro3 {
-    top: 470px;
-    width: 650px;
-    height: 220px;
-  }
-
-  #shoppingcart .proimg {
-    margin-top: 20px;
-    width: 150px;
-    height: 200px;
-  }
-
-  #shoppingcart .gamename {
-    font-size: 15px;
-    margin-top: 30px;
-    margin-left: 20px;
-  }
-
-  #shoppingcart .platform {
-    font-size: 8px;
-    margin-top: 195px;
-    margin-left: 170px;
-  }
-
-  #shoppingcart .money {
-    font-size: 14px;
-    margin-left: 92%;
-    margin-top: 195px;
-  } 
-
-  #shoppingcart .h {
-    width: 650px;
-    height: 5px;
-  }
-
-    /* bottom of cartproducts starts  here */ 
-
-    #shoppingcart .form {
-      top: 710px;
-      width: 40%;
-      margin-left: 0px;
-    }
-
-    #shoppingcart input {
-      height: 2.032rem;
-      padding: 0 2.05em;
-      font-size: 14px;
-      width: 60%;
-      margin-left: 20px;
-      margin-top: 30px;
-    }
-
-    #shoppingcart .continuebutton{
+  
+  #shippingaddress .continuebutton{
       padding: 0px 10px;
       font-size: 17px;
       width: 150px;
       height: 35px;
-      margin-top: 810px;
-      margin-left: 500px;
-    }
+      margin-top: 20px;
+      margin-left: 450px;
+  }
 
-    #shoppingcart .i {
+  #shippingaddress .i {
       font-size: 20px;
       padding: 10px 6px;
-    }
+  }
 
 
   /* Summary starts here */
 
   #summary {
     margin: 20px 170px;
-    top: 1300px;
+    top: 850px;
     left: 0px;
   }
 
@@ -1094,7 +884,7 @@ footer {
   /* Downbar starts here */
 
   footer {
-    top: 1500px;
+    top: 1000px;
   }
 
   footer .logo {
@@ -1212,115 +1002,52 @@ footer {
     margin-left: 165px;
   }
 
-  /* cartproducts starts here */ 
 
+  /* shipping info starts here */ 
 
-  #shoppingcart {
-    margin: 0px 60px;
-    top: 210px;
-  }
-
-  #shoppingcart .title {
-    font-size: 15px;
-    line-height: 10px;
-    width: 150px;
-    margin-top: 0px;
-  }
-
-  #shoppingcart .products {
-    margin-top: 5px;
-    width: 310px;
-    height: 520px;
-  }
-
-  #shoppingcart a{
+  #shippingaddress {
+    margin: 0px 16px;
     position: absolute;
+    top: 310px;
   }
 
-  #shoppingcart .pro1 {
-    width: 310px;
-    height: 110px;
+  .container{
+    padding:25px;
+    height: 300px;
   }
 
-  #shoppingcart .pro2 {
-    top: 130px;
-    width: 310px;
-    height: 110px;
+  .container form{
+    padding:30px 30px;
+    width:350px;
   }
 
-  #shoppingcart .pro3 {
-    top: 260px;
-    width: 310px;
-    height: 110px;
+  .container form .row .col .title{
+    font-size: 25px;
+    margin-bottom: 25px;
+    color: #FFFFFF;
+    padding-bottom: 5px;
   }
 
-  #shoppingcart .proimg {
-    margin-top:14px;
-    width: 75px;
-    height: 110px;
+  #shippingaddress .continuebutton{
+    padding: 0px 10px;
+    font-size: 14px;
+    width: 130px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 170px;
   }
 
-  #shoppingcart .gamename {
-    font-size: 9px;
-    margin-top: 15px;
-    margin-left: 85px;
+  #shippingaddress .i {
+    font-size: 20px;
+    padding: 10px 6px;
   }
-
-  #shoppingcart .platform {
-    font-size: 5px;
-    margin-top: 100px;
-    margin-left: 85px;
-  }
-
-  #shoppingcart .money {
-    font-size: 9px;
-    margin-left: 92%;
-    margin-top: 100px;
-  } 
-
-  #shoppingcart .h {
-    line-height: 0px;
-    width: 310px;
-    height: 5px;
-  }
-
-    /* bottom of cartproducts starts  here */ 
-
-    #shoppingcart .form {
-      top: 392px;
-      width: 40%;
-      margin-left: 0px;
-    }
-
-    #shoppingcart input {
-      height: 2.000rem;
-      padding: 0 2.5em;
-      font-size: 9px;
-      width: 90%;
-      margin-left: 20px;
-      margin-top: 30px;
-    }
-
-    #shoppingcart .continuebutton{
-      padding: 0px 10px;
-      font-size: 14px;
-      width: 130px;
-      height: 30px;
-      margin-top: 490px;
-      margin-left: 170px;
-    }
-
-    #shoppingcart .i {
-      font-size: 20px;
-      padding: 10px 6px;
-    }
 
 
   /* Summary starts here */
 
   #summary {
     margin: 20px 60px;
-    top: 770px;
+    top: 740px;
     left: 0px;
   }
 
@@ -1450,15 +1177,47 @@ footer {
 }
 
 @media (max-width:375px) {
+
+
+  .section-p1 {
+    padding: 10px 1px;
+   }
+
   #menu {
     margin: 10px 20px;
     display: block;
   }
 
-  #shoppingcart {
-    margin: 0px 20px;
-    top: 210px;
+  #shippingaddress {
+    margin: 0px 1px;
+    position: absolute;
+    top: 250px;
   }
+
+  .container{
+    padding:10px;
+    height: 450px;
+  }
+
+  .container form{
+    padding:30px 10px;
+    width:350px;
+  }
+
+  #shippingaddress .continuebutton{
+    padding: 0px 10px;
+    font-size: 14px;
+    width: 130px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 200px;
+  }
+
+  #shippingaddress .i {
+    font-size: 20px;
+    padding: 10px 6px;
+  }
+
 
   #summary {
     margin: 20px 20px;
@@ -1531,115 +1290,51 @@ footer {
     margin-left: 165px;
   }
 
-  /* cartproducts starts here */ 
+  /* shipping info starts here */ 
 
 
-  #shoppingcart {
+  #shippingaddress {
     margin: 0px 5px;
-    top: 260px;
+    top: 350px;
   }
 
-  #shoppingcart .title {
-    font-size: 15px;
-    line-height: 10px;
-    width: 150px;
-    margin-top: 0px;
+  .container{
+    padding:5px;
+    height: 250px;
   }
 
-  #shoppingcart .products {
-    margin-top: 5px;
-    width: 310px;
-    height: 520px;
+  .container form{
+    padding:30px 10px;
+    width:300px;
   }
 
-  #shoppingcart a{
-    position: absolute;
+  .container form .row .col .title{
+    font-size: 22px;
+    margin-bottom: 25px;
+    padding-bottom: 3px;
+  }
+ 
+
+  #shippingaddress .continuebutton{
+    padding: 0px 10px;
+    font-size: 14px;
+    width: 130px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 150px;
   }
 
-  #shoppingcart .pro1 {
-    width: 310px;
-    height: 110px;
+  #shippingaddress .i {
+    font-size: 20px;
+    padding: 10px 6px;
   }
-
-  #shoppingcart .pro2 {
-    top: 130px;
-    width: 310px;
-    height: 110px;
-  }
-
-  #shoppingcart .pro3 {
-    top: 260px;
-    width: 310px;
-    height: 110px;
-  }
-
-  #shoppingcart .proimg {
-    margin-top:14px;
-    width: 75px;
-    height: 110px;
-  }
-
-  #shoppingcart .gamename {
-    font-size: 9px;
-    margin-top: 15px;
-    margin-left: 85px;
-  }
-
-  #shoppingcart .platform {
-    font-size: 5px;
-    margin-top: 100px;
-    margin-left: 85px;
-  }
-
-  #shoppingcart .money {
-    font-size: 9px;
-    margin-left: 92%;
-    margin-top: 100px;
-  } 
-
-  #shoppingcart .h {
-    line-height: 0px;
-    width: 310px;
-    height: 5px;
-  }
-
-    /* bottom of cartproducts starts  here */ 
-
-    #shoppingcart .form {
-      top: 392px;
-      width: 40%;
-      margin-left: 0px;
-    }
-
-    #shoppingcart input {
-      height: 2.000rem;
-      padding: 0 2.5em;
-      font-size: 9px;
-      width: 90%;
-      margin-left: 20px;
-      margin-top: 30px;
-    }
-
-    #shoppingcart .continuebutton{
-      padding: 0px 10px;
-      font-size: 14px;
-      width: 130px;
-      height: 30px;
-      margin-top: 490px;
-      margin-left: 170px;
-    }
-
-    #shoppingcart .i {
-      font-size: 20px;
-      padding: 10px 6px;
-    }
 
 
   /* Summary starts here */
 
   #summary {
     margin: 20px 3px;
-    top: 820px;
+    top: 780px;
     left: 0px;
   }
 
