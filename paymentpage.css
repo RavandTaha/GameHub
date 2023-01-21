@@ -292,6 +292,11 @@ img {
   margin-top: 5px;
 }
 
+#shippingaddress .a {
+  position: absolute;
+  left: 71%;
+  top: 90%;
+}
 
 #shippingaddress .continuebutton{
   background-color: #E55B13;
@@ -304,8 +309,6 @@ img {
   font-size: 28px;
   width: 220px;
   height: 45px;
-  margin-top: 0px;
-  margin-left: 640px;
 }
 
 #shippingaddress .i{
@@ -574,13 +577,17 @@ footer strong {
   left: 0px;
 }
 
+#contact .a {
+  position: absolute;
+  left: 75%;
+  top: 90%;
+}
+
 #shippingaddress .continuebutton{
   padding: 0px 21px;
   font-size: 27px;
   width: 220px;
   height: 45px;
-  margin-top: 0px;
-  margin-left: 620px;
 }
 
 /* Downbar starts here */
@@ -650,8 +657,6 @@ footer {
     font-size: 27px;
     width: 220px;
     height: 45px;
-    margin-top: 0px;
-    margin-left: 620px;
   }
 
   /* Summary starts here */
@@ -790,6 +795,13 @@ footer {
   .container form{
     padding:30px 30px;
     width:650px;
+    height: 550px;
+  }
+
+  #shippingaddress .a {
+    position: absolute;
+    left: 73%;
+    top: 102%;
   }
   
   #shippingaddress .continuebutton{
@@ -797,8 +809,6 @@ footer {
       font-size: 17px;
       width: 150px;
       height: 35px;
-      margin-top: 20px;
-      margin-left: 450px;
   }
 
   #shippingaddress .i {
@@ -1014,14 +1024,18 @@ footer {
     color: #FFFFFF;
     padding-bottom: 5px;
   }
+  
+  #shippingaddress .a {
+    position: absolute;
+    left: 60%;
+    top: 120%;
+  }
 
   #shippingaddress .continuebutton{
     padding: 0px 10px;
     font-size: 14px;
     width: 122px;
     height: 30px;
-    margin-top: 10px;
-    margin-left: 170px;
   }
 
   #shippingaddress .i {
@@ -1191,13 +1205,17 @@ footer {
     width:350px;
   }
 
+  #shippingaddress .a {
+    position: absolute;
+    left: 59%;
+    top: 98%;
+  }
+
   #shippingaddress .continuebutton{
     padding: 0px 10px;
     font-size: 14px;
     width: 130px;
     height: 30px;
-    margin-top: 10px;
-    margin-left: 200px;
   }
 
   #shippingaddress .i {
@@ -1292,14 +1310,17 @@ footer {
     padding-bottom: 3px;
   }
  
+  #shippingaddress .a {
+    position: absolute;
+    left: 57%;
+    top: 130%;
+  }
 
   #shippingaddress .continuebutton{
     padding: 0px 10px;
     font-size: 14px;
     width: 122px;
     height: 30px;
-    margin-top: 10px;
-    margin-left: 150px;
   }
 
   #shippingaddress .i {

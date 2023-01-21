@@ -828,6 +828,201 @@ footer {
 
 }
 
+/* */
+
+
+@media (max-width:1280px){
+
+
+  #hero{
+    height: 400px;
+    padding: 10px 80px;
+  }
+
+  #hero h1{
+    font-size: 75px;
+    line-height: 75px;
+  }
+
+  #hero h3{
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  #hero .startgaming{
+    width: 175px;
+    height: 45px;
+    font-size: 20px;
+    }
+
+  #hero .startgaming:hover {
+    width: 180px;
+    height: 50px;
+    font-size: 22px;
+  }
+
+  #hero .biglogo {
+    width: 550px;
+    height: 300px;
+    top: 20px;
+    left: 600px;
+  }
+
+  /* most popular */
+
+  #product1 {
+    margin: 10px 1px;
+    top: 580px;
+  }
+
+  #product1 .pro {
+    width: 15%;
+    min-width: 185px;
+    padding: 10px 13px;
+  }
+  
+  #product1 .loadmore {
+    top: 380px;
+    left: 550px;
+  }
+
+  #product1 .pro-container{
+      justify-content: center;
+  }
+    
+
+
+  #product2 {
+    margin: 10px 1px;
+    top: 1000px;
+  }
+
+  #product2 .pro {
+    width: 15%;
+    min-width: 185px;
+    padding: 10px 13px;
+  }
+  
+  #product2 .loadmore {
+    top: 380px;
+    left: 550px;
+  }
+
+  #product2 .pro-container{
+      justify-content: center;
+  }
+
+  /* Banner starts here */
+
+  #banner {
+    margin: 10px 250px;
+    top: 1500px;
+    left: 0;
+  }
+
+  #banner .ad {
+    width: 750px;
+    height: 550px;
+    left: 0px;
+    top: 0px;
+  }
+
+  #banner .discount {
+    font-size: 35px;
+    line-height: 35px;
+    letter-spacing: 0.165em;
+    margin-left: 150px;
+    margin-top: 0px;
+ }
+
+ #banner .bannerimg {
+  width: 650px;
+  height: 350px;
+  left: 0px;
+  margin-left: 90px;
+  margin-top: 120px;
+}
+
+/* Explore Catalog Starts Here */
+
+#catalog {
+  margin: 10px 270px;
+  position: absolute;
+  top: 2050px;
+}
+
+#catalog .te {
+  width: 750px;
+  height: 500px;
+  left: 0px;
+  top: 0px;
+}
+
+#catalog .catalogimg {
+  width: 750px;
+  height: 300px;
+  margin-top: 0px;
+}
+
+#catalog .explore {
+  font-size: 50px;
+  line-height: 28px;
+  letter-spacing: 3px;
+  margin-left: 150px;
+  top: 350px;
+}
+
+#catalog .browseipad {
+  display: initial;
+  font-size: 17px;
+  margin-left: 0px;
+  position: absolute;
+  top: 405px;
+  left: 250px;
+}
+
+#catalog .button {
+  width: 235px;
+  height: 48px;
+  font-size: 21px;
+  position: absolute;
+  top: 450px;
+  left: 215px;
+}
+
+#catalog .browse {
+  display: none;
+}
+
+
+/* NewsLetter Starts Here */
+
+#newsletter {
+  top: 2600px;
+  padding-left: 100px;
+  height: 300px;
+}
+
+#newsletter .form {
+  display: flex;
+  width: 90%;
+}
+
+#newsletter button {
+  width: 160px;
+  height: 65px;
+  left: 800px;
+  top: 187px;
+}
+
+footer {
+  top: 2347px;
+}
+
+}
+
+/* */
+
 @media (max-width:1024px){
 
 
@@ -1018,7 +1213,358 @@ footer {
 
 }
 
+/* */
 
+@media (max-width:899px) {
+
+  .section-p1 {
+    padding: 40px 5px;
+   }
+
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 200px;
+    background: #010922;
+    box-shadow: 0 5px 0px white;
+    padding: 85px 0 0 10px;
+    transition: 0.3;
+  }
+
+  #navbar.active{
+    right: 0px;
+    z-index: 1;
+  }
+
+  #navbar li {
+    margin-bottom: 25px;
+  }
+
+  #navbar .bar {
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+  }
+
+  #mobile {
+    display: flex;
+    align-items: center;
+  }
+
+  #mobile i{
+    color: #FFFFFF;
+    font-size: 24px;
+    padding-left: 20px;
+  }
+
+  #close {
+    display: initial;
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 24px;
+    top: 30px;
+    left: 30px;
+  }
+
+  #lg-bag {
+    display: none;
+  }
+
+  #header img {
+    width: 200px;
+    height: 110px;
+  }
+
+  /* Hero Starts Here */
+
+  #hero{
+    height: 300px;
+    padding: 20px 70px;
+  }
+
+  #hero h1{
+    font-size: 60px;
+    line-height: 60px;
+  }
+  
+  #hero h3{
+    padding-bottom: 15px;
+    font-size: 18px;
+    z-index: 1;
+  }
+  
+  #hero .startgaming{
+  color: white;
+  width: 150px;
+  height: 40px;
+  background: #E55B13;
+  border-radius: 80px;
+  font-weight: 600;
+  font-size: 16px;
+  background-repeat: no-repeat;
+  text-transform: uppercase;
+  cursor: pointer;
+  }
+  
+  #hero .startgaming:hover {
+    width: 190px;
+    height: 50px;
+    font-size: 22px;
+    transition: 0.2s ease;
+    border: 3px solid #FFFFFF;
+  }
+  
+  #hero .biglogo {
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    top: 20px;
+    left: 410px;
+    cursor: pointer;
+  }
+
+/* Most Popular Starts Here */
+   #product1 {
+  top: 560px;
+}
+
+  #product1 .pro {
+  width: 15%;
+  min-width: 210px;
+  padding: 10px 14px;
+     }
+
+  #product1 .pro-container{
+  justify-content: center;
+    }
+
+   #product1 .loadmore {
+  top: 720px;
+  left: 300px;
+   }
+
+   /* Latest Relase Starts Here */
+   #product2 {
+    top: 1325px;
+  }
+
+  #product2 .pro {
+    width: 15%;
+    min-width: 210px;
+    padding: 10px 14px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.2s ease;
+    position: relative;
+  }
+
+  #product2 .pro-container{
+    justify-content: center;
+  }
+
+  #product2 .loadmore {
+    top: 720px;
+    left: 300px;
+  }
+
+  /* Banner Starts Here */
+
+  #banner {
+    margin: 10px 38px;
+    position: absolute;
+    top: 2120px;
+  }
+
+  #banner .ad {
+    position: relative;
+    width: 550px;
+    height: 420px;
+    left: 0px;
+    top: 0px;
+  }
+  
+  #banner .discount {
+   font-size: 25px;
+   line-height: 30px;
+   position: absolute;
+   margin-left: 180px;
+   margin-top: 2px;
+  }
+  
+  #banner .bannerimg {
+     width: 550px;
+     height: 280px;
+     position: absolute;
+     border-radius: 13px;
+     left: 25px;
+     margin-top: 115px;
+     
+  }
+
+  /* Catalog Starts Here */
+
+  #catalog .pro {
+    display: none;
+  }
+
+  #catalog .explore {
+    display: none;
+  }
+
+  #catalog .browse {
+    display: none;
+   }
+
+  #catalog {
+    margin: 10px 40px;
+    position: absolute;
+    top: 2570px;
+  }
+
+  #catalog .te{
+    position: relative;
+    width: 590px;
+    height: 450px;
+    left: 40px;
+    top: 0px;
+   }
+
+  #catalog .catalogimg {
+    display: initial;
+    position: absolute;
+    width: 580px;
+    height: 200px;
+    left: 12px;
+    bottom: 250px;
+    margin-top: 2px;
+  }
+
+  #catalog .button {
+    width: 235px;
+    height: 48px;
+    position: absolute;
+    top: 240px;
+    margin-top: 0px;
+    left: 150px;
+  }
+   
+   #catalog .browseipad {
+     display: initial;
+     font-style: normal;
+     font-weight: 100;
+     font-size: 15px;
+     line-height: 15px;
+     color: white;
+     position: absolute;
+     top: 300px;
+     margin-top: 0px;
+     left: 175px;
+   }
+
+
+/* NewsLetter Starts Here */
+
+  #newsletter {
+  top: 3000px;
+  padding-left: 100px;
+  height: 300px;
+  width: 100%;
+}
+
+#newsletter .newstext {
+  position: relative;
+  bottom: 25px;
+}
+
+#newsletter h1 {
+  font-size: 30px;
+  line-height: 50px;
+}
+
+#newsletter p {
+  font-size: 18px;
+  font-weight: 600; 
+  color: #FFFFFF;
+}
+
+#newsletter p span {
+  color:#E55B13;
+}
+
+#newsletter .form {
+  display: flex;
+  width: 70%;
+}
+
+#newsletter button {
+  width: 160px;
+  height: 65px;
+  left: 490px;
+  top: 174px;
+}
+
+/* footer starst here */
+
+footer .logo {
+  display: none;
+}
+
+footer {
+  top: 2900px;
+}
+
+footer .col{
+  margin-bottom: 5px;
+  margin-top: -25px;
+  margin-left: 5px;
+}
+
+footer .col2{
+  margin-top: -25px;
+  margin-left: 3px;
+}
+
+footer .col3{
+  margin-top: -25px;
+  margin-left: 3px;
+}
+
+footer .install {
+  margin-left: 10px;
+}
+
+footer h5 {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+ footer p {
+  font-size: 11px;
+  margin: 0 0 3px 0;
+ }
+
+ footer a {
+  font-size: 13px;
+  margin-bottom: 8px;
+ }
+
+ footer .install img {
+  width: 40%;
+ }
+
+ footer strong {
+  font-weight: 600;
+  letter-spacing: 2px;
+ }  
+}
+
+
+/* */
 
 
 @media (max-width:799px) {
@@ -1368,7 +1914,7 @@ footer h5 {
 }
 
 
-
+/* */
 
 
 @media (max-width:768px) {
@@ -1522,11 +2068,384 @@ footer h5 {
   }
 }
 
+/* */
 
+@media (max-width: 620px) {
+
+  .section-p1 {
+    padding: 10px 1px;
+   }
+
+  #header {
+    padding: 10px 20px;
+  }
+
+  #header img {
+    width: 120px;
+    height: 70px;
+  }
+
+  /*Hero Starts Here */
+
+  #hero{
+    height: 150px;
+    padding: 10px 30px;
+  }
+
+  #hero h1{
+    font-size: 35px;
+    line-height: 35px;
+    padding-bottom: 7px;
+  }
+  
+  #hero h3{
+    font-size: 10px;
+    line-height: 10px;
+    padding-bottom: 7px;
+    letter-spacing: 0.9px;
+  }
+  
+  #hero .startgaming{
+    width:100px;
+    height: 22px;
+    font-size: 10px;
+    letter-spacing: 0px;
+    }
+  
+  #hero .startgaming:hover {
+    width: 95px;
+    height: 35px;
+    font-size: 12px;
+    transition: 0.2s ease;
+    border: 3px solid #FFFFFF;
+  }
+  
+  #hero .biglogo {
+    width: 230px;
+    height: 120px;
+    position: absolute;
+    top: 12px;
+    left: 300px;
+  }
+
+
+/* Most Popular Starts Here */
+   #product1 {
+   margin: 10px 10px;
+   top: 280px;
+}
+
+  #product1 .pro {
+   width: 15%;
+   min-width: 150px;
+   padding: 5px 15px;
+   position: relative;
+  }
+
+  #product1 .pro-container{
+     justify-content: center;
+     padding-top: 5px;
+    }
+
+   #product1 .loadmore {
+    width: 109px;
+    height: 28px;
+    font-size: 13px;
+    top: 420px;
+    left: 240px;
+   }
+
+   #product1 .mostpopular{
+    padding-left: 90px;
+    font-size: 15px;
+    line-height: 5px;
+    letter-spacing: 1px;
+  }
+
+  #product1 h4 {
+    font-size: 8px;
+    line-height: 8px;
+    letter-spacing: 2px;
+  }
+
+  #product1 .star{
+    font-size: 8px;
+  }
+
+  #product1 .pro .money {
+    position: absolute;
+    right: 10px;
+    bottom: 15.1px;
+    font-size: 7.5px;
+    font-weight: 600;
+  }
+
+   /* Latest Relase Starts Here */
+   #product2 {
+    margin: 10px 10px;
+    top: 730px;
+ }
+
+
+ #product2 .pro {
+  width: 15%;
+  min-width: 150px;
+  padding: 5px 15px;
+  position: relative;
+ }
+ 
+   #product2 .pro-container{
+      justify-content: center;
+      padding-top: 5px;
+     }
+ 
+    #product2 .loadmore {
+      width: 109px;
+      height: 28px;
+      font-size: 13px;
+      top: 420px;
+      left: 240px;
+    }
+ 
+    #product2 .mostpopular{
+     padding-left: 50px;
+     font-size: 13px;
+     line-height: 5px;
+     letter-spacing: 1px;
+   }
+ 
+   #product2 h4 {
+     font-size: 8px;
+     line-height: 8px;
+     letter-spacing: 2px;
+   }
+ 
+   #product2 .star{
+     font-size: 8px;
+   }
+ 
+   #product2 .pro .money {
+     position: absolute;
+     right: 10px;
+     bottom: 15.1px;
+     font-size: 7.5px;
+     font-weight: 600;
+   }
+
+     /* Banner Starts Here */
+
+   #banner {
+    margin: 3px 90px;
+    top: 1200px;
+  }
+
+  #banner .ad {
+    position: relative;
+    width: 350px;
+    height: 240px;
+    left: 0px;
+    top: 0px;
+  }
+  
+  #banner .discount {
+   font-size: 15px;
+   line-height: 17px;
+   position: absolute;
+   margin-left: 75px;
+   margin-top: 10px;
+  }
+
+  #banner .bannerimg {
+    width: 280px;
+    height: 150px;
+    left: 0px;
+    margin-top: 70px; 
+    margin-left: 40px;
+ }
+
+  /* Catalog Starts Here */
+
+  #catalog .pro {
+    display: none;
+  }
+
+  #catalog .explore {
+    display: none;
+  }
+
+  #catalog .browse {
+    display: none;
+   }
+
+  #catalog {
+    margin: 3px 180px;
+    position: absolute;
+    top: 1450px;
+  }
+
+  #catalog .te{
+    position: relative;
+    width: 290px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+   }
+
+  #catalog .catalogimg {
+    display: initial;
+    position: absolute;
+    width: 260px;
+    height: 110px;
+    top: 0px;
+    left: 0px;
+  }
+
+  #catalog .button {
+    width: 134px;
+    height: 30px;
+    font-size: 13px;
+    position: absolute;
+    margin-top: 0;
+    left: 0px;
+    top: 150px;
+    margin-left: 70px;
+  }
+
+   #catalog .browseipad {
+     display: initial;
+     font-style: normal;
+     font-weight: 100;
+     font-size: 10px;
+     line-height: 5px;
+     position: absolute;
+     margin-top: 0px;
+     left: 50px;
+     top: 130px;
+   }
+
+
+
+/* NewsLetter Starts Here */
+
+  #newsletter {
+   top: 1650px;
+   padding-left: 30px;
+   height: 100px;
+   width: 100%;
+  }
+
+  #newsletter .newstext {
+  position: relative;
+  bottom: 10px;
+  }
+
+  #newsletter h1 {
+  font-size: 17px;
+  line-height: 20px;
+  padding-bottom: 8px;
+  }
+
+  #newsletter p {
+  font-size: 9px;
+  font-weight: 600; 
+  color: #FFFFFF;
+  }
+
+  #newsletter .form {
+  display: flex;
+  width: 72%;
+  }  
+
+  #newsletter input {
+    height: 1.932rem;
+    padding: 0 0.25em;
+    font-size: 13px;
+    width: 60%;
+  }
+
+  #newsletter button {
+  width: 55px;
+  height: 32px;
+  right: 0px;
+  left: 0px;
+  top: 85.5px;
+  font-size: 12px;
+  }
+
+  #newsletter .normal {
+    left: 280px;
+    top: 56px;
+    position: absolute;
+    font-size: 12px;
+  }
+
+/* footer starst here */
+
+footer .logo {
+  display: none;
+}
+
+footer {
+  top: 1550px;
+}
+
+footer .col{
+  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+footer .col2{
+  margin-top: 10px;
+  margin-left: 3px;
+}
+
+footer .col3{
+  margin-top: 10px;
+  margin-left: 3px;
+}
+
+footer .install {
+  margin-left: 10px;
+}
+
+footer .install h5 {
+  padding-bottom: 10px;
+}
+
+footer .follow h5 {
+  padding-bottom: 10px;
+}
+
+footer h5 {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+ footer p {
+  font-size: 11px;
+  margin: 0 0 3px 0;
+ }
+
+ footer a {
+  font-size: 13px;
+  margin-bottom: 8px;
+ }
+
+ footer .install img {
+  width: 40%;
+ }
+
+ footer strong {
+  font-weight: 600;
+  letter-spacing: 2px;
+ }
+  
+}
 
 /*          */
 
-@media (max-width: 477px) {
+@media (max-width: 499px) {
 
   .section-p1 {
     padding: 10px 1px;
@@ -1581,7 +2500,7 @@ footer h5 {
     height: 90px;
     position: absolute;
     top: 12px;
-    left: 250px;
+    left: 240px;
   }
 
 
@@ -1898,6 +2817,433 @@ footer h5 {
   
 }
 
+/*          */
+
+@media (max-width:399px) {
+  
+  .section-p1 {
+    padding: 10px 1px;
+   }
+
+   #hero{
+    height: 150px;
+    padding: 10px 15px;
+  }
+
+  #hero h1{
+    font-size: 25px;
+    line-height: 25px;
+    padding-bottom: 7px;
+  }
+
+  #hero h3{
+    font-size: 7px;
+    line-height: 7px;
+    padding-bottom: 5px;
+    letter-spacing: 0.9px;
+  }
+
+  #hero .startgaming{
+    width: 60px;
+    height: 15px;
+    font-size: 7px;
+    letter-spacing: 0px;
+    }
+
+  #hero .biglogo {
+    width: 170px;
+    height: 90px;
+    position: absolute;
+    top: 12px;
+    left: 180px;
+  }
+
+  /* Product starts here */
+
+  #product1 {
+    margin: 2px 10px;
+    top: 240px;
+ }
+
+ #product1 .pro {
+   width: 15%;
+   min-width: 120px;
+   padding: 5px 15px;
+   position: relative;
+   right: 10px;
+  }
+
+  #product1 .mostpopular{
+    padding-left: 15px;
+    font-size: 11px;
+  }
+
+  #product1 .loadmore {
+    width: 80px;
+    height: 18px;
+    font-size: 10px;
+    top: 340px;
+    left: 140px;
+   }
+
+   /* product2 */
+
+   #product2 {
+    margin: 2px 10px;
+    top: 610px;
+ }
+
+ #product2 .pro {
+  width: 15%;
+  min-width: 120px;
+  padding: 5px 15px;
+  position: relative;
+  right: 10px;
+  }
+
+  #product2 .mostpopular{
+    padding-left: 25px;
+    font-size: 11px;
+  }
+
+  #product2 .loadmore {
+    width: 80px;
+    height: 18px;
+    font-size: 10px;
+    top: 340px;
+    left: 140px;
+   }
+
+   /* banner */
+
+    #banner {
+    margin: 3px 35px;
+    top: 1000px;
+    left: 0px;
+  }
+
+  #banner .ad {
+    width: 270px;
+    height: 180px;
+    left: 0px;
+  }
+
+  #banner .discount {
+    font-size: 13px;
+    margin-left: 55px;
+    margin-top: 0px;
+   }
+
+  #banner .bannerimg {
+    width: 200px;
+    height: 100px;
+    left: 0px;
+    margin-top: 60px; 
+    margin-left: 50px;
+ }
+
+ /* catalog */
+
+ #catalog {
+  margin: 3px 50px;
+  top: 1190px;
+  left: 0px;
+}
+
+#catalog .te{
+  width: 260px;
+  height: 190px;
+  left: 0px;
+ }
+
+ #catalog .browseipad {
+  left: 50px;
+}
+
+#catalog .button {
+  width: 134px;
+  height: 30px;
+  font-size: 13px;
+  margin-top: 0;
+  left: 0px;
+  top: 150px;
+  margin-left: 70px;
+}
+
+#catalog .browseipad {
+  display: initial;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 10px;
+  line-height: 5px;
+  position: absolute;
+  margin-top: 0px;
+  left: 50px;
+  top: 130px;
+}
+
+#catalog .catalogimg {
+  width: 260px;
+  height: 110px;
+  top: 0px;
+  left: 0px;
+}
+
+/* NewsLetter Starts Here */
+
+#newsletter {
+  top: 1380px;
+  padding-left: 20px;
+ }
+
+  #newsletter .normal {
+    left: 250px;
+    top: 56px;
+    position: absolute;
+    font-size: 12px;
+  }
+
+  #newsletter input {
+    font-size: 12px;
+  }
+
+  #newsletter .form {
+    display: flex;
+    width: 70%;
+  }
+
+  #newsletter input {
+    width: 90%;
+  }
+
+  #newsletter button {
+    margin-left: 0px;
+    right: 0px;
+    left: 0px;
+    top: 187px;
+  }
+
+
+  footer {
+    top: 1350px;
+  }
+
+}
+
+/*          */
+
+@media (max-width:375px) {
+  
+  .section-p1 {
+    padding: 10px 1px;
+   }
+
+   #hero{
+    height: 150px;
+    padding: 10px 15px;
+  }
+
+  #hero h1{
+    font-size: 25px;
+    line-height: 25px;
+    padding-bottom: 7px;
+  }
+
+  #hero h3{
+    font-size: 7px;
+    line-height: 7px;
+    padding-bottom: 5px;
+    letter-spacing: 0.9px;
+  }
+
+  #hero .startgaming{
+    width: 60px;
+    height: 15px;
+    font-size: 7px;
+    letter-spacing: 0px;
+    }
+
+  #hero .biglogo {
+    width: 170px;
+    height: 90px;
+    position: absolute;
+    top: 12px;
+    left: 180px;
+  }
+
+  /* Product starts here */
+
+  #product1 {
+    margin: 2px 7px;
+    top: 240px;
+ }
+
+ #product1 .pro {
+   width: 15%;
+   min-width: 105px;
+   padding: 5px 8px;
+   position: relative;
+   right: 10px;
+  }
+
+  #product1 .mostpopular{
+    padding-left: 18px;
+    font-size: 11px;
+  }
+
+  #product1 .loadmore {
+    width: 80px;
+    height: 18px;
+    font-size: 10px;
+    top: 340px;
+    left: 140px;
+   }
+
+   /* product2 */
+
+   #product2 {
+    margin: 2px 7px;
+    top: 610px;
+ }
+
+ #product2 .pro {
+  width: 15%;
+  min-width: 105px;
+  padding: 5px 8px;
+  position: relative;
+  right: 10px;
+  }
+
+  #product2 .mostpopular{
+    padding-left: 18px;
+    font-size: 11px;
+  }
+
+  #product2 .loadmore {
+    width: 80px;
+    height: 18px;
+    font-size: 10px;
+    top: 340px;
+    left: 140px;
+   }
+
+   /* banner */
+
+    #banner {
+    margin: 3px 35px;
+    top: 1000px;
+    left: 0px;
+  }
+
+  #banner .ad {
+    width: 270px;
+    height: 180px;
+    left: 0px;
+  }
+
+  #banner .discount {
+    font-size: 13px;
+    margin-left: 55px;
+    margin-top: 0px;
+   }
+
+  #banner .bannerimg {
+    width: 200px;
+    height: 100px;
+    left: 0px;
+    margin-top: 60px; 
+    margin-left: 50px;
+ }
+
+ /* catalog */
+
+ #catalog {
+  margin: 3px 50px;
+  top: 1190px;
+  left: 0px;
+}
+
+#catalog .te{
+  width: 260px;
+  height: 190px;
+  left: 0px;
+ }
+
+ #catalog .browseipad {
+  left: 50px;
+}
+
+#catalog .button {
+  width: 134px;
+  height: 30px;
+  font-size: 13px;
+  margin-top: 0;
+  left: 0px;
+  top: 150px;
+  margin-left: 70px;
+}
+
+#catalog .browseipad {
+  display: initial;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 10px;
+  line-height: 5px;
+  position: absolute;
+  margin-top: 0px;
+  left: 50px;
+  top: 130px;
+}
+
+#catalog .catalogimg {
+  width: 260px;
+  height: 110px;
+  top: 0px;
+  left: 0px;
+}
+
+/* NewsLetter Starts Here */
+
+#newsletter {
+  top: 1380px;
+  padding-left: 20px;
+ }
+
+  #newsletter .normal {
+    left: 250px;
+    top: 56px;
+    position: absolute;
+    font-size: 12px;
+  }
+
+  #newsletter input {
+    font-size: 12px;
+  }
+
+  #newsletter .form {
+    display: flex;
+    width: 75%;
+  }
+
+  #newsletter input {
+    width: 90%;
+  }
+
+  #newsletter button {
+    margin-left: 0px;
+    right: 0px;
+    left: 0px;
+    top: 187px;
+  }
+
+
+  footer {
+    top: 1350px;
+  }
+
+}
+
+/*          */
 
 @media (max-width:320px) {
   

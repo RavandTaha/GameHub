@@ -1,0 +1,410 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+h1 {
+  font-size: 102px;
+  line-height: 100px;
+  font-weight: 700;
+  color: white;
+  font-style: normal;
+}
+/* Catalog Name*/
+h2 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 28px;
+  color: white;
+  font-style: normal;
+  text-transform: uppercase;
+}
+/* "The most secure page" */
+h3 {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: white;
+  font-style: normal;
+  text-transform: capitalize;
+}
+
+/* ProductName */
+h4 {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 28px;
+  color: white;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h5 {
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+}
+
+p {
+  font-size: 10px;
+  color: white;
+ }
+
+button {
+  color: white;
+  width: 185px;
+  height: 48px;
+  background: #E55B13;
+  border-radius: 80px;
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: absolute;
+  border-color: #E55B13;
+  border: none;
+}
+
+img {
+  cursor: pointer;
+}
+
+ .section-p1 {
+  padding: 30px 30px;
+ }
+
+.section-m1 {
+  margin: 40px 0;
+ }
+
+
+body {
+  width: 100%;
+  background-color: #010922;
+  overflow-x: hidden;
+ }
+
+  /* Header starts here */
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 100px;
+  background: linear-gradient(180deg, rgba(229, 91, 19, 0.5) 0%, rgba(229, 91, 19, 0) 100%);
+  box-shadow: 0 5px 0px white;
+  z-index: 999;
+  top: 0;
+  left: 0;
+}
+
+#navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+
+#navbar li a{
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 400;
+  color: white;
+  transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+  color: orange;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+  content: "";
+  width:30%;
+  height: 2px;
+  background: orange;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+#mobile {
+  display: none;
+  align-items: center;
+}
+
+#close {
+  display: none;
+}
+
+#lg-bag {
+  display: none;
+}
+  
+  
+  /* shipping info starts here */ 
+
+
+  #contact {
+    margin: 0px 300px;
+    position: absolute;
+    top: 250px;
+  }
+  
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    padding:25px;
+    height: 450px;
+  }
+  
+  .container form{
+    padding:30px 30px;
+    width:800px;
+    height: 520px;
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.03) ;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  }
+  
+  .container form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+  }
+  
+  .container form .row .col{
+    flex:1 1 250px;
+  }
+  
+  .container form .row .col .title{
+    font-size: 35px;
+    line-height: 0px;
+    margin-bottom: 25px;
+    color: #FFFFFF;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+  }
+  
+  .container form .row .col .inputBox{
+    margin:10px 0;
+  }
+  
+  .container form .row .col .inputBox span{
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .container form .row .col .inputBox input{
+    width: 100%;
+    border:1px solid #ccc;
+    padding:10px 15px;
+    font-size: 15px;
+    text-transform: none;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.09);
+  }
+  
+  .container form .row .col .inputBox input:focus{
+    border:1px solid #000;
+  }
+  
+  .container form .row .col .flex{
+    display: flex;
+    gap:15px;
+  }
+  
+  .container form .row .col .flex .inputBox{
+    margin-top: 5px;
+  }
+
+  /* describe problem */
+
+    
+  .container form .row .col .inputBox2{
+    margin:25px 0;
+  }
+  
+  .container form .row .col .inputBox2 span{
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .container form .row .col .inputBox2 input{
+    width: 100%;
+    height: 150px;
+    border:1px solid #ccc;
+    padding:10px 15px;
+    font-size: 15px;
+    text-transform: none;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.09);
+  }
+  
+  .container form .row .col .inputBox2 input:focus{
+    border:1px solid #000;
+  }
+  
+
+   /* email */
+
+    
+   .container form .row .col .inputBox3 {
+    margin:10px 0;
+  }
+  
+  .container form .row .col .inputBox3 span{
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .container form .row .col .inputBox3 input{
+    width: 40%;
+    border:1px solid #ccc;
+    padding:10px 15px;
+    font-size: 15px;
+    text-transform: none;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.09);
+  }
+  
+  .container form .row .col .inputBox3 input:focus{
+    border:1px solid #000;
+  }
+  
+  /* */
+
+  #contact .a {
+    position: absolute;
+    left: 75%;
+    top: 90%;
+  }
+
+  #contact .continuebutton{
+    background-color: #E55B13;
+    color: #FFFFFF;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    border-radius: 80px;
+    padding: 0px 21px;
+    font-size: 24px;
+    width: 143px;
+    height: 40px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  
+  #contact .i{
+    display: inline-flex;
+    align-items: center;
+    font-size: 30px;
+    padding: 0px 2px;
+  }
+
+
+
+
+  /* Downbar starts here */
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  top: 850px;
+  position: relative;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 19.27%, rgba(0, 0, 0, 0.3) 23.96%, rgba(0, 0, 0, 0.3) 29.17%, rgba(0, 0, 0, 0.3) 54.17%, rgba(229, 91, 19, 0.5) 100%);
+}
+
+footer .col{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+footer .col2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+footer .col3{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+footer .logo {
+  margin-bottom: 5px;
+}
+
+footer h5 {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+footer p {
+  font-size: 13px;
+  margin: 0 0 5px 0;
+}
+
+footer a {
+  font-size: 13px;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 5px;
+}
+
+footer .follow {
+  margin-top: 10px;
+}
+
+footer .follow i {
+  color: #FFFFFF;
+  padding-right: 8px;
+  cursor: pointer;
+}
+
+footer .install .row img {
+  border: 1px solid #E55B13;
+  border-radius: 12px;
+
+}
+
+footer .install img {
+  margin: 5px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover {
+  color: #E55B13;
+}
+
+footer .copyright {
+  width: 100%;
+  text-align: center;
+}
+
+footer strong {
+  font-weight: 600;
+  letter-spacing: 1px;
+}

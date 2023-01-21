@@ -339,6 +339,12 @@ img {
   margin-top: 30px;
 }
 
+#shoppingcart .a {
+  position: absolute;
+  left: 70%;
+  top: 94%;
+}
+
 #shoppingcart .continuebutton{
   background-color: #E55B13;
   color: #FFFFFF;
@@ -350,8 +356,6 @@ img {
   font-size: 30px;
   width: 250px;
   height: 50px;
-  margin-top: 1200px;
-  margin-left: 610px;
 }
 
 #shoppingcart .i {
@@ -756,13 +760,19 @@ footer strong {
     margin-top: 30px;
   }
 
+  #shoppingcart .a {
+    position: absolute;
+    left: 69%;
+    top: 94%;
+  }
+
   #shoppingcart .continuebutton{
     padding: 0px 21px;
     font-size: 30px;
-    width: 250px;
-    height: 55px;
-    margin-top: 1150px;
-    margin-left: 540px;
+    width: 238px;
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 0px;
   }
 
   /* Summary starts here */
@@ -903,7 +913,7 @@ footer {
   #shoppingcart .products {
     margin-top: 17px;
     width: 650px;
-    height: 900px;
+    height: 850px;
   }
 
   #shoppingcart .pro1 {
@@ -969,13 +979,19 @@ footer {
       margin-top: 30px;
     }
 
+    #shoppingcart .a {
+      position: absolute;
+      left: 75%;
+      top: 94%;
+    }
+
     #shoppingcart .continuebutton{
       padding: 0px 10px;
       font-size: 17px;
       width: 150px;
       height: 35px;
-      margin-top: 810px;
-      margin-left: 500px;
+      margin-top: 0px;
+      margin-left: 0px;
     }
 
     #shoppingcart .i {
@@ -1251,13 +1267,19 @@ footer {
       margin-top: 30px;
     }
 
+    #shoppingcart .a {
+      position: absolute;
+      left: 60%;
+      top: 94%;
+    }
+
     #shoppingcart .continuebutton{
       padding: 0px 13px;
       font-size: 12px;
-      width: 120px;
+      width: 113px;
       height: 28px;
-      margin-top: 490px;
-      margin-left: 170px;
+      margin-top: 0px;
+      margin-left: 0px;
     }
 
     #shoppingcart .i {
@@ -1595,13 +1617,17 @@ footer {
       margin-top: 30px;
     }
 
+    #shoppingcart .a {
+      position: absolute;
+      left: 56%;
+      top: 92%;
+    }
+
     #shoppingcart .continuebutton{
       padding: 0px 10px;
       font-size: 14px;
-      width: 130px;
+      width: 119px;
       height: 30px;
-      margin-top: 490px;
-      margin-left: 170px;
     }
 
     #shoppingcart .i {
