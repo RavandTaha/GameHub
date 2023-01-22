@@ -592,6 +592,19 @@ footer {
 
 }
 
+@media (max-width:415px){
+
+  .section-p1 {
+    padding: 10px 1px;
+   }
+
+  #contact {
+    margin: 0px 10px;
+    top: 200px;
+  }
+
+}
+
 @media (max-width:375px){
 
   .section-p1 {

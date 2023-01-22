@@ -1549,6 +1549,24 @@ footer {
 
 }
 
+@media (max-width: 415px) {
+
+
+  #pro {
+    margin: 4px 50px;
+    width: 315px;
+    height: 320px;
+    left: 0px;
+  }
+
+  #products {
+    margin: 4px 40px;
+    width: 315px;
+    height: 320px;
+    left: 0px;
+  }
+}
+
 @media (max-width: 375px) {
 
 

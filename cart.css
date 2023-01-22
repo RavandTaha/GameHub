@@ -1291,7 +1291,7 @@ footer {
 
 }
 
-@media (max-width: 599px) {
+@media (max-width: 620px) {
 
   .section-p1 {
     padding: 10px 7px;
@@ -1583,7 +1583,6 @@ footer {
    }
 }
 
-
 @media (max-width: 477px) {
 
   .section-p1 {
@@ -1874,6 +1873,57 @@ footer {
     font-weight: 600;
     letter-spacing: 2px;
    }
+}
+
+@media (max-width:420px) {
+  #menu {
+    margin: 10px 20px;
+    display: block;
+  }
+
+  #menu .bar {
+    padding: 5px 1px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #menu .cart{
+    position: absolute;
+    font-size: 14px;
+    width: 150px;
+    height: 30px;
+    margin-left: 0px;
+  }
+
+  #menu .customer{
+    position: absolute;
+    font-size: 14px;
+    width: 150px;
+    height: 30px;
+    margin-left: 165px;
+  }
+
+
+  #menu .payment{
+    position: absolute;
+    font-size: 14px;
+    width: 150px;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 0px;
+  }
+
+  #shoppingcart {
+    margin: 0px 30px;
+    top: 200px;
+  }
+
+
+  #summary {
+    margin: 20px 20px;
+    top: 770px;
+    left: 0px;
+  }
 }
 
 @media (max-width:375px) {

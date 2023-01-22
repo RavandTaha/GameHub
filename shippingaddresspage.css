@@ -1183,6 +1183,60 @@ footer {
    }
 }
 
+@media (max-width:415px) {
+
+
+  .section-p1 {
+    padding: 10px 1px;
+   }
+
+  #menu {
+    margin: 10px 35px;
+    display: block;
+  }
+
+  #shippingaddress {
+    margin: 0px 20px;
+    position: absolute;
+    top: 250px;
+  }
+
+  .container{
+    padding:10px;
+    height: 450px;
+  }
+
+  .container form{
+    padding:30px 10px;
+    width:350px;
+  }
+
+  #shippingaddress .a {
+    position: absolute;
+    left: 60%;
+    top: 94%;
+  }
+
+  #shippingaddress .continuebutton{
+    padding: 0px 10px;
+    font-size: 14px;
+    width: 130px;
+    height: 30px;
+  }
+
+  #shippingaddress .i {
+    font-size: 20px;
+    padding: 10px 6px;
+  }
+
+
+  #summary {
+    margin: 20px 20px;
+    top: 770px;
+    left: 0px;
+  }
+}
+
 @media (max-width:375px) {
 
 

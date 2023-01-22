@@ -2291,6 +2291,70 @@ footer h5 {
   
 }
 
+@media (max-width: 415px){
+
+  #cat{
+    margin: 10px 50px;
+    left: 0px;
+  }
+
+  #cat .cat2{
+    width: 300px;
+    height: 180px;
+  }
+
+  #cat .catimg {
+    position: absolute;
+    width: 130px;
+    height: 80px;
+  }
+
+  #cat .action {
+    width: 132px;
+    height: 80px;
+    border-radius: 12px;
+  }
+
+  #cat .casual {
+    margin-left: 150px;
+    width: 132px;
+    height: 80px;
+
+  }
+  
+  #cat .coop {
+    margin-left: 0px;
+    margin-top: 100px;
+    width: 132px;
+    height: 80px;
+  }
+
+  #cat .battle {
+    display: inline;
+    width: 132px;
+    height: 75px;
+    margin-left: 150px;
+    margin-top: 100px;
+
+  }
+
+
+/* Products All Games Starts Here */
+
+#products .pro {
+  padding: 6px 5px;
+  height: 185px;
+}
+
+#products .pro2 {
+  padding: 6px 5px;
+  display: initial;
+}
+
+
+
+}
+
 @media (max-width: 375px){
 
   #cat{
