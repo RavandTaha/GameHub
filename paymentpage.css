@@ -7,6 +7,11 @@
   font-family: 'Outfit', sans-serif;
 }
 
+button:hover {
+  transition: 0.2s ease;
+  border: 2px solid #FFFFFF;
+}
+
 h1 {
   font-size: 102px;
   font-weight: 700;
@@ -670,6 +675,216 @@ footer {
 
 }
 
+@media (max-width:850px) {
+
+  .section-p1 {
+    padding: 10px 10px;
+   }
+
+  /* Product Starts Here */
+
+  #menu {
+    margin: 10px 2px;
+    display: flex;
+  }
+
+  #menu .bar {
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #menu .cart{
+    font-size: 18px;
+    width: 200px;
+    height: 35px;
+    margin-left: 15px;
+  }
+
+  #menu .customer{
+    font-size: 18px;
+    width: 200px;
+    height: 35px;
+  }
+
+  #menu .delivery{
+    font-size: 18px;
+    width: 200px;
+    height: 35px;
+    margin-top: 15px;
+  }
+
+  #menu .payment{
+    font-size: 18px;
+    width: 200px;
+    height: 35px;
+  }
+
+  /* shipping info starts here */ 
+
+  #shippingaddress {
+    margin: 0px 30px;
+    position: absolute;
+    top: 310px;
+  }
+
+  .container{
+    padding:25px;
+    height: 400px;
+  }
+
+  .container form{
+    padding:30px 30px;
+    width:650px;
+    height: 550px;
+  }
+
+  #shippingaddress .a {
+    position: absolute;
+    left: 73%;
+    top: 102%;
+  }
+  
+  #shippingaddress .continuebutton{
+      padding: 0px 10px;
+      font-size: 17px;
+      width: 150px;
+      height: 35px;
+  }
+
+  #shippingaddress .i {
+      font-size: 20px;
+      padding: 10px 6px;
+  }
+
+
+  /* Summary starts here */
+
+  #summary {
+    margin: 20px 170px;
+    top: 810px;
+    left: 0px;
+  }
+
+  #summary .sum {
+    background-color:  rgba(0, 0, 0, 0.3); 
+    width: 400px;
+    height: 230px;
+  }
+
+  #summary .order {
+    font-size: 30px;
+    margin-left: 10px;
+  }
+
+  #summary .pro1{
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+
+  #summary .pro2{
+    width: 400px;
+    margin-top: 55px;
+    margin-left: 10px;
+  }
+
+  #summary .pro3{
+    width: 400px;
+    margin-top: 80px;
+    margin-left: 10px;
+  }
+
+  #summary .proname {
+    font-size: 14px;
+  }
+
+  #summary .promoney {
+    font-size: 13px;
+    margin-left: 245px;
+  }
+
+  #summary .pro2 .promoney {
+    margin-left: 267px;
+  }
+  
+  #summary .pro3 .promoney {
+    margin-left: 287px;
+  }
+
+  #summary .total {
+    width: 400px;
+    margin-top: 160px;
+    margin-left: 10px;
+  }
+
+  #summary .totaltext {
+    font-size: 20px;
+  }
+
+  #summary .money {
+    font-size: 18px;
+    margin-left: 265px;
+  }
+
+
+  /* Downbar starts here */
+
+  footer {
+    top: 1000px;
+  }
+
+  footer .logo {
+    display: none;
+  }
+  
+  
+  footer .col{
+    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-left: 5px;
+  }
+  
+  footer .col2{
+    margin-top: 0px;
+    margin-left: 3px;
+  }
+  
+  footer .col3{
+    margin-top: 0px;
+    margin-left: 3px;
+  }
+  
+  footer .install {
+    margin-left: 10px;
+  }
+  
+  footer h5 {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+  
+   footer p {
+    font-size: 11px;
+    margin: 0 0 3px 0;
+   }
+  
+   footer a {
+    font-size: 13px;
+    margin-bottom: 8px;
+   }
+  
+   footer .install img {
+    width: 40%;
+   }
+  
+   footer strong {
+    font-weight: 600;
+    letter-spacing: 2px;
+   }  
+
+
+}
 
 @media (max-width:768px) {
 
@@ -945,6 +1160,180 @@ footer {
 
 }
 
+@media (max-width: 650px) {
+
+  .section-p1 {
+    padding: 10px 7px;
+   }
+
+   #header {
+    padding: 5px 50px;
+  }
+
+   #header img {
+    width: 150px;
+    height: 80px;
+  }
+
+  /* Product Starts Here */
+
+  #menu {
+    margin: 10px 80px;
+    display: flex;
+  }
+
+  #menu .bar {
+    padding: 5px 1px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #menu .cart{
+    position: absolute;
+    font-size: 14px;
+    width: 150px;
+    height: 30px;
+    margin-left: 0px;
+  }
+
+  #menu .customer{
+    position: absolute;
+    font-size: 14px;
+    width: 150px;
+    height: 30px;
+    margin-left: 165px;
+  }
+
+  #menu .payment{
+    position: absolute;
+    font-size: 14px;
+    width: 150px;
+    height: 30px;
+    margin-top: 0px;
+    margin-left: 330px;
+  }
+
+
+  /* shipping info starts here */ 
+
+  #shippingaddress {
+    margin: 0px 20px;
+    position: absolute;
+    top: 310px;
+  }
+
+  .container{
+    padding:25px;
+    height: 300px;
+  }
+
+  .container form{
+    padding:30px 30px;
+    width:550px;
+  }
+
+  .container form .row .col .title{
+    font-size: 25px;
+    margin-bottom: 25px;
+    color: #FFFFFF;
+    padding-bottom: 5px;
+  }
+  
+  #shippingaddress .a {
+    position: absolute;
+    left: 60%;
+    top: 120%;
+  }
+
+  #shippingaddress .continuebutton{
+    padding: 0px 10px;
+    font-size: 14px;
+    width: 122px;
+    height: 30px;
+  }
+
+  #shippingaddress .i {
+    font-size: 20px;
+    padding: 10px 6px;
+  }
+
+
+  /* Summary starts here */
+
+  #summary {
+    margin: 20px 60px;
+    top: 740px;
+    left: 0px;
+  }
+
+  #summary .sum {
+    background-color:  rgba(0, 0, 0, 0.3); 
+    width: 310px;
+    height: 175px;
+  }
+
+  #summary .order {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  #summary .pro1{
+    width: 300px;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+
+  #summary .pro2{
+    width: 300px;
+    margin-top: 35px;
+    margin-left: 10px;
+  }
+
+  #summary .pro3{
+    width: 300px;
+    margin-top: 55px;
+    margin-left: 10px;
+  }
+
+  #summary .proname {
+    font-size: 12px;
+  }
+
+  #summary .promoney {
+    font-size: 11px;
+    margin-left: 180px;
+  }
+
+  #summary .pro2 .promoney {
+    margin-left: 199px;
+  }
+  
+  #summary .pro3 .promoney {
+    margin-left: 216px;
+  }
+
+  #summary .total {
+    width: 300px;
+    margin-top: 120px;
+    margin-left: 10px;
+  }
+
+  #summary .totaltext {
+    font-size: 16px;
+  }
+
+  #summary .money {
+    font-size: 14px;
+    margin-left: 202px;
+  }
+
+
+  /* Downbar starts here */
+  
+  footer {
+    top: 950px;
+  }
+}
 
 @media (max-width: 477px) {
 
@@ -1003,7 +1392,7 @@ footer {
   /* shipping info starts here */ 
 
   #shippingaddress {
-    margin: 0px 16px;
+    margin: 0px 18px;
     position: absolute;
     top: 310px;
   }
@@ -1230,7 +1619,6 @@ footer {
     left: 0px;
   }
 }
-
 
 @media (max-width:320px) {
 

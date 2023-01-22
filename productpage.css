@@ -7,6 +7,11 @@
   font-family: 'Outfit', sans-serif;
 }
 
+button:hover {
+  transition: 0.2s ease;
+  border: 2px solid #FFFFFF;
+}
+
 h1 {
   font-size: 102px;
   line-height: 100px;
@@ -166,6 +171,7 @@ img {
   line-height: 50px;
   position: absolute;
   width: 1100px;
+  margin-left: 35px;
 }
 
 #pro .rad1 {
@@ -513,6 +519,26 @@ footer strong {
 
 }
 
+@media (max-width: 1280px) {
+
+
+  #pro {
+    margin: 4px 20px;
+    left: 0px;
+  }
+
+  #products {
+    margin: 4px 1px;
+    left: 0px;
+  }
+
+  #products .pro {
+    padding: 8px 12px;
+    height: 360px;
+  }
+}
+
+
 @media (max-width:1024px) {
 
   .section-p1 {
@@ -663,6 +689,7 @@ footer strong {
     font-size: 32px;
     line-height: 40px;
     width: 720px;
+    margin-left: 15px;
   }
 
   #pro .rad1 {
@@ -870,15 +897,17 @@ footer strong {
 
 
   #pro {
-    margin: 4px 20px;
+    margin: 4px 70px;
     width: 315px;
     height: 320px;
+    left: 0px;
   }
 
   #pro .title {
     font-size: 15px;
     line-height: 30px;
     width: 330px;
+    margin-left: 0px;
   }
 
   #pro .rad1 {
@@ -969,10 +998,10 @@ footer strong {
 /*More Games*/
 
 #products {
-  margin: 5px 2px;
+  margin: 5px 80px;
   position: absolute;
   top: 460px;
-  left: 25px;
+  left: 0px;
 }
 
 
@@ -1080,6 +1109,24 @@ footer {
 
 }
 
+@media (max-width: 375px) {
+
+
+  #pro {
+    margin: 4px 20px;
+    width: 315px;
+    height: 320px;
+    left: 0px;
+  }
+
+  #products {
+    margin: 4px 20px;
+    width: 315px;
+    height: 320px;
+    left: 0px;
+  }
+}
+
 
 @media (max-width:320px) {
 
@@ -1110,6 +1157,7 @@ footer {
     font-size: 14px;
     line-height: 30px;
     width: 310px;
+    margin-left: 0px;
   }
 
   #pro .rad1 {

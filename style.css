@@ -50,6 +50,11 @@ h5 {
   color: white;
 }
 
+button:hover {
+  transition: 0.2s ease;
+  border: 2px solid #FFFFFF;
+}
+
 p {
   font-size: 10px;
   color: white;
@@ -185,9 +190,6 @@ cursor: pointer;
 }
 
 #hero .startgaming:hover {
-  width: 190px;
-  height: 52px;
-  font-size: 24px;
   transition: 0.2s ease;
   border: 3px solid #FFFFFF;
 }
@@ -830,7 +832,6 @@ footer {
 
 /* */
 
-
 @media (max-width:1280px){
 
 
@@ -1020,7 +1021,6 @@ footer {
 }
 
 }
-
 /* */
 
 @media (max-width:1024px){
@@ -1212,7 +1212,6 @@ footer {
 }
 
 }
-
 /* */
 
 @media (max-width:899px) {
@@ -1562,8 +1561,6 @@ footer h5 {
   letter-spacing: 2px;
  }  
 }
-
-
 /* */
 
 
@@ -1912,8 +1909,6 @@ footer h5 {
   letter-spacing: 2px;
  }  
 }
-
-
 /* */
 
 
@@ -2067,7 +2062,6 @@ footer h5 {
     top: 2735px;
   }
 }
-
 /* */
 
 @media (max-width: 620px) {
@@ -2442,8 +2436,7 @@ footer h5 {
  }
   
 }
-
-/*          */
+/* */
 
 @media (max-width: 499px) {
 
@@ -2816,8 +2809,7 @@ footer h5 {
  }
   
 }
-
-/*          */
+/* */
 
 @media (max-width:399px) {
   
@@ -3029,8 +3021,7 @@ footer h5 {
   }
 
 }
-
-/*          */
+/* */
 
 @media (max-width:375px) {
   
@@ -3242,8 +3233,7 @@ footer h5 {
   }
 
 }
-
-/*          */
+/* */
 
 @media (max-width:320px) {
   

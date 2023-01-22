@@ -7,6 +7,11 @@
   font-family: 'Outfit', sans-serif;
 }
 
+button:hover {
+  transition: 0.2s ease;
+  border: 2px solid #FFFFFF;
+}
+
 h1 {
   color: white;
   font-style: normal;
@@ -210,10 +215,6 @@ img {
 }
 
 
-
-
-
-
 /* Downbar starts here */
 
 footer {
@@ -304,7 +305,6 @@ footer strong {
 
 
 
-
 /* Media Query Starts Here */
 
 @media (max-width:1440px) {
@@ -328,6 +328,7 @@ footer {
 
 }
 
+
 @media (max-width:1024px) {
 
   .section-p1 {
@@ -349,6 +350,12 @@ footer {
 
 }
 
+@media (max-width:820px){
+
+  #thankyou {
+    margin: 10px 150px;
+  }
+}
 
 @media (max-width:768px) {
 
@@ -486,7 +493,6 @@ footer {
 
 }
 
-
 @media (max-width: 477px) {
 
   .section-p1 {
@@ -623,10 +629,6 @@ footer {
     padding: 10px 1px;
    }
 
-   .section-p1 {
-    padding: 10px 0px;
-   }
-
    #header {
     padding: 5px 2px;
   }
@@ -640,7 +642,7 @@ footer {
 
 
   #thankyou {
-    margin: 5px 10px;
+    margin: 5px 40px;
     width: 300px;
     height: 400px;
   }
@@ -684,7 +686,6 @@ footer {
 }
 
 }
-
 
 @media (max-width:320px) {
 
