@@ -1024,7 +1024,6 @@ footer {
 
 @media (max-width:1024px){
 
-
   #hero{
     height: 400px;
     padding: 10px 40px;
@@ -1183,7 +1182,7 @@ footer {
 /* NewsLetter Starts Here */
 
 #newsletter {
-  top: 3600px;
+  top: 3300px;
   padding-left: 100px;
   height: 300px;
 }
@@ -1201,7 +1200,7 @@ footer {
 }
 
 footer {
-  top: 3347px;
+  top: 3240px;
 }
 
 }
@@ -3479,6 +3478,7 @@ footer {
 #newsletter {
   top: 1120px;
   padding-left: 20px;
+  background-color: #E55B13;
  }
 
   #newsletter .normal {
@@ -3507,10 +3507,10 @@ footer {
     top: 187px;
   }
 
-
+  /* footer starts here */
 
   footer {
-    top: 1310px;
+    top: 1610px;
   }
 
 }
