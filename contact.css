@@ -88,12 +88,14 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 100px;
-  background: linear-gradient(180deg, rgba(229, 91, 19, 0.5) 0%, rgba(229, 91, 19, 0) 100%);
   box-shadow: 0 5px 0px white;
   z-index: 999;
   top: 0;
   left: 0;
+  position: fixed;
+  padding: 10px 100px;
+  background: #010922 ;
+  width: 100%;
 }
 
 #navbar{
@@ -415,9 +417,6 @@ img {
 
 /* Downbar starts here */
 
-footer {
-  top: 700px;
-}
 
 }
 

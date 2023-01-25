@@ -99,12 +99,14 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 100px;
-  background: linear-gradient(180deg, rgba(229, 91, 19, 0.5) 0%, rgba(229, 91, 19, 0) 100%);
   box-shadow: 0 5px 0px white;
   z-index: 999;
   top: 0;
   left: 0;
+  position: fixed;
+  padding: 10px 100px;
+  background: #010922 ;
+  width: 100%;
 }
 
 #navbar{
@@ -161,7 +163,7 @@ img {
 /* Products All Games Starts Here */
 
 #products {
-  margin: 10px 50px;
+  margin: 10px 5px;
   position: absolute;
   top: 200px;
   left: 250px;
@@ -269,7 +271,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  top: 1700px;
+  top: 1900px;
   position: relative;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 19.27%, rgba(0, 0, 0, 0.3) 23.96%, rgba(0, 0, 0, 0.3) 29.17%, rgba(0, 0, 0, 0.3) 54.17%, rgba(229, 91, 19, 0.5) 100%);
 }
@@ -410,7 +412,7 @@ footer strong {
     }
 
     footer {
-      top: 1450px;
+      top: 1650px;
     }
 
 }
@@ -455,11 +457,6 @@ footer strong {
       left: 15%;
       bottom: 0px;
     }
-
-    footer {
-      top: 1450px;
-    }
-
 }
 
 @media (max-width:820px) {

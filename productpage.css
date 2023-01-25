@@ -94,12 +94,14 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 100px;
-  background: linear-gradient(180deg, rgba(229, 91, 19, 0.5) 0%, rgba(229, 91, 19, 0) 100%);
   box-shadow: 0 5px 0px white;
   z-index: 999;
   top: 0;
   left: 0;
+  position: fixed;
+  padding: 10px 100px;
+  background: #010922 ;
+  width: 100%;
 }
 
 #navbar{
@@ -162,6 +164,7 @@ img {
   position: absolute;
   width: 1250px;
   height: 1000px;
+  top: 200px;
 }
 
 #pro .title {
@@ -679,10 +682,11 @@ footer strong {
 
 
   #pro {
-    margin: 7px 70px;
+    margin: 7px 60px;
     width: 740px;
     height: 1000px;
     left: 0;
+    top: 150px;
   }
 
   #pro .title {
@@ -822,7 +826,7 @@ footer strong {
   /* Downbar starts here */
 
   footer {
-    top: 1100px;
+    top: 1300px;
   }
 
   footer .logo {
@@ -1087,60 +1091,6 @@ footer strong {
 
   /* Downbar starts here */
 
-  footer {
-    top: 1100px;
-  }
-
-  footer .logo {
-    display: none;
-  }
-  
-  
-  footer .col{
-    margin-bottom: 5px;
-    margin-top: 0px;
-    margin-left: 5px;
-  }
-  
-  footer .col2{
-    margin-top: 0px;
-    margin-left: 3px;
-  }
-  
-  footer .col3{
-    margin-top: 0px;
-    margin-left: 3px;
-  }
-  
-  footer .install {
-    margin-left: 10px;
-  }
-  
-  footer h5 {
-    font-size: 14px;
-    padding-bottom: 20px;
-  }
-  
-   footer p {
-    font-size: 11px;
-    margin: 0 0 3px 0;
-   }
-  
-   footer a {
-    font-size: 13px;
-    margin-bottom: 8px;
-   }
-  
-   footer .install img {
-    width: 40%;
-   }
-  
-   footer strong {
-    font-weight: 600;
-    letter-spacing: 2px;
-   }  
-
-
 }
 
 @media (max-width: 620px) {
@@ -1265,8 +1215,8 @@ footer strong {
 #products {
   margin: 5px 50px;
   position: absolute;
-  top: 500px;
-  left: 40px;
+  top: 550px;
+  left: 0px;
 }
 
 
@@ -1312,7 +1262,7 @@ footer strong {
 }
 
 footer {
-  top: 550px;
+  top: 750px;
 }
 
 
@@ -1438,9 +1388,9 @@ footer {
 /*More Games*/
 
 #products {
-  margin: 5px 80px;
+  margin: 5px 60px;
   position: absolute;
-  top: 460px;
+  top: 490px;
   left: 0px;
 }
 
@@ -1487,7 +1437,7 @@ footer {
 }
 
 footer {
-  top: 500px;
+  top: 700px;
 }
 
   footer .logo {
@@ -1706,7 +1656,7 @@ footer {
 #products {
   margin: 5px 2px;
   position: absolute;
-  top: 480px;
+  top: 500px;
   left: 0px;
 }
 
@@ -1753,7 +1703,7 @@ footer {
 }
 
 footer {
-  top: 500px;
+  top: 700px;
 }
 
 

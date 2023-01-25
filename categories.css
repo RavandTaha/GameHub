@@ -89,12 +89,14 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 100px;
-  background: linear-gradient(180deg, rgba(229, 91, 19, 0.5) 0%, rgba(229, 91, 19, 0) 100%);
   box-shadow: 0 5px 0px white;
   z-index: 999;
   top: 0;
   left: 0;
+  position: fixed;
+  padding: 10px 100px;
+  background: #010922 ;
+  width: 100%;
 }
 
 #navbar{
@@ -150,9 +152,10 @@ img {
 /* Header starts here */
 
 #cat{
-  margin: 10px 80px;
+  margin: 10px 50px;
   position: absolute;
   display: flex;
+  top: 170px;
 }
 
 #cat .cat2{
@@ -479,7 +482,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  top: 2367px;
+  top: 2567px;
   position: relative;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 19.27%, rgba(0, 0, 0, 0.3) 23.96%, rgba(0, 0, 0, 0.3) 29.17%, rgba(0, 0, 0, 0.3) 54.17%, rgba(229, 91, 19, 0.5) 100%);
 }
@@ -657,7 +660,7 @@ footer strong {
   /* Header starts here */
 
   #cat{
-    margin: 10px 150px;
+    margin: 10px 140px;
     left: 140px;
   }
 
@@ -890,52 +893,8 @@ footer .logo {
 }
 
 footer {
-  top: 1750px;
+  top: 1850px;
 }
-
-footer .col{
-  margin-bottom: 5px;
-  margin-top: 0px;
-  margin-left: 5px;
-}
-
-footer .col2{
-  margin-top: 0px;
-  margin-left: 3px;
-}
-
-footer .col3{
-  margin-top: 0px;
-  margin-left: 3px;
-}
-
-footer .install {
-  margin-left: 10px;
-}
-
-footer h5 {
-  font-size: 14px;
-  padding-bottom: 20px;
-}
-
- footer p {
-  font-size: 11px;
-  margin: 0 0 3px 0;
- }
-
- footer a {
-  font-size: 13px;
-  margin-bottom: 8px;
- }
-
- footer .install img {
-  width: 40%;
- }
-
- footer strong {
-  font-weight: 600;
-  letter-spacing: 2px;
- }  
 
 
 }
@@ -960,7 +919,7 @@ footer h5 {
   /* Header starts here */
 
   #cat{
-    margin: 10px 20px;
+    margin: 10px 15px;
     left: 140px;
   }
 
@@ -1188,58 +1147,6 @@ footer h5 {
 
   /* footer starst here */
 
-footer .logo {
-  display: none;
-}
-
-footer {
-  top: 1750px;
-}
-
-footer .col{
-  margin-bottom: 5px;
-  margin-top: 0px;
-  margin-left: 5px;
-}
-
-footer .col2{
-  margin-top: 0px;
-  margin-left: 3px;
-}
-
-footer .col3{
-  margin-top: 0px;
-  margin-left: 3px;
-}
-
-footer .install {
-  margin-left: 10px;
-}
-
-footer h5 {
-  font-size: 14px;
-  padding-bottom: 20px;
-}
-
- footer p {
-  font-size: 11px;
-  margin: 0 0 3px 0;
- }
-
- footer a {
-  font-size: 13px;
-  margin-bottom: 8px;
- }
-
- footer .install img {
-  width: 40%;
- }
-
- footer strong {
-  font-weight: 600;
-  letter-spacing: 2px;
- }  
-
 
 }
 
@@ -1263,8 +1170,8 @@ footer h5 {
   /* Header starts here */
 
   #cat{
-    margin: 10px 20px;
-    left: 50px;
+    margin: 10px 2px;
+    left: 0px;
   }
 
   #cat .cat2{
@@ -1304,9 +1211,10 @@ footer h5 {
   /* Banner starts here */
 
   #banners {
-    margin: 10px 10px;
+    margin: 10px 2px;
     position: absolute;
     top: 300px;
+    left: 0px;
   }
 
   #banners .ban {
@@ -1498,51 +1406,6 @@ footer .logo {
 footer {
   top: 1750px;
 }
-
-footer .col{
-  margin-bottom: 5px;
-  margin-top: -25px;
-  margin-left: 5px;
-}
-
-footer .col2{
-  margin-top: -25px;
-  margin-left: 3px;
-}
-
-footer .col3{
-  margin-top: -25px;
-  margin-left: 3px;
-}
-
-footer .install {
-  margin-left: 10px;
-}
-
-footer h5 {
-  font-size: 14px;
-  padding-bottom: 20px;
-}
-
- footer p {
-  font-size: 11px;
-  margin: 0 0 3px 0;
- }
-
- footer a {
-  font-size: 13px;
-  margin-bottom: 8px;
- }
-
- footer .install img {
-  width: 40%;
- }
-
- footer strong {
-  font-weight: 600;
-  letter-spacing: 2px;
- }  
-
 
 }
 

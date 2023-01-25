@@ -100,12 +100,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 100px;
-  background: linear-gradient(180deg, rgba(229, 91, 19, 0.5) 0%, rgba(229, 91, 19, 0) 100%);
   box-shadow: 0 5px 0px white;
   z-index: 999;
   top: 0;
   left: 0;
+  position: fixed;
+  padding: 10px 100px;
+  background: #010922 ;
+  width: 100%;
 }
 
 #navbar{
@@ -164,8 +166,9 @@ body {
 #hero{
   height: 500px;
   width: 100%;
-  padding: 10px 150px;
+  padding: 10px 180px;
   position: relative;
+  top: 250px;
 }
 
 #hero h1{
@@ -199,7 +202,7 @@ cursor: pointer;
   height: 400px;
   position: absolute;
   top: 10px;
-  left: 900px;
+  left: 920px;
   cursor: pointer;
 }
 
@@ -566,7 +569,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  top: 2446px;
+  top: 2640px;
   position: relative;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 19.27%, rgba(0, 0, 0, 0.3) 23.96%, rgba(0, 0, 0, 0.3) 29.17%, rgba(0, 0, 0, 0.3) 54.17%, rgba(229, 91, 19, 0.5) 100%);
 }
@@ -660,6 +663,7 @@ footer strong {
   #hero{
     height: 460px;
     padding: 10px 100px;
+    top: 220px;
   }
 
   #hero .biglogo {
@@ -823,7 +827,7 @@ footer strong {
 /* Downbar starts here */
 
 footer {
-  top: 2186px;
+  top: 2384px;
 
   
 }
@@ -837,7 +841,8 @@ footer {
 
   #hero{
     height: 400px;
-    padding: 10px 80px;
+    padding: 10px 100px;
+    top: 200px;
   }
 
   #hero h1{
@@ -860,7 +865,7 @@ footer {
     width: 550px;
     height: 300px;
     top: 20px;
-    left: 600px;
+    left: 580px;
   }
 
   /* most popular */
@@ -1011,7 +1016,7 @@ footer {
 }
 
 footer {
-  top: 2347px;
+  top: 2547px;
 }
 
 }
@@ -1495,22 +1500,22 @@ footer .logo {
 }
 
 footer {
-  top: 2900px;
+  top: 3040px;
 }
 
 footer .col{
   margin-bottom: 5px;
-  margin-top: -25px;
+
   margin-left: 5px;
 }
 
 footer .col2{
-  margin-top: -25px;
+
   margin-left: 3px;
 }
 
 footer .col3{
-  margin-top: -25px;
+
   margin-left: 3px;
 }
 
@@ -1614,7 +1619,8 @@ footer h5 {
 
   #hero{
     height: 300px;
-    padding: 20px 70px;
+    padding: 10px 70px;
+    top: 200px;
   }
 
   #hero h1{
@@ -1645,8 +1651,8 @@ footer h5 {
     width: 400px;
     height: 250px;
     position: absolute;
-    top: 195px;
-    left: 350px;
+    top: 0px;
+    left: 380px;
     cursor: pointer;
   }
 
@@ -1667,7 +1673,7 @@ footer h5 {
 
    #product1 .loadmore {
   top: 720px;
-  left: 220px;
+  left: 300px;
    }
 
    /* Latest Relase Starts Here */
@@ -1691,7 +1697,7 @@ footer h5 {
 
   #product2 .loadmore {
     top: 720px;
-    left: 220px;
+    left: 300px;
   }
 
   /* Banner Starts Here */
@@ -1723,7 +1729,7 @@ footer h5 {
      height: 280px;
      position: absolute;
      border-radius: 13px;
-     left: 60px;
+     left: 0px;
      margin-top: 115px;
      
   }
@@ -1771,7 +1777,7 @@ footer h5 {
     height: 48px;
     position: absolute;
     margin-top: 30px;
-    left: 90px;
+    left: 115px;
   }
    
    #catalog .browseipad {
@@ -1782,7 +1788,8 @@ footer h5 {
      line-height: 15px;
      color: white;
      position: absolute;
-     margin-top: 275px;
+     margin-top: 230px;
+     top: 0px;
      left: 150px;
    }
 
@@ -1790,7 +1797,7 @@ footer h5 {
 /* NewsLetter Starts Here */
 
   #newsletter {
-  top: 3000px;
+  top: 2900px;
   padding-left: 100px;
   height: 300px;
   width: 100%;
@@ -1825,7 +1832,7 @@ footer h5 {
   width: 160px;
   height: 65px;
   left: 458px;
-  top: 113.8px;
+  top: 175px;
 }
 
 /* footer starst here */
@@ -1835,22 +1842,20 @@ footer .logo {
 }
 
 footer {
-  top: 2300px;
+  top: 2950px;
 }
 
 footer .col{
   margin-bottom: 5px;
-  margin-top: -25px;
   margin-left: 5px;
 }
 
 footer .col2{
-  margin-top: -25px;
+
   margin-left: 3px;
 }
 
 footer .col3{
-  margin-top: -25px;
   margin-left: 3px;
 }
 
@@ -1889,7 +1894,8 @@ footer h5 {
 
   #hero{
     height: 300px;
-    padding: 20px 70px;
+    padding: 10px 70px;
+    top: 180px;
   }
 
   #hero .biglogo {
@@ -1998,7 +2004,7 @@ footer h5 {
 
 
   #newsletter {
-    top: 2900px;
+    top: 2800px;
     height: 250px;
    }
 
@@ -2032,7 +2038,7 @@ footer h5 {
   /* footer starst here */
 
    footer {
-    top: 2735px;
+    top: 2795px;
   }
 }
 /* */
@@ -2056,7 +2062,8 @@ footer h5 {
 
   #hero{
     height: 150px;
-    padding: 10px 30px;
+    padding: 10px 100px;
+    top: 100px;
   }
 
   #hero h1{
@@ -2085,7 +2092,7 @@ footer h5 {
     height: 120px;
     position: absolute;
     top: 12px;
-    left: 300px;
+    left: 340px;
   }
 
 
@@ -2346,60 +2353,8 @@ footer .logo {
 }
 
 footer {
-  top: 1550px;
+  top: 1640px;
 }
-
-footer .col{
-  margin-bottom: 5px;
-  margin-top: 10px;
-  margin-left: 5px;
-}
-
-footer .col2{
-  margin-top: 10px;
-  margin-left: 3px;
-}
-
-footer .col3{
-  margin-top: 10px;
-  margin-left: 3px;
-}
-
-footer .install {
-  margin-left: 10px;
-}
-
-footer .install h5 {
-  padding-bottom: 10px;
-}
-
-footer .follow h5 {
-  padding-bottom: 10px;
-}
-
-footer h5 {
-  font-size: 14px;
-  padding-bottom: 20px;
-}
-
- footer p {
-  font-size: 11px;
-  margin: 0 0 3px 0;
- }
-
- footer a {
-  font-size: 13px;
-  margin-bottom: 8px;
- }
-
- footer .install img {
-  width: 40%;
- }
-
- footer strong {
-  font-weight: 600;
-  letter-spacing: 2px;
- }
   
 }
 /* */
@@ -2423,7 +2378,7 @@ footer h5 {
 
   #hero{
     height: 150px;
-    padding: 10px 30px;
+    padding: 10px 70px;
   }
 
   #hero h1{
@@ -2452,7 +2407,7 @@ footer h5 {
     height: 90px;
     position: absolute;
     top: 12px;
-    left: 240px;
+    left: 250px;
   }
 
 
@@ -2712,60 +2667,8 @@ footer .logo {
 }
 
 footer {
-  top: 1448px;
+  top: 1540px;
 }
-
-footer .col{
-  margin-bottom: 5px;
-  margin-top: 10px;
-  margin-left: 5px;
-}
-
-footer .col2{
-  margin-top: 10px;
-  margin-left: 3px;
-}
-
-footer .col3{
-  margin-top: 10px;
-  margin-left: 3px;
-}
-
-footer .install {
-  margin-left: 10px;
-}
-
-footer .install h5 {
-  padding-bottom: 10px;
-}
-
-footer .follow h5 {
-  padding-bottom: 10px;
-}
-
-footer h5 {
-  font-size: 14px;
-  padding-bottom: 20px;
-}
-
- footer p {
-  font-size: 11px;
-  margin: 0 0 3px 0;
- }
-
- footer a {
-  font-size: 13px;
-  margin-bottom: 8px;
- }
-
- footer .install img {
-  width: 40%;
- }
-
- footer strong {
-  font-weight: 600;
-  letter-spacing: 2px;
- }
   
 }
 /* */
@@ -2777,7 +2680,7 @@ footer h5 {
 
    #hero{
     height: 150px;
-    padding: 10px 15px;
+    padding: 10px 30px;
   }
 
   #hero h1{
@@ -2975,7 +2878,7 @@ footer h5 {
 
 
   footer {
-    top: 1350px;
+    top: 1375px;
   }
 
 }
@@ -2988,7 +2891,7 @@ footer h5 {
 
    #hero{
     height: 150px;
-    padding: 10px 15px;
+    padding: 10px 25px;
   }
 
   #hero h1{
@@ -3186,7 +3089,7 @@ footer h5 {
 
 
   footer {
-    top: 1350px;
+    top: 1370px;
   }
 
 }
@@ -3397,9 +3300,6 @@ footer h5 {
   }
 
 
-  footer {
-    top: 1350px;
-  }
 
 }
 /* */
@@ -3412,7 +3312,7 @@ footer h5 {
 
    #hero{
     height: 150px;
-    padding: 10px 5px;
+    padding: 10px 10px;
   }
 
   #hero h1{
@@ -3439,8 +3339,8 @@ footer h5 {
     width: 170px;
     height: 90px;
     position: absolute;
-    top: 12px;
-    left: 145px;
+    top: 8px;
+    left: 147px;
   }
 
   /* Product starts here */
@@ -3577,7 +3477,7 @@ footer h5 {
 /* NewsLetter Starts Here */
 
 #newsletter {
-  top: 1320px;
+  top: 1120px;
   padding-left: 20px;
  }
 
@@ -3610,7 +3510,7 @@ footer h5 {
 
 
   footer {
-    top: 1216px;
+    top: 1310px;
   }
 
 }

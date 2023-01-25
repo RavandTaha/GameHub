@@ -78,12 +78,14 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 100px;
-  background: linear-gradient(180deg, rgba(229, 91, 19, 0.5) 0%, rgba(229, 91, 19, 0) 100%);
   box-shadow: 0 5px 0px white;
   z-index: 999;
   top: 0;
   left: 0;
+  position: fixed;
+  padding: 10px 100px;
+  background: #010922 ;
+  width: 100%;
 }
 
 #navbar{
@@ -146,6 +148,7 @@ img {
   text-align: center;
   width: 550px;
   height: 600px;
+  top: 180px;
 }
 
 #thankyou .text {
@@ -430,6 +433,7 @@ footer {
 
   #thankyou {
     margin: 10px 100px;
+    top: 140px;
   }
 
 
@@ -515,6 +519,7 @@ footer {
     margin: 5px 80px;
     width: 300px;
     height: 400px;
+    top: 70px;
   }
 
   #thankyou .text {
@@ -566,7 +571,7 @@ footer {
   }
   
   footer {
-    top: 10px;
+    top: 50px;
   }
   
   footer .col{
@@ -779,6 +784,7 @@ footer {
     margin: 5px 10px;
     width: 300px;
     height: 400px;
+    top: 80px;
   }
 
   #thankyou .text {
@@ -827,7 +833,7 @@ footer {
   }
   
   footer {
-    top: 10px;
+    top: 50px;
   }
   
   footer .col{

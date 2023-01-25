@@ -88,12 +88,14 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 100px;
-  background: linear-gradient(180deg, rgba(229, 91, 19, 0.5) 0%, rgba(229, 91, 19, 0) 100%);
   box-shadow: 0 5px 0px white;
   z-index: 999;
   top: 0;
   left: 0;
+  position: fixed;
+  padding: 10px 100px;
+  background: #010922 ;
+  width: 100%;
 }
 
 #navbar{
@@ -153,6 +155,7 @@ button:hover {
   margin: 10px 420px;
   position: absolute;
   display: flex;
+  top: 190px;
 }
 
 #menu .bar {
@@ -413,7 +416,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  top: 850px;
+  top: 950px;
   position: relative;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 19.27%, rgba(0, 0, 0, 0.3) 23.96%, rgba(0, 0, 0, 0.3) 29.17%, rgba(0, 0, 0, 0.3) 54.17%, rgba(229, 91, 19, 0.5) 100%);
 }
@@ -594,7 +597,7 @@ footer strong {
 /* Downbar starts here */
 
 footer {
-  top: 1150px;
+  top: 1350px;
 }
 
 
@@ -615,6 +618,7 @@ footer {
 
    #menu {
     margin: 10px 150px;
+    top: 150px;
   }
   
   #menu .bar {
@@ -649,8 +653,8 @@ footer {
   /* shipping info starts here */ 
 
   #shippingaddress {
-    margin: 0px 20px;
-    top: 320px;
+    margin: 2px 20px;
+    top: 300px;
   }
 
   #shippingaddress .a {
