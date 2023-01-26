@@ -79,6 +79,7 @@ img {
   cursor: pointer;
 }
 
+
  .section-p1 {
   padding: 40px 80px;
  }
@@ -186,7 +187,7 @@ body {
   height: 50px;
   background: #E55B13;
   border-radius: 80px;
-  font-weight: 600;
+  font-weight: 650;
   font-size: 22px;
   text-transform: uppercase;
   cursor: pointer;
@@ -284,9 +285,6 @@ body {
 }
 
 #product1 .loadmore:hover {
-  width: 190px;
-  height: 52px;
-  font-size: 22px;
   transition: 0.2s ease;
   border: 3px solid #FFFFFF;
 }
@@ -476,7 +474,7 @@ body {
 #catalog .button {
     color: #FFFFFF;
     text-align: center;
-    width: 235px;
+    width: 238px;
     height: 55px;
     background: #E55B13;
     border-radius: 80px;
@@ -490,15 +488,12 @@ body {
     padding: 13px;
     text-decoration: none;
   }
-  
 
-#catalog .button:hover {
-  border: 3px solid #FFFFFF;
-  width: 240px;
-  height: 52px;
-  font-size: 23px;
-  transition: 0.2s ease;
-}
+  #catalog .button:hover {
+    transition: 0.2s ease;
+    border: 3px solid #FFFFFF;
+  }
+  
 
 #catalog .browseipad {
   display: none;
