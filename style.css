@@ -176,20 +176,22 @@ body {
 }
 
 #hero h3{
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 
 #hero .startgaming{
-color: white;
-width: 187px;
-height: 50px;
-background: #E55B13;
-border-radius: 80px;
-font-weight: 600;
-font-size: 22px;
-background-repeat: no-repeat;
-text-transform: uppercase;
-cursor: pointer;
+  color: #FFFFFF;
+  text-align: center;
+  width: 185px;
+  height: 50px;
+  background: #E55B13;
+  border-radius: 80px;
+  font-weight: 600;
+  font-size: 22px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 12px;
+  text-decoration: none;
 }
 
 #hero .startgaming:hover {
@@ -264,7 +266,8 @@ cursor: pointer;
 }
 
 #product1 .loadmore {
-  color: white;
+  color: #FFFFFF;
+  text-align: center;
   width: 185px;
   height: 48px;
   background: #E55B13;
@@ -276,6 +279,8 @@ cursor: pointer;
   position: absolute;
   left: 40%;
   top: 460px;
+  padding: 12px;
+  text-decoration: none;
 }
 
 #product1 .loadmore:hover {
@@ -345,7 +350,8 @@ cursor: pointer;
 }
 
 #product2 .loadmore {
-  color: white;
+  color: #FFFFFF;
+  text-align: center;
   width: 185px;
   height: 48px;
   background: #E55B13;
@@ -357,7 +363,10 @@ cursor: pointer;
   position: absolute;
   left: 40%;
   top: 460px;
+  padding: 12px;
+  text-decoration: none;
 }
+
 
 #product2 .loadmore:hover {
   transition: 0.2s ease;
@@ -465,16 +474,23 @@ cursor: pointer;
 }
 
 #catalog .button {
-  justify-content: center;
-  align-items: center;
-  width: 235px;
-  height: 48px;
-  font-weight: 600;
-  font-size: 21px;
-  position: absolute;
-  margin-left: 80px;
-  top: 185px;
-}
+    color: #FFFFFF;
+    text-align: center;
+    width: 235px;
+    height: 55px;
+    background: #E55B13;
+    border-radius: 80px;
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 80px;
+    top: 185px;
+    padding: 13px;
+    text-decoration: none;
+  }
+  
 
 #catalog .button:hover {
   border: 3px solid #FFFFFF;
