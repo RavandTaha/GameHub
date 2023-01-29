@@ -264,7 +264,7 @@ img {
 #banners .viewmore {
   color: white;
   position: absolute;
-  bottom: 70%;
+  bottom: 20%;
   left: 75%;
 }
 
@@ -341,11 +341,10 @@ img {
   font-size: 22px;
 }
 
-#banners button{
+#banners .viewmore{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5px;
   position: absolute;
   width: 98px;
   height: 24px;
@@ -358,9 +357,10 @@ img {
   border: 2px solid #E55B13;
   border-radius: 10px;
   line-height: 0px;
+  text-decoration: none;
 }
 
-#banners button:hover{
+#banners .viewmore:hover{
   border: 3px solid #FFFFFF;
   font-size: 17px;
 }
@@ -434,8 +434,9 @@ img {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  text-align: center;
   text-transform: lowercase;
-  width: 110px;
+  width: 116px;
   height: 33px;
   border-radius: 80px;
   font-weight: 600;
@@ -444,6 +445,10 @@ img {
   position: absolute;
   left: 25%;
   bottom: 3px;
+  padding: 5px;
+  text-decoration: none;
+  background: #E55B13;
+  color: #FFFFFF;
 }
 
 #products .addtocart:hover {
