@@ -444,7 +444,7 @@ img {
   cursor: pointer;
   position: absolute;
   left: 25%;
-  bottom: 3px;
+  bottom: 0px;
   padding: 5px;
   text-decoration: none;
   background: #E55B13;
