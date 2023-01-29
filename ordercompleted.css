@@ -204,9 +204,6 @@ img {
   position: absolute;
   left: 35%;
   top:80%;
-}
-
-#thankyou button {
   background-color: #E55B13;
   color: #FFFFFF;
   text-align: center;
@@ -214,8 +211,9 @@ img {
   font-size: 35px;
   width: 200px;
   height: 42px;
-
+  text-decoration: none;
 }
+
 
 
 /* Downbar starts here */

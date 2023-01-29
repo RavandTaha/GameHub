@@ -223,8 +223,9 @@ img {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  text-align: center;
   text-transform: lowercase;
-  width: 110px;
+  width: 116px;
   height: 33px;
   border-radius: 80px;
   font-weight: 600;
@@ -232,7 +233,11 @@ img {
   cursor: pointer;
   position: absolute;
   left: 25%;
-  bottom: 3px;
+  bottom: 0px;
+  padding: 5px;
+  text-decoration: none;
+  background: #E55B13;
+  color: #FFFFFF;
 }
 
 #products .addtocart:hover {

@@ -165,7 +165,7 @@ img {
   justify-content: space-between;
 }
 
-#menu button {
+#menu a {
   color: #FFFFFF;
   background-color: #E55B13;
   text-decoration: none;
@@ -351,9 +351,6 @@ img {
   position: absolute;
   left: 70%;
   top: 94%;
-}
-
-#shoppingcart .continuebutton{
   background-color: #E55B13;
   color: #FFFFFF;
   display: inline-flex;

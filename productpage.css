@@ -60,19 +60,6 @@ p {
   color: white;
  }
 
-button {
-  color: white;
-  width: 185px;
-  height: 48px;
-  background: #E55B13;
-  border-radius: 80px;
-  font-weight: 600;
-  font-size: 20px;
-  text-transform: uppercase;
-  cursor: pointer;
-  position: absolute;
-  border: none;
-}
 
 img {
   cursor: pointer;
@@ -232,39 +219,56 @@ img {
   margin-left: 0px;
 }
 
+
+
 #pro .buynow {
-  position: absolute;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  background: #E55B13;
+  color: #FFFFFF;
+  border-radius: 80px;
+  padding: 5px;
   font-weight: 600;
   font-size: 25px;
   line-height: 28px;
-  gap: 5px;
   width: 270px;
   height: 45px;
   margin-top: 200px;
 }
 
-
 #pro .addtocart {
-  position: absolute;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  background: #E55B13;
+  color: #FFFFFF;
+  border-radius: 80px;
+  padding: 5px;
   font-weight: 600;
   font-size: 25px;
   line-height: 28px;
-  gap: 5px;
   width: 270px;
   height: 45px;
-  margin-top: 260px;
+  margin-top: 10px;
 }
 
 #pro .report {
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
   position: absolute;
+  color: #FFFFFF;
   background-color: #010922;
   border: 1px solid #E55B13;
   border-radius: 40px;
@@ -272,13 +276,20 @@ img {
   line-height: 0px;
   width: 90px;
   height: 21px;
-  margin-top: 320px;
+  margin-top: 10px;
   margin-left: 135px;
   align-items: center;
   display: inline-flex;
 }
 
 #pro .share {
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  color: #FFFFFF;
   position: absolute;
   background-color: #010922;
   border: 1px solid #E55B13;
@@ -287,7 +298,7 @@ img {
   line-height: 0px;
   width: 90px;
   height: 21px;
-  margin-top: 320px;
+  margin-top: 10px;
   margin-left: 30px;
   align-items: center;
   display: inline-flex;
@@ -359,8 +370,9 @@ img {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  text-align: center;
   text-transform: lowercase;
-  width: 110px;
+  width: 116px;
   height: 33px;
   border-radius: 80px;
   font-weight: 600;
@@ -368,7 +380,11 @@ img {
   cursor: pointer;
   position: absolute;
   left: 25%;
-  bottom: 3px;
+  bottom: 0px;
+  padding: 5px;
+  text-decoration: none;
+  background: #E55B13;
+  color: #FFFFFF;
 }
 
 #products .allgames{
@@ -1616,12 +1632,22 @@ footer {
   }
 
   #pro .buynow {
-  font-size: 10px;
-  line-height: 0px;
-  width: 85px;
-  height: 15px;
-  margin-top: 45px;
-  margin-left: 1px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: lowercase;
+    cursor: pointer;
+    padding: 5px;
+    text-decoration: none;
+    background: #E55B13;
+    color: #FFFFFF;
+    font-size: 10px;
+    line-height: 0px;
+    width: 85px;
+    height: 15px;
+    margin-top: 45px;
+    margin-left: 1px;
   }
 
   #pro .addtocart {

@@ -165,7 +165,7 @@ button:hover {
   justify-content: space-between;
 }
 
-#menu button {
+#menu a {
   color: #FFFFFF;
   background-color: #E55B13;
   text-decoration: none;
@@ -300,7 +300,10 @@ button:hover {
 }
 
 
-#shippingaddress .continuebutton{
+#shippingaddress .a {
+  position: absolute;
+  left: 70%;
+  top: 94%;
   background-color: #E55B13;
   color: #FFFFFF;
   display: inline-flex;
@@ -309,10 +312,8 @@ button:hover {
   border-radius: 80px;
   padding: 0px 22px;
   font-size: 30px;
-  width: 233px;
-  height: 54px;
-  margin-top: 0px;
-  margin-left: 0px;
+  width: 235px;
+  height: 50px;
 }
 
 #shippingaddress .i{
