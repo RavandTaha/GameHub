@@ -1,40 +1,72 @@
-# GameHub
+# Your project title
 
-Hello;)
+test
 
-Welcome to the report of Gamehub, i will talk about how I made Gamehub with CSS and HTML, and what I've learned so far from this project.
+![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
 
-The goal with this project was to make Gamehub similar as Figma prototype as possible.
+A simple overview of the use/purpose of the project.
 
-while I was working with designing the css according Figma prototype, I found out that it will be hard. When I made the figma prototype my goal was to make it look as beautiful as I could. I learned now that I made it very difficult for me. A nice looking page with alot of contect means more HTML and CSS. For a newbie like me, its hard coding so good looking website. Some small details like font size, font-weight and posistions are changed from figma desgin to fit for all screen sizes.
+## Description
 
-CSS | HTML
+Add a more detailed description of what your project entails and set out to do.
 
-All of coding is made with CSS, HTML and Javescript on VS Code.
+You can add some bullet points if you'd like to:
 
-I made CSS file for every HTML site beacuse I mean its more clear/clean. This way, it was easier for me to design all the pages different. I used CSS code which I learned from Noroff modules and Youtube. I got alot of help from discord also. All code written in this project is from Modules/Youtube and Discord.
+- List item 1
+- List item 2
+- List item 3
 
-I have never before done any project with HTML and CSS, this is the first time learning and working with HTML and CSS. I learned alot from modules and youtube tutorials. I learned through building that a responsive website is very importanted for every screen size. I struggled alot with designing the website, but I'm glad for what I have accomplished. I have gained a much better understanding of HTML and CSS, and I gained some confidence in my ability to create websites from scratch.
+## Built With
 
-The biggest issue I had was making sure that the website was readable and responsive with all screen sizes. I had to use media queries and change width, height and font sizes to make it resposive.
+You can list a the tech stack that you've used over here
 
-| Site info
+- [React.js](https://reactjs.org/)
+- [Bootstrap](https://getbootstrap.com)
 
-Gamehub is a website for all gamers to get their favorite games for low cost or free.
-Gamehub offers free games and paid games. Nice and simple navigation for users
-through the web, and phone version. The website is aimed at the age group 12-25
-years old
+## Getting Started
 
-Homepage (index.html) is the homepage for Gamehub. Where u can see what Gamehub is about and easy menu to find most popular/latest release games.
+### Installing
 
-At the end of the page you can susbscribe to Gamehub's newsletter and naviagte through our different pages.
+This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
 
-With the header and footer menu, you can navigate throught Gamehub's category, cart, and contact us page easily.
+1. Clone the repo:
 
-At Gamehub we have our own delivery, shipping info and product page.
+```bash
+git clone git@github.com:NoroffFEU/portfolio-1-example.git
+```
 
-|
+2. Install the dependencies:
 
-Plugins used:
+```
+npm install
+```
 
-Live server. PX to REM
+### Running
+
+Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
+
+To run the app, run the following commands:
+
+```bash
+npm run start
+```
+
+## Contributing
+
+Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+
+## Contact
+
+This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+
+[My Twitter page](www.twitter.com)
+
+[My LinkedIn page](www.linkedin.com)
+
+## License
+
+You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
+
+## Acknowledgments
+
+This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
