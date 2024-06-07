@@ -1,6 +1,4 @@
-# Your project title
-
-test
+#GameHub cross-course project
 
 ![project-2](https://github.com/RavandTaha/GameHub/assets/119358887/fd7b8f8c-57a0-4f2b-908d-66d166b467e2)
 
@@ -9,31 +7,37 @@ A simple overview of the use/purpose of the project.
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+The goal with this project was to make Gamehub similar as Figma prototype as possible.
+All of coding is made with CSS, HTML and Javescript on VS Code.
 
-You can add some bullet points if you'd like to:
+I made CSS file for every HTML site beacuse I mean its more clear/clean. This way, it was easier for me to design all the pages different. I used CSS code which I learned from Noroff modules and Youtube. I got alot of help from discord also. All code written in this project is from Modules/Youtube and Discord.
 
-- List item 1
-- List item 2
-- List item 3
+Gamehub is a website for all gamers to get their favorite games for low cost or free. Gamehub offers free games and paid games. Nice and simple navigation for users through the web, and phone version. The website is aimed at the age group 12-25 years old
+
+Homepage (index.html) is the homepage for Gamehub. Where u can see what Gamehub is about and easy menu to find most popular/latest release games.
+
+At the end of the page you can susbscribe to Gamehub's newsletter and naviagte through our different pages.
+
+With the header and footer menu, you can navigate throught Gamehub's category, cart, and contact us page easily.
+
+At Gamehub we have our own delivery, shipping info and product page.
+
 
 ## Built With
 
 You can list a the tech stack that you've used over here
 
-- [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
+- HTML
+- CSS
 
 ## Getting Started
 
 ### Installing
 
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
-
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
+git clone https://github.com/RavandTaha/GameHub)
 ```
 
 2. Install the dependencies:
@@ -44,30 +48,15 @@ npm install
 
 ### Running
 
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
-
 To run the app, run the following commands:
 
 ```bash
 npm run start
 ```
 
-## Contributing
-
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
 
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+businessravand@gmail.com
 
-[My Twitter page](www.twitter.com)
 
-[My LinkedIn page](www.linkedin.com)
-
-## License
-
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
-
-## Acknowledgments
-
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
