@@ -2,7 +2,8 @@
 
 test
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![project-2](https://github.com/RavandTaha/GameHub/assets/119358887/fd7b8f8c-57a0-4f2b-908d-66d166b467e2)
+
 
 A simple overview of the use/purpose of the project.
 
